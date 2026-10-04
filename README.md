@@ -84,6 +84,8 @@ primary-access gap without rewriting the preserved register. A
 it is not a completed review.
 The [physical-amplitude lemma chain](research/AMPLITUDE_IDENTIFICATION.md) now supplies
 an author-side retarded reconstruction, channel normalization and uniform tail comparison.
+The [reflection-matching note](research/REFLECTION_MATCHING.md) expands Gate B: explicit
+endpoint cancellation and exact-lattice positive/negative outer control at zero minimum.
 [Source labels](research/SOURCES.md) map the preserved notes' local reference numbers.
 [Assumptions](literature/ASSUMPTIONS.md) distinguishes ideal model premises from a joint
 apparatus, with a [primary-source register](literature/PHYSICAL_PRECEDENTS.md) and

@@ -11,7 +11,7 @@ and history inputs remain byte-preserved.
 |---|---|---|
 | Inverse-square-logarithmic return | Author-side matched-asymptotic derivation | Fixed local trap and order of limits |
 | Energy reflection equals physical return | Explicit Gate A lemma chain | Not independent proof review |
-| Passive far-band matching | Earlier analytical audit and full-band checks | Next focused author-side challenge is Gate B |
+| Leading reflection and outer matching | Explicit Gate B endpoint and exact-lattice estimates | Zero minimum; not independent proof review |
 | Positive-minimum joint law | Derived uniformly away from b=1 | No full crossover claim |
 | Finite-volume family | Sufficient bound and finite examples | Not an optimized size requirement |
 | Fixed positive hopping anisotropy | Scope corollary with checked hypotheses | Not uniform at zero transverse hopping |
@@ -22,7 +22,11 @@ reciprocal-log source regularity, retarded norm reconstruction, equal bound-leg
 normalization, continuum-current accounting and a uniform O(1/T) tail comparison.
 The former normalization paragraph alone was not a norm-scattering construction.
 The new argument supplies that intermediate reasoning without changing the law.
-Gates B–D are not newly audited or certified by this pass. The
+[Gate B](research/REFLECTION_MATCHING.md) now makes the endpoint-basis cancellation
+explicit, treats positive-side passivity without a chosen absorber, and bounds the
+entire negative tail with the exact positive spectral measure. No leading coefficient
+correction was found. These are author-side arguments at zero minimum; Gates C and D
+are not closed by this pass. The
 [reader packet](research/READER_PACKET.md) remains a brief, not a received report.
 
 ## Prior art and physical premises
@@ -51,7 +55,8 @@ Full crossover, optimal volume and experimental superiority remain unclaimed.
 
 The preserved scientific suites contain **5 suites, 28 groups and 272 controls**.
 Fourteen infrastructure tests, five predecessor checks, six operational checks,
-seven model-residual checks and seven new amplitude checks are counted separately.
+seven model-residual checks, seven amplitude checks and six reflection checks are
+counted separately.
 Execution, exact byte reproduction and independent scientific review are distinct.
 
 The Gate A base was `5167d02b9504596e1c1b071ed425dea63dec62c6`. Its downloaded main
@@ -69,9 +74,17 @@ premise and control records remain under provenance/. The existing
 work counters are not physical observables; raw flags and differences must be retained.
 No original reference or numerical comparison policy is refreshed.
 
+[Gate B provenance](provenance/GATE_B_2026-10-04.json) records the recovered main
+revision `1aef5645bc957ef8e0bd8abcb1246f57c80dc7e1`, its matched source artifact,
+and a fresh baseline with all original outputs byte-identical. The initial new
+symbolic-zero assertion failure and its exact canonicalization repair are
+[archived](archive/GATE_B_DIAGNOSTIC_FAILURE.md); all six corrected checks pass.
+Candidate and hosted outcomes still require their actual reports. This does not
+reclassify any previous failed, cancelled or non-byte-identical execution.
+
 ## Next bounded step
 
-Follow [CURRENT](work_orders/CURRENT.md): challenge the central reflection and
-passive outer matching at amplitude error o(1/L), or record a concrete objection.
+Follow [CURRENT](work_orders/CURRENT.md): challenge uniformity of the existing
+positive-minimum law on the whole stated b domain, or record a concrete objection.
 Do not broaden the model to prolong development. A genuinely separate report
 remains absent. No manuscript, release or outside invitation is initiated here.

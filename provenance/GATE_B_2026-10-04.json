@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-04",
+  "repository": "GoGoKo699/Logarithmic-Threshold-Return",
+  "base_commit": "1aef5645bc957ef8e0bd8abcb1246f57c80dc7e1",
+  "base_tree": "6b6e56b973c73dec38aabad0d327096eca6e8461",
+  "scope": "Author-side Gate B, zero minimum; no changed physical law, protected proof, or independent report.",
+  "recovered_artifact": {
+    "id": 11313095940,
+    "sha256": "5406f7d75e2b3f0f88624b90ee757cf92ba1a8ecd02028dcf1e64090ff9478b8",
+    "tracked_files": 53,
+    "source_tree_match": true
+  },
+  "local_baseline": {
+    "status": "PASS",
+    "suites": 5,
+    "groups": 28,
+    "finite_controls": 272,
+    "all_original_bytes_identical": true,
+    "report_sha256": "556eb56a6e79d368e464f2be3fabc62090f3030c140ee1dd343eb80c5abd248a",
+    "before_after_integrity_equal": true
+  },
+  "existing_supplementary_tests": {
+    "infrastructure": 14,
+    "predecessor": 5,
+    "operational": 6,
+    "model_residual": 7,
+    "amplitude_identification": 7,
+    "status": "PASS"
+  },
+  "new_checks": {
+    "count": 6,
+    "status": "PASS",
+    "script_sha256": "ef1fb13c39d871d10e630c2e19e0a7a9ff531af068f69b1eabe40aa22c94c9bb",
+    "report_sha256": "fec333c64903bcc97acca1ebb16741935a41fa058d088273542638abb70ff42d",
+    "initial_attempt": "FAIL: structural 0*I equality; exact canonicalization repair archived",
+    "original_272_members": false
+  },
+  "preservation": {
+    "mapped_inputs": 27,
+    "original_equations_changed": false,
+    "original_references_changed": false,
+    "comparison_policy_changed": false
+  },
+  "source_access": [
+    {
+      "source": "NIST DLMF 2.7(iii)",
+      "url": "https://dlmf.nist.gov/2.7#iii",
+      "depth": "HTML Eqs.2.7.20\u201325 and real-positive coefficient hypotheses",
+      "limit": "Method attribution only; the complex passive estimate is derived, not obtained by directly applying that theorem."
+    },
+    {
+      "source": "NIST DLMF 19.12",
+      "url": "https://dlmf.nist.gov/19.12",
+      "depth": "HTML Eqs.19.12.1\u20133 and complementary modulus conventions",
+      "limit": "Local elliptic derivative expansion only; no new priority audit or tutorial selection."
+    }
+  ],
+  "launch_failure": "First container invocation rejected by StreamingExecNotEnabledContainerError before execution. The subsequent baseline completed with exit code zero; both are recorded.",
+  "outcome": {
+    "gate_b": "Explicit author-side lemma chain supplied; no coefficient correction found",
+    "gate_c": "Next: uniform positive-minimum scrutiny",
+    "gate_d": "Not closed here",
+    "separate_report": "absent",
+    "implementation": "not established",
+    "manuscript": "on hold",
+    "outreach": "none"
+  },
+  "candidate_hosted": "Inspect exact candidate and actual PR/main runs separately. Their success is not inferred from the completed baseline."
+}
