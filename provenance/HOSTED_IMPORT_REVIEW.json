@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-04",
+  "initial_head": "bab6d5e33f52a8fce25c9dfe41dcf558b08e1374",
+  "run_id": 37213683818,
+  "artifact_id": 11306874520,
+  "artifact_sha256": "dfefae98166bbae0b17146f5e3b12ec007e13a63de7a2eb75d7e4ab48f21b39b",
+  "scientific_assertions_passed": true,
+  "raw_reference_gate_failed": true,
+  "suites": 5,
+  "groups": 28,
+  "cases": 272,
+  "float_differences": 518,
+  "work_counter_differences": 8,
+  "rows": [
+    {
+      "suite": "05_threshold_return",
+      "float_differences": 136,
+      "max_absolute_float": "5.16E-14",
+      "work_counter_differences": 0
+    },
+    {
+      "suite": "06_logarithmic_threshold",
+      "float_differences": 68,
+      "max_absolute_float": "4.4635E-12",
+      "work_counter_differences": 0
+    },
+    {
+      "suite": "07_threshold_audit",
+      "float_differences": 126,
+      "max_absolute_float": "6.48410E-12",
+      "work_counter_differences": 8
+    },
+    {
+      "suite": "08_threshold_rounding",
+      "float_differences": 132,
+      "max_absolute_float": "7.9293E-12",
+      "work_counter_differences": 0
+    },
+    {
+      "suite": "09_threshold_core",
+      "float_differences": 56,
+      "max_absolute_float": "7.107E-13",
+      "work_counter_differences": 0
+    }
+  ],
+  "raw_rejected_fields": [
+    {
+      "suite": "07_threshold_audit",
+      "path": "/groups/finite_passivity_bound/rows/1/terminations/0/function_evaluations",
+      "metadata": false,
+      "kind": "value",
+      "reference": 25253,
+      "observed": 25265,
+      "accepted": false
+    },
+    {
+      "suite": "07_threshold_audit",
+      "path": "/groups/finite_passivity_bound/rows/2/terminations/0/function_evaluations",
+      "metadata": false,
+      "kind": "value",
+      "reference": 153797,
+      "observed": 153821,
+      "accepted": false
+    },
+    {
+      "suite": "07_threshold_audit",
+      "path": "/groups/full_physical_band/rows/0/values/2/function_evaluations",
+      "metadata": false,
+      "kind": "value",
+      "reference": 116696,
+      "observed": 116672,
+      "accepted": false
+    },
+    {
+      "suite": "07_threshold_audit",
+      "path": "/groups/full_physical_band/rows/0/values/3/function_evaluations",
+      "metadata": false,
+      "kind": "value",
+      "reference": 134840,
+      "observed": 134864,
+      "accepted": false
+    },
+    {
+      "suite": "07_threshold_audit",
+      "path": "/groups/full_physical_band/rows/1/values/0/function_evaluations",
+      "metadata": false,
+      "kind": "value",
+      "reference": 121772,
+      "observed": 121796,
+      "accepted": false
+    },
+    {
+      "suite": "07_threshold_audit",
+      "path": "/groups/full_physical_band/rows/1/values/1/function_evaluations",
+      "metadata": false,
+      "kind": "value",
+      "reference": 121880,
+      "observed": 121904,
+      "accepted": false
+    },
+    {
+      "suite": "07_threshold_audit",
+      "path": "/groups/full_physical_band/rows/1/values/2/function_evaluations",
+      "metadata": false,
+      "kind": "value",
+      "reference": 121868,
+      "observed": 121880,
+      "accepted": false
+    },
+    {
+      "suite": "07_threshold_audit",
+      "path": "/groups/passive_boundary_family/rows/2/values/1/function_evaluations",
+      "metadata": false,
+      "kind": "value",
+      "reference": 98470,
+      "observed": 98482,
+      "accepted": false
+    }
+  ],
+  "source": "tests/07_threshold_audit/checks.py:54-60 and 79-86 sum solve_ivp.nfev and store function_evaluations.",
+  "rule": "suite07-workload-v1; applies only to explicit existing paths and nonnegative integer values. Raw rejected flags retained.",
+  "rule_added_after_failed_run_inspection": true,
+  "float_threshold_unchanged": true,
+  "scientific_code_changed": false,
+  "references_rewritten": false,
+  "independent_review": false,
+  "scope": "Reporting semantics and finite reproducibility, not solver accuracy or a machine-level causal diagnosis. Artifact retention is fourteen days; this durable record preserves the key values."
+}

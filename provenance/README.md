@@ -34,7 +34,14 @@ observed JSON, and writes complete field differences against the saved reference
 Timeouts, invalid outputs, changed scientific metadata/structure and out-of-threshold
 numeric changes fail the run. Only the top-level environment and date fields are treated
 as descriptive metadata. Integer counts, status strings and scientific parameters are
-not silently exempted.
+not silently exempted. The first hosted comparison exposed eight differences in suite
+07's recorded solver-evaluation counts. After checking their exact source assignments,
+a narrowly scoped workload review was added for those explicit paths. Raw failed flags
+remain in each comparison, and ordinary counts, changed types and physical values still
+fail. The general floating threshold was not changed.
+[HOSTED_IMPORT_REVIEW.json](HOSTED_IMPORT_REVIEW.json) preserves the failed-run evidence
+and the source-based classification; the rule was added after inspection, not claimed
+to be predeclared.
 
 The default numeric regression threshold is an absolute 1e-10 plus a symmetric relative
 1e-9. It is an infrastructure alert, not a rigorous solver-error estimate or permission

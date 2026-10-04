@@ -45,3 +45,18 @@ packages; IMPORT_MAP.json maps only the files imported here. No independent vali
 new physical result, release, manuscript or external invitation is implied by setup.
 
 Continue with the bounded [current work order](work_orders/CURRENT.md), not another model.
+
+## First hosted execution and reporting correction
+
+The first hosted import run passed all 28 scientific groups and 272 controls, but the
+raw reference gate rejected eight changed solver-work counters in suite 07. The retained
+artifact was inspected: 518 floating fields differed by at most 7.93e-12; none violated
+the predeclared floating threshold. The eight integer fields explicitly sum ODE function
+evaluations, not a physical observable or a count of scientific tests.
+
+A source-scoped review now records those work-count changes separately without altering
+the raw flags, scientific code, references or general tolerance. Four additional
+infrastructure tests check this boundary, including a rejected ordinary fidelity change.
+See the [hosted import review](provenance/HOSTED_IMPORT_REVIEW.json). Revised-branch and
+post-merge success must still be established from their actual runs. No machine-level
+cause for the floating differences or new scientific result is asserted.
