@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "name": "05_threshold_return",
+      "returncode": 0,
+      "status": "PASS",
+      "groups": 5,
+      "cases": 60,
+      "byte_identical": true,
+      "seconds": 51.149
+    },
+    {
+      "name": "06_logarithmic_threshold",
+      "returncode": 0,
+      "status": "PASS",
+      "groups": 6,
+      "cases": 51,
+      "byte_identical": true,
+      "seconds": 21.372
+    },
+    {
+      "name": "07_threshold_audit",
+      "returncode": 0,
+      "status": "PASS",
+      "groups": 6,
+      "cases": 58,
+      "byte_identical": true,
+      "seconds": 20.171
+    },
+    {
+      "name": "08_threshold_rounding",
+      "returncode": 0,
+      "status": "PASS",
+      "groups": 6,
+      "cases": 58,
+      "byte_identical": true,
+      "seconds": 111.559
+    },
+    {
+      "name": "09_threshold_core",
+      "returncode": 0,
+      "status": "PASS",
+      "groups": 5,
+      "cases": 45,
+      "byte_identical": true,
+      "seconds": 11.748
+    }
+  ],
+  "scope": "Fresh local source-suite executions; not independent proof review."
+}

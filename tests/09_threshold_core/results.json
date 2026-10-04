@@ -1,0 +1,503 @@
+{
+  "status": "PASS",
+  "date": "2026-10-04",
+  "groups": {
+    "exact_green_function": {
+      "cases": 15,
+      "rows": [
+        {
+          "ax": 1.0,
+          "ay": 1.0,
+          "eta": 0.05,
+          "resolvent": 0.5114904923145113,
+          "integral": 0.5114904923145115,
+          "error": 2.220446049250313e-16
+        },
+        {
+          "ax": 1.0,
+          "ay": 1.0,
+          "eta": 0.5,
+          "resolvent": 0.31623509730670996,
+          "integral": 0.31623509730670984,
+          "error": 1.1102230246251565e-16
+        },
+        {
+          "ax": 1.0,
+          "ay": 1.0,
+          "eta": 2.0,
+          "resolvent": 0.19201168483961384,
+          "integral": 0.19201168483961384,
+          "error": 0.0
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.5,
+          "eta": 0.05,
+          "resolvent": 0.6763816797896873,
+          "integral": 0.6763816797896878,
+          "error": 4.440892098500626e-16
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.5,
+          "eta": 0.5,
+          "resolvent": 0.39708277337365067,
+          "integral": 0.3970827733736507,
+          "error": 5.551115123125783e-17
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.5,
+          "eta": 2.0,
+          "resolvent": 0.2253215748401118,
+          "integral": 0.2253215748401118,
+          "error": 0.0
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.25,
+          "eta": 0.05,
+          "resolvent": 0.8723535530715402,
+          "integral": 0.8723535530715409,
+          "error": 7.771561172376096e-16
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.25,
+          "eta": 0.5,
+          "resolvent": 0.4757708781173677,
+          "integral": 0.4757708781173677,
+          "error": 0.0
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.25,
+          "eta": 2.0,
+          "resolvent": 0.2507387484029396,
+          "integral": 0.2507387484029396,
+          "error": 0.0
+        },
+        {
+          "ax": 2.0,
+          "ay": 1.0,
+          "eta": 0.05,
+          "resolvent": 0.37829460525965014,
+          "integral": 0.3782946052596504,
+          "error": 2.7755575615628914e-16
+        },
+        {
+          "ax": 2.0,
+          "ay": 1.0,
+          "eta": 0.5,
+          "resolvent": 0.2418563502421205,
+          "integral": 0.24185635024212052,
+          "error": 2.7755575615628914e-17
+        },
+        {
+          "ax": 2.0,
+          "ay": 1.0,
+          "eta": 2.0,
+          "resolvent": 0.1547910518861463,
+          "integral": 0.15479105188614634,
+          "error": 2.7755575615628914e-17
+        },
+        {
+          "ax": 0.4,
+          "ay": 1.7,
+          "eta": 0.05,
+          "resolvent": 0.5773518710977259,
+          "integral": 0.5773518710977258,
+          "error": 1.1102230246251565e-16
+        },
+        {
+          "ax": 0.4,
+          "ay": 1.7,
+          "eta": 0.5,
+          "resolvent": 0.33981593261580295,
+          "integral": 0.3398159326158029,
+          "error": 5.551115123125783e-17
+        },
+        {
+          "ax": 0.4,
+          "ay": 1.7,
+          "eta": 2.0,
+          "resolvent": 0.19682853059028318,
+          "integral": 0.19682853059028316,
+          "error": 2.7755575615628914e-17
+        }
+      ]
+    },
+    "threshold_constants_and_causality": {
+      "cases": 15,
+      "rows": [
+        {
+          "ax": 1.0,
+          "ay": 1.0,
+          "eta": 1e-05,
+          "rho0": 0.07957747154594767,
+          "Lambda": 32.0,
+          "inferred_Lambda": 31.99944085927909,
+          "threshold_density_ratio": 1.000001250001953
+        },
+        {
+          "ax": 1.0,
+          "ay": 1.0,
+          "eta": 1e-09,
+          "rho0": 0.07957747154594767,
+          "Lambda": 32.0,
+          "inferred_Lambda": 31.999999907243982,
+          "threshold_density_ratio": 1.000000000125
+        },
+        {
+          "ax": 1.0,
+          "ay": 1.0,
+          "eta": 1e-13,
+          "rho0": 0.07957747154594767,
+          "Lambda": 32.0,
+          "inferred_Lambda": 31.999999999987,
+          "threshold_density_ratio": 1.0000000000000124
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.5,
+          "eta": 1e-05,
+          "rho0": 0.11253953951963826,
+          "Lambda": 21.333333333333332,
+          "inferred_Lambda": 21.332794858046938,
+          "threshold_density_ratio": 1.0000018750047854
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.5,
+          "eta": 1e-09,
+          "rho0": 0.11253953951963826,
+          "Lambda": 21.333333333333332,
+          "inferred_Lambda": 21.333333242643572,
+          "threshold_density_ratio": 1.0000000001875002
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.5,
+          "eta": 1e-13,
+          "rho0": 0.11253953951963826,
+          "Lambda": 21.333333333333332,
+          "inferred_Lambda": 21.333333333320667,
+          "threshold_density_ratio": 1.0000000000000189
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.25,
+          "eta": 1e-05,
+          "rho0": 0.15915494309189535,
+          "Lambda": 12.8,
+          "inferred_Lambda": 12.799491917698125,
+          "threshold_density_ratio": 1.0000031250157229
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.25,
+          "eta": 1e-09,
+          "rho0": 0.15915494309189535,
+          "Lambda": 12.8,
+          "inferred_Lambda": 12.79999991234914,
+          "threshold_density_ratio": 1.0000000003125
+        },
+        {
+          "ax": 1.0,
+          "ay": 0.25,
+          "eta": 1e-13,
+          "rho0": 0.15915494309189535,
+          "Lambda": 12.8,
+          "inferred_Lambda": 12.799999999987604,
+          "threshold_density_ratio": 1.0000000000000313
+        },
+        {
+          "ax": 2.0,
+          "ay": 1.0,
+          "eta": 1e-05,
+          "rho0": 0.05626976975981913,
+          "Lambda": 42.666666666666664,
+          "inferred_Lambda": 42.666100461827774,
+          "threshold_density_ratio": 1.0000009375011962
+        },
+        {
+          "ax": 2.0,
+          "ay": 1.0,
+          "eta": 1e-09,
+          "rho0": 0.05626976975981913,
+          "Lambda": 42.666666666666664,
+          "inferred_Lambda": 42.66666657320444,
+          "threshold_density_ratio": 1.00000000009375
+        },
+        {
+          "ax": 2.0,
+          "ay": 1.0,
+          "eta": 1e-13,
+          "rho0": 0.05626976975981913,
+          "Lambda": 42.666666666666664,
+          "inferred_Lambda": 42.66666666665354,
+          "threshold_density_ratio": 1.0000000000000095
+        },
+        {
+          "ax": 0.4,
+          "ay": 1.7,
+          "eta": 1e-05,
+          "rho0": 0.0965018590010371,
+          "Lambda": 20.723809523809525,
+          "inferred_Lambda": 20.723283092531386,
+          "threshold_density_ratio": 1.0000019301531435
+        },
+        {
+          "ax": 0.4,
+          "ay": 1.7,
+          "eta": 1e-09,
+          "rho0": 0.0965018590010371,
+          "Lambda": 20.723809523809525,
+          "inferred_Lambda": 20.7238094343243,
+          "threshold_density_ratio": 1.0000000001930147
+        },
+        {
+          "ax": 0.4,
+          "ay": 1.7,
+          "eta": 1e-13,
+          "rho0": 0.0965018590010371,
+          "Lambda": 20.723809523809525,
+          "inferred_Lambda": 20.723809523796923,
+          "threshold_density_ratio": 1.0000000000000193
+        }
+      ]
+    },
+    "local_model_reduction": {
+      "cases": 1,
+      "n": 41,
+      "T": 4.0,
+      "ax": 1.0,
+      "ay": 0.5,
+      "momentum_return": 0.056092079837792776,
+      "coordinate_return": 0.05609207983780785,
+      "difference": 1.50712775592865e-14,
+      "scope": "Finite moderate-time check, not the asymptotic law."
+    },
+    "fixed_anisotropy_scope": {
+      "cases": 12,
+      "rows": [
+        {
+          "L": 10.0,
+          "ax": 1.0,
+          "ay": 1.0,
+          "exact_local_resolvent": true,
+          "return_probability": 0.01747224510335745,
+          "scaled_coefficient": 0.7081234219044868,
+          "estar": 0.0014527977523995153,
+          "upper_physical_energy": 0.14527977523995153,
+          "left": -300.0,
+          "right": 100.0,
+          "log_equation_return": 0.017472275610633914,
+          "difference": 3.050727646544682e-08
+        },
+        {
+          "L": 10.0,
+          "ax": 1.0,
+          "ay": 0.5,
+          "exact_local_resolvent": true,
+          "return_probability": 0.017472247943938004,
+          "scaled_coefficient": 0.7081235370288804,
+          "estar": 0.0009685318349330102,
+          "upper_physical_energy": 0.09685318349330102,
+          "left": -300.0,
+          "right": 100.0,
+          "log_equation_return": 0.017472275610633914,
+          "difference": 2.76666959099503e-08
+        },
+        {
+          "L": 10.0,
+          "ax": 1.0,
+          "ay": 0.25,
+          "exact_local_resolvent": true,
+          "return_probability": 0.017472256335285305,
+          "scaled_coefficient": 0.7081238771173768,
+          "estar": 0.0005811191009598061,
+          "upper_physical_energy": 0.05811191009598061,
+          "left": -300.0,
+          "right": 100.0,
+          "log_equation_return": 0.017472275610633914,
+          "difference": 1.9275348608904785e-08
+        },
+        {
+          "L": 10.0,
+          "ax": 2.0,
+          "ay": 1.0,
+          "exact_local_resolvent": true,
+          "return_probability": 0.017472247943938004,
+          "scaled_coefficient": 0.7081235370288804,
+          "estar": 0.0019370636698660204,
+          "upper_physical_energy": 0.19370636698660204,
+          "left": -300.0,
+          "right": 100.0,
+          "log_equation_return": 0.017472275610633914,
+          "difference": 2.76666959099503e-08
+        },
+        {
+          "L": 20.0,
+          "ax": 1.0,
+          "ay": 1.0,
+          "exact_local_resolvent": true,
+          "return_probability": 0.005176568333961905,
+          "scaled_coefficient": 0.8391936492839435,
+          "estar": 6.595691591803385e-08,
+          "upper_physical_energy": 1.319138318360677e-05,
+          "left": -600.0,
+          "right": 200.0,
+          "log_equation_return": 0.0051765683353601445,
+          "difference": 1.3982391633415858e-12
+        },
+        {
+          "L": 20.0,
+          "ax": 1.0,
+          "ay": 0.5,
+          "exact_local_resolvent": true,
+          "return_probability": 0.00517656833397469,
+          "scaled_coefficient": 0.8391936492860163,
+          "estar": 4.3971277278689235e-08,
+          "upper_physical_energy": 8.794255455737848e-06,
+          "left": -600.0,
+          "right": 200.0,
+          "log_equation_return": 0.0051765683353601445,
+          "difference": 1.3854542513236368e-12
+        },
+        {
+          "L": 20.0,
+          "ax": 1.0,
+          "ay": 0.25,
+          "exact_local_resolvent": true,
+          "return_probability": 0.005176568333998154,
+          "scaled_coefficient": 0.83919364928982,
+          "estar": 2.6382766367213542e-08,
+          "upper_physical_energy": 5.276553273442708e-06,
+          "left": -600.0,
+          "right": 200.0,
+          "log_equation_return": 0.0051765683353601445,
+          "difference": 1.3619903815875745e-12
+        },
+        {
+          "L": 20.0,
+          "ax": 2.0,
+          "ay": 1.0,
+          "exact_local_resolvent": true,
+          "return_probability": 0.00517656833397469,
+          "scaled_coefficient": 0.8391936492860163,
+          "estar": 8.794255455737847e-08,
+          "upper_physical_energy": 1.7588510911475695e-05,
+          "left": -600.0,
+          "right": 200.0,
+          "log_equation_return": 0.0051765683353601445,
+          "difference": 1.3854542513236368e-12
+        },
+        {
+          "L": 40.0,
+          "ax": 1.0,
+          "ay": 1.0,
+          "exact_local_resolvent": true,
+          "return_probability": 0.0014119900906766796,
+          "scaled_coefficient": 0.9156128465831234,
+          "estar": 1.3594733616933084e-16,
+          "upper_physical_energy": 5.4378934467732336e-14,
+          "left": -1200.0,
+          "right": 400.0,
+          "log_equation_return": 0.0014119900906768425,
+          "difference": 1.6284716630732277e-16
+        },
+        {
+          "L": 40.0,
+          "ax": 1.0,
+          "ay": 0.5,
+          "exact_local_resolvent": true,
+          "return_probability": 0.0014119900906768685,
+          "scaled_coefficient": 0.9156128465832458,
+          "estar": 9.063155744622056e-17,
+          "upper_physical_energy": 3.625262297848823e-14,
+          "left": -1200.0,
+          "right": 400.0,
+          "log_equation_return": 0.0014119900906768425,
+          "difference": 2.6020852139652106e-17
+        },
+        {
+          "L": 40.0,
+          "ax": 1.0,
+          "ay": 0.25,
+          "exact_local_resolvent": true,
+          "return_probability": 0.0014119900906768789,
+          "scaled_coefficient": 0.9156128465832526,
+          "estar": 5.437893446773234e-17,
+          "upper_physical_energy": 2.1751573787092935e-14,
+          "left": -1200.0,
+          "right": 400.0,
+          "log_equation_return": 0.0014119900906768425,
+          "difference": 3.642919299551295e-17
+        },
+        {
+          "L": 40.0,
+          "ax": 2.0,
+          "ay": 1.0,
+          "exact_local_resolvent": true,
+          "return_probability": 0.0014119900906768685,
+          "scaled_coefficient": 0.9156128465832458,
+          "estar": 1.8126311489244113e-16,
+          "upper_physical_energy": 7.250524595697646e-14,
+          "left": -1200.0,
+          "right": 400.0,
+          "log_equation_return": 0.0014119900906768425,
+          "difference": 2.6020852139652106e-17
+        }
+      ],
+      "scope": "Auxiliary scalar equation with exact lower-edge resolvent. No full real-time simulation at corresponding enormous durations."
+    },
+    "independent_scalar_and_boundary_checks": {
+      "cases": 2,
+      "standard": {
+        "L": 20.0,
+        "ax": 1.0,
+        "ay": 0.25,
+        "exact_local_resolvent": true,
+        "return_probability": 0.005176568333998154,
+        "scaled_coefficient": 0.83919364928982,
+        "estar": 2.6382766367213542e-08,
+        "upper_physical_energy": 5.276553273442708e-06,
+        "left": -600.0,
+        "right": 200.0
+      },
+      "refined": {
+        "L": 20.0,
+        "ax": 1.0,
+        "ay": 0.25,
+        "exact_local_resolvent": true,
+        "return_probability": 0.005176567529963276,
+        "scaled_coefficient": 0.8391935189445952,
+        "estar": 2.6382766367213542e-08,
+        "upper_physical_energy": 7.387174582819792e-06,
+        "left": -800.0,
+        "right": 280.0
+      },
+      "vector": {
+        "L": 20.0,
+        "ax": 1.0,
+        "ay": 0.25,
+        "exact_local_resolvent": true,
+        "return_probability": 0.005176568356403328,
+        "scaled_coefficient": 0.83919365292201,
+        "estar": 2.6382766367213542e-08,
+        "upper_physical_energy": 5.276553273442708e-06,
+        "left": -600.0,
+        "right": 200.0
+      }
+    }
+  },
+  "group_count": 5,
+  "case_count": 45,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "scope": "Author-side algebraic and finite numerical checks, not independent review or evidence of a new apparatus."
+}

@@ -1,0 +1,613 @@
+{
+  "status": "PASS",
+  "date": "2026-10-04",
+  "group_count": 6,
+  "cases": 51,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "groups": {
+    "retarded_resolvent": {
+      "cases": 14,
+      "resolvent": [
+        {
+          "energy": 0.1,
+          "real": -0.46384058063181155,
+          "imag": -0.2531746990617357,
+          "PV_error": 2.220446049250313e-16
+        },
+        {
+          "energy": 0.7,
+          "real": -0.32591024004721364,
+          "imag": -0.27460567361009597,
+          "PV_error": 5.551115123125783e-17
+        },
+        {
+          "energy": 2.0,
+          "real": -0.26829550178734113,
+          "imag": -0.3432201251545875,
+          "PV_error": 2.942091015256665e-15
+        },
+        {
+          "energy": 5.0,
+          "real": 0.25404984002426456,
+          "imag": -0.44582579499356145,
+          "PV_error": 1.9984014443252818e-15
+        },
+        {
+          "energy": 7.7,
+          "real": 0.3830356578449746,
+          "imag": -0.25983891298981243,
+          "PV_error": 6.106226635438361e-16
+        },
+        {
+          "energy": -0.001,
+          "error": 4.3298697960381105e-15
+        },
+        {
+          "energy": -0.1,
+          "error": 3.608224830031759e-15
+        },
+        {
+          "energy": -1.0,
+          "error": 5.551115123125783e-17
+        }
+      ],
+      "edge": [
+        {
+          "energy": -0.01,
+          "error": 0.0007023209628265192
+        },
+        {
+          "energy": -1e-05,
+          "error": 1.3904810485243502e-06
+        },
+        {
+          "energy": -1e-08,
+          "error": 2.0776100839725586e-09
+        },
+        {
+          "energy": 0.01,
+          "error": 0.0007708008671080302
+        },
+        {
+          "energy": 1e-05,
+          "error": 1.4251687054112373e-06
+        },
+        {
+          "energy": 1e-08,
+          "error": 2.1009809173656224e-09
+        }
+      ]
+    },
+    "scalar_solvers": {
+      "cases": 9,
+      "comparisons": [
+        {
+          "vector": {
+            "model": "lattice",
+            "half_duration": 100.0,
+            "L": 7.627397670861312,
+            "energy_scale": 0.015581643316705635,
+            "positive_endpoint": 114.41096506291967,
+            "negative_endpoint": -152.54795341722624,
+            "return_probability": 0.02712317702300187,
+            "probability_times_4L2_over_pi2": 0.6395191948063216,
+            "method": "vector",
+            "rtol": 2e-10,
+            "max_step": 0.35,
+            "function_evaluations": 14026,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "riccati": {
+            "model": "lattice",
+            "half_duration": 100.0,
+            "L": 7.627397670861312,
+            "energy_scale": 0.015581643316705635,
+            "positive_endpoint": 114.41096506291967,
+            "negative_endpoint": -152.54795341722624,
+            "return_probability": 0.02712317678751254,
+            "probability_times_4L2_over_pi2": 0.6395191892538767,
+            "method": "riccati",
+            "rtol": 8e-11,
+            "max_step": 0.35,
+            "function_evaluations": 27778,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "difference": 2.35489329425409e-10
+        },
+        {
+          "vector": {
+            "model": "lattice",
+            "half_duration": 1000.0,
+            "L": 9.804438527642926,
+            "energy_scale": 0.0017665926841889704,
+            "positive_endpoint": 147.0665779146439,
+            "negative_endpoint": -196.08877055285853,
+            "return_probability": 0.018056203765017674,
+            "probability_times_4L2_over_pi2": 0.7034482424136042,
+            "method": "vector",
+            "rtol": 2e-10,
+            "max_step": 0.35,
+            "function_evaluations": 16582,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "riccati": {
+            "model": "lattice",
+            "half_duration": 1000.0,
+            "L": 9.804438527642926,
+            "energy_scale": 0.0017665926841889704,
+            "positive_endpoint": 147.0665779146439,
+            "negative_endpoint": -196.08877055285853,
+            "return_probability": 0.01805620357932872,
+            "probability_times_4L2_over_pi2": 0.7034482351793833,
+            "method": "riccati",
+            "rtol": 8e-11,
+            "max_step": 0.35,
+            "function_evaluations": 30118,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "difference": 1.8568895379655892e-10
+        },
+        {
+          "vector": {
+            "model": "log",
+            "half_duration": null,
+            "L": 50.0,
+            "energy_scale": 6.171999513484537e-21,
+            "positive_endpoint": 750.0,
+            "negative_endpoint": -1000.0,
+            "return_probability": 0.0009196872839646133,
+            "probability_times_4L2_over_pi2": 0.9318380419210144,
+            "method": "vector",
+            "rtol": 2e-10,
+            "max_step": 0.35,
+            "function_evaluations": 65938,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "riccati": {
+            "model": "log",
+            "half_duration": null,
+            "L": 50.0,
+            "energy_scale": 6.171999513484537e-21,
+            "positive_endpoint": 750.0,
+            "negative_endpoint": -1000.0,
+            "return_probability": 0.0009196870659461645,
+            "probability_times_4L2_over_pi2": 0.9318378210221415,
+            "method": "riccati",
+            "rtol": 8e-11,
+            "max_step": 0.35,
+            "function_evaluations": 94750,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "difference": 2.1801844878044374e-10
+        },
+        {
+          "vector": {
+            "model": "one_dimensional",
+            "half_duration": null,
+            "L": 10.0,
+            "energy_scale": 0.0014527977523995153,
+            "positive_endpoint": 20.0,
+            "negative_endpoint": -200.0,
+            "return_probability": 0.38196601942130254,
+            "probability_times_4L2_over_pi2": 15.480499679567423,
+            "method": "vector",
+            "rtol": 2e-10,
+            "max_step": 0.35,
+            "function_evaluations": 22714,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "riccati": {
+            "model": "one_dimensional",
+            "half_duration": null,
+            "L": 10.0,
+            "energy_scale": 0.0014527977523995153,
+            "positive_endpoint": 20.0,
+            "negative_endpoint": -200.0,
+            "return_probability": 0.3819660180058192,
+            "probability_times_4L2_over_pi2": 15.480499622200044,
+            "method": "riccati",
+            "rtol": 8e-11,
+            "max_step": 0.35,
+            "function_evaluations": 132370,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "difference": 1.415483341649093e-09
+        }
+      ],
+      "known_one_dimensional_limit": 0.3819660112501052
+    },
+    "original_protocol_and_tails": {
+      "cases": 8,
+      "rows": [
+        {
+          "T": 30.0,
+          "time_domain": [
+            {
+              "half_duration_parameter": 30.0,
+              "endpoint_multiplier": 1.0,
+              "actual_full_duration": 60.0,
+              "endpoint_attraction": 4.0,
+              "initial_binding": 1.0458781669092918,
+              "quadrature_nodes": 1000,
+              "probability": 0.03580743687562288,
+              "norm": 0.9999999999999919,
+              "rtol": 2e-11
+            },
+            {
+              "half_duration_parameter": 30.0,
+              "endpoint_multiplier": 2.0,
+              "actual_full_duration": 120.0,
+              "endpoint_attraction": 16.0,
+              "initial_binding": 12.250961202478889,
+              "quadrature_nodes": 1000,
+              "probability": 0.03471211217219548,
+              "norm": 0.9999999999960967,
+              "rtol": 2e-11
+            },
+            {
+              "half_duration_parameter": 30.0,
+              "endpoint_multiplier": 4.0,
+              "actual_full_duration": 240.0,
+              "endpoint_attraction": 64.0,
+              "initial_binding": 60.06251524592667,
+              "quadrature_nodes": 1000,
+              "probability": 0.03471039829834054,
+              "norm": 0.999999999484426,
+              "rtol": 2e-11
+            }
+          ],
+          "energy_domain": {
+            "model": "lattice",
+            "half_duration": 30.0,
+            "L": 6.503154540813501,
+            "energy_scale": 0.04795852816898676,
+            "positive_endpoint": 41.70269765062005,
+            "negative_endpoint": -390.1892724488101,
+            "return_probability": 0.03471040522763061,
+            "probability_times_4L2_over_pi2": 0.5949330273794212,
+            "method": "vector",
+            "rtol": 2e-10,
+            "max_step": 0.35,
+            "function_evaluations": 36778,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "last_difference": 6.9292900653494804e-09,
+          "original_difference": 0.0010970316479922693
+        },
+        {
+          "T": 100.0,
+          "time_domain": [
+            {
+              "half_duration_parameter": 100.0,
+              "endpoint_multiplier": 1.0,
+              "actual_full_duration": 200.0,
+              "endpoint_attraction": 4.0,
+              "initial_binding": 1.0458781669092918,
+              "quadrature_nodes": 1000,
+              "probability": 0.026996579849787303,
+              "norm": 0.9999999999999933,
+              "rtol": 2e-11
+            },
+            {
+              "half_duration_parameter": 100.0,
+              "endpoint_multiplier": 2.0,
+              "actual_full_duration": 400.0,
+              "endpoint_attraction": 16.0,
+              "initial_binding": 12.250961202478889,
+              "quadrature_nodes": 1000,
+              "probability": 0.027122845310049954,
+              "norm": 0.9999999998922258,
+              "rtol": 2e-11
+            },
+            {
+              "half_duration_parameter": 100.0,
+              "endpoint_multiplier": 4.0,
+              "actual_full_duration": 800.0,
+              "endpoint_attraction": 64.0,
+              "initial_binding": 60.06251524592667,
+              "quadrature_nodes": 1000,
+              "probability": 0.02712308601786004,
+              "norm": 0.9999999980931091,
+              "rtol": 2e-11
+            }
+          ],
+          "energy_domain": {
+            "model": "lattice",
+            "half_duration": 100.0,
+            "L": 7.627397670861312,
+            "energy_scale": 0.015581643316705635,
+            "positive_endpoint": 128.35616624953343,
+            "negative_endpoint": -457.6438602516787,
+            "return_probability": 0.02712308109791962,
+            "probability_times_4L2_over_pi2": 0.6395169330531609,
+            "method": "vector",
+            "rtol": 2e-10,
+            "max_step": 0.35,
+            "function_evaluations": 38206,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "last_difference": 4.919940420344826e-09,
+          "original_difference": 0.00012650124813231786
+        }
+      ],
+      "scope": "beta>1 is a tail control, not the original finite protocol."
+    },
+    "asymptotic_coefficient": {
+      "cases": 8,
+      "log_equation": [
+        {
+          "model": "log",
+          "half_duration": null,
+          "L": 10.0,
+          "energy_scale": 0.0014527977523995153,
+          "positive_endpoint": 150.0,
+          "negative_endpoint": -200.0,
+          "return_probability": 0.01747223716006369,
+          "probability_times_4L2_over_pi2": 0.7081230999749165,
+          "method": "vector",
+          "rtol": 2e-10,
+          "max_step": 0.35,
+          "function_evaluations": 16774,
+          "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+        },
+        {
+          "model": "log",
+          "half_duration": null,
+          "L": 20.0,
+          "energy_scale": 6.595691591803385e-08,
+          "positive_endpoint": 300.0,
+          "negative_endpoint": -400.0,
+          "return_probability": 0.005176565124778002,
+          "probability_times_4L2_over_pi2": 0.839193129030645,
+          "method": "vector",
+          "rtol": 2e-10,
+          "max_step": 0.35,
+          "function_evaluations": 29062,
+          "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+        },
+        {
+          "model": "log",
+          "half_duration": null,
+          "L": 50.0,
+          "energy_scale": 6.171999513484537e-21,
+          "positive_endpoint": 750.0,
+          "negative_endpoint": -1000.0,
+          "return_probability": 0.0009196872839646133,
+          "probability_times_4L2_over_pi2": 0.9318380419210144,
+          "method": "vector",
+          "rtol": 2e-10,
+          "max_step": 0.35,
+          "function_evaluations": 65938,
+          "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+        },
+        {
+          "model": "log",
+          "half_duration": null,
+          "L": 100.0,
+          "energy_scale": 1.1904243123266676e-42,
+          "positive_endpoint": 1500.0,
+          "negative_endpoint": -2000.0,
+          "return_probability": 0.00023816839821939875,
+          "probability_times_4L2_over_pi2": 0.9652601605515655,
+          "method": "vector",
+          "rtol": 2e-10,
+          "max_step": 0.35,
+          "function_evaluations": 127138,
+          "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+        },
+        {
+          "model": "log",
+          "half_duration": null,
+          "L": 200.0,
+          "energy_scale": 4.42846888555756e-86,
+          "positive_endpoint": 3000.0,
+          "negative_endpoint": -4000.0,
+          "return_probability": 6.0603315954322244e-05,
+          "probability_times_4L2_over_pi2": 0.9824639528228005,
+          "method": "vector",
+          "rtol": 2e-10,
+          "max_step": 0.35,
+          "function_evaluations": 249562,
+          "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+        }
+      ],
+      "coefficient_integrals": [
+        {
+          "cutoff": 10.0,
+          "coefficient": 1.5595190139191681,
+          "limit": 1.5707963267948966,
+          "error": 0.011277312875728418
+        },
+        {
+          "cutoff": 100.0,
+          "coefficient": 1.5695893330671833,
+          "limit": 1.5707963267948966,
+          "error": 0.001206993727713268
+        },
+        {
+          "cutoff": 1000.0,
+          "coefficient": 1.5708880753814758,
+          "limit": 1.5707963267948966,
+          "error": 9.174858657923224e-05
+        }
+      ],
+      "scope": "Coefficient derived analytically, not fitted. Large L is an auxiliary scalar test, not a feasible device duration."
+    },
+    "matching_estimates": {
+      "cases": 4,
+      "rows": [
+        {
+          "L": 20.0,
+          "R": 2.114742526881128,
+          "central_L1_residual": 0.06100085283557228,
+          "central_bound": 0.18671260990233826,
+          "positive_tail_defect": 0.0058670887083672,
+          "tail_bound": 0.023643540225079394,
+          "oneway_attenuation": 47.20559022462883
+        },
+        {
+          "L": 50.0,
+          "R": 2.6591479484724942,
+          "central_L1_residual": 0.012522336872255674,
+          "central_bound": 0.04561573721613308,
+          "positive_tail_defect": 0.0018849167067469044,
+          "tail_bound": 0.007521206186172787,
+          "oneway_attenuation": 97.56385388242624
+        },
+        {
+          "L": 100.0,
+          "R": 3.1622776601683795,
+          "central_L1_residual": 0.0037620339956050547,
+          "central_bound": 0.015635209548193876,
+          "positive_tail_defect": 0.0007926580282685905,
+          "tail_bound": 0.003162277660168379,
+          "oneway_attenuation": 178.4779091212757
+        },
+        {
+          "L": 200.0,
+          "R": 3.7606030930863934,
+          "central_L1_residual": 0.0011362345185325434,
+          "central_bound": 0.005330263697502807,
+          "positive_tail_defect": 0.00033302405509733486,
+          "tail_bound": 0.0013295739742362474,
+          "oneway_attenuation": 338.13740068552636
+        }
+      ],
+      "scope": "Finite diagnostics of matching estimates, not interval proofs."
+    },
+    "boundaries_and_resolution": {
+      "cases": 8,
+      "energy_controls": [
+        {
+          "base": {
+            "model": "lattice",
+            "half_duration": 100.0,
+            "L": 7.627397670861312,
+            "energy_scale": 0.015581643316705635,
+            "positive_endpoint": 114.41096506291967,
+            "negative_endpoint": -152.54795341722624,
+            "return_probability": 0.02712317702300187,
+            "probability_times_4L2_over_pi2": 0.6395191948063216,
+            "method": "vector",
+            "rtol": 2e-10,
+            "max_step": 0.35,
+            "function_evaluations": 14026,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "refined": {
+            "model": "lattice",
+            "half_duration": 100.0,
+            "L": 7.627397670861312,
+            "energy_scale": 0.015581643316705635,
+            "positive_endpoint": 128.35616624953343,
+            "negative_endpoint": -305.0959068344525,
+            "return_probability": 0.02712309675992913,
+            "probability_times_4L2_over_pi2": 0.6395173023371759,
+            "method": "vector",
+            "rtol": 4e-11,
+            "max_step": 0.2,
+            "function_evaluations": 32710,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "absolute_difference": 8.026307274019984e-08
+        },
+        {
+          "base": {
+            "model": "lattice",
+            "half_duration": 1000.0,
+            "L": 9.804438527642926,
+            "energy_scale": 0.0017665926841889704,
+            "positive_endpoint": 147.0665779146439,
+            "negative_endpoint": -196.08877055285853,
+            "return_probability": 0.018056203765017674,
+            "probability_times_4L2_over_pi2": 0.7034482424136042,
+            "method": "vector",
+            "rtol": 2e-10,
+            "max_step": 0.35,
+            "function_evaluations": 16582,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "refined": {
+            "model": "lattice",
+            "half_duration": 1000.0,
+            "L": 9.804438527642926,
+            "energy_scale": 0.0017665926841889704,
+            "positive_endpoint": 196.08877055285853,
+            "negative_endpoint": -392.17754110571707,
+            "return_probability": 0.018056158442613577,
+            "probability_times_4L2_over_pi2": 0.7034464767065974,
+            "method": "vector",
+            "rtol": 4e-11,
+            "max_step": 0.2,
+            "function_evaluations": 38170,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "absolute_difference": 4.5322404097075664e-08
+        },
+        {
+          "base": {
+            "model": "log",
+            "half_duration": null,
+            "L": 100.0,
+            "energy_scale": 1.1904243123266676e-42,
+            "positive_endpoint": 1500.0,
+            "negative_endpoint": -2000.0,
+            "return_probability": 0.00023816839821939875,
+            "probability_times_4L2_over_pi2": 0.9652601605515655,
+            "method": "vector",
+            "rtol": 2e-10,
+            "max_step": 0.35,
+            "function_evaluations": 127138,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "refined": {
+            "model": "log",
+            "half_duration": null,
+            "L": 100.0,
+            "energy_scale": 1.1904243123266676e-42,
+            "positive_endpoint": 2000.0,
+            "negative_endpoint": -4000.0,
+            "return_probability": 0.00023816835717808548,
+            "probability_times_4L2_over_pi2": 0.9652599942173878,
+            "method": "vector",
+            "rtol": 4e-11,
+            "max_step": 0.2,
+            "function_evaluations": 361270,
+            "scope": "Auxiliary infinite parabola with numerically refined WKB boundaries, not exact finite endpoints."
+          },
+          "absolute_difference": 4.104131327863948e-11
+        }
+      ],
+      "time_control": {
+        "base": {
+          "half_duration_parameter": 30.0,
+          "endpoint_multiplier": 2.0,
+          "actual_full_duration": 120.0,
+          "endpoint_attraction": 16.0,
+          "initial_binding": 12.250961202478889,
+          "quadrature_nodes": 1000,
+          "probability": 0.03471211217219548,
+          "norm": 0.9999999999960967,
+          "rtol": 2e-11
+        },
+        "refined": {
+          "half_duration_parameter": 30.0,
+          "endpoint_multiplier": 2.0,
+          "actual_full_duration": 120.0,
+          "endpoint_attraction": 16.0,
+          "initial_binding": 12.250961202112192,
+          "quadrature_nodes": 1400,
+          "probability": 0.034712112173071824,
+          "norm": 1.0000000000008282,
+          "rtol": 3e-12
+        },
+        "difference": 8.763406667000595e-13
+      }
+    }
+  },
+  "scope": "Author-side finite checks and convergence diagnostics; not independent review, experimental validation, or exhaustive priority."
+}
