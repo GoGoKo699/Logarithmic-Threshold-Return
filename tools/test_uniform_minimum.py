@@ -22,6 +22,14 @@ REPORT: dict[str, object] = {}
 RHO = 1/(4*np.pi)
 
 
+def local_coefficient(x: float, L: float, b: float):
+    """The central equation is regular even where a wave basis is singular."""
+    if x == 0:
+        return complex(-b)
+    D = complex(L-np.log(abs(x)), np.pi if x > 0 else 0.)
+    return L/D-b
+
+
 def local_data(x: float, L: float, b: float):
     """F, q, h and Omega, only at nonzero x where this basis is used."""
     if x == 0:
@@ -76,6 +84,9 @@ class UniformMinimumTests(unittest.TestCase):
 
     def test_integrated_central_remainder_including_core(self):
         rows = []
+        with np.errstate(all='raise'):
+            self.assertEqual(local_coefficient(-np.exp(-16.), 16., .5), 0j)
+            self.assertEqual(local_coefficient(0., 16., .5), -.5+0j)
         for L in (16., 64., 256.):
             R = L**.25
             # x=exp(-t): the full central core t in [0,infinity) is included.
@@ -119,7 +130,7 @@ class UniformMinimumTests(unittest.TestCase):
                 k = np.sqrt(1-b)
                 y = wave_matrix(R, L, b)[:, 0]
                 def rhs(x, state):
-                    F = -b+0j if x == 0 else local_data(x, L, b)[0]
+                    F = local_coefficient(x, L, b)
                     return np.array([state[1], -F*state[0]])
                 for lo, hi in ((R, 0.), (0., -R)):
                     sol = solve_ivp(rhs, (lo, hi), y, method='DOP853',
