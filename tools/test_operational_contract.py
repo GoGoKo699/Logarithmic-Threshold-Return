@@ -85,6 +85,12 @@ class OperationalContractTests(unittest.TestCase):
         self.assertLess(abs(np.max(np.abs(values))-expected), 2e-14)
         witness = vectors[:, -1]
         self.assertLess(abs(np.vdot(witness, (q-p)@witness)-expected), 2e-14)
+        # A certified calibration is sufficient when the effect is rank one.
+        fidelity = float(np.vdot(b, q@b))
+        self.assertAlmostEqual(expected, np.sqrt(1-fidelity))
+        # For a general effect, one perfect calibration input is insufficient.
+        self.assertAlmostEqual(float(np.vdot(b, np.eye(2)@b)), 1.)
+        self.assertAlmostEqual(np.linalg.norm(np.eye(2)-p, ord=2), 1.)
 
     def test_identical_position_histograms_do_not_fix_overlap(self):
         w = endpoint()['origin_weight']

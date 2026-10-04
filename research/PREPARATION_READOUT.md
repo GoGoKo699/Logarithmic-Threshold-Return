@@ -110,9 +110,19 @@ Preparation must certify the extended $`b_4`$ of the actual endpoint Hamiltonian
 including relative phases, contamination and its own yield. Cooling before the
 cycle does not introduce a bath into the mathematical cycle; cooling during it would.
 A valid reverse-loading readout would have to establish its effective effect near
-$`P_b`$ on the relevant output states. For an ideal unitary readout followed by origin
-detection that condition is $`V^\dagger Q_0 V=P_b`$, not merely a high return on one
-calibration input. Reversing a parameter schedule alone does not establish the identity.
+$`P_b`$ on the relevant output states. An important favorable special case is an
+independently justified unitary readout followed by ideal rank-one origin detection.
+Then $`M=V^\dagger Q_0V`$ is rank one and the same projector calculation gives
+
+```math
+F_{\rm cal}=\langle b_4|M|b_4\rangle,\qquad
+\|M-P_b\|=\sqrt{1-F_{\rm cal}}.
+```
+
+Thus a certified calibration on $`b_4`$ can bound this readout error under those
+structural assumptions. Without them, a high response on one input does not determine
+a general effect: $`M=I`$ accepts $`b_4`$ perfectly but also accepts every orthogonal
+state. Reversing a parameter schedule alone does not establish the required mapping.
 No new readout protocol or loading ramp is proposed here.
 
 The ensemble denominator must be fixed at the declared start. Initial heralding can
