@@ -12,7 +12,7 @@ and history inputs remain byte-preserved.
 | Inverse-square-logarithmic return | Author-side matched-asymptotic derivation | Fixed local trap and order of limits |
 | Energy reflection equals physical return | Explicit Gate A lemma chain | Not independent proof review |
 | Leading reflection and outer matching | Explicit Gate B endpoint and exact-lattice estimates | Zero minimum; not independent proof review |
-| Positive-minimum joint law | Derived uniformly away from b=1 | No full crossover claim |
+| Positive-minimum joint law | Explicit Gate C uniform lemma chain | Fixed margin below b=1; no crossover claim |
 | Finite-volume family | Sufficient bound and finite examples | Not an optimized size requirement |
 | Fixed positive hopping anisotropy | Scope corollary with checked hypotheses | Not uniform at zero transverse hopping |
 
@@ -25,8 +25,12 @@ The new argument supplies that intermediate reasoning without changing the law.
 [Gate B](research/REFLECTION_MATCHING.md) now makes the endpoint-basis cancellation
 explicit, treats positive-side passivity without a chosen absorber, and bounds the
 entire negative tail with the exact positive spectral measure. No leading coefficient
-correction was found. These are author-side arguments at zero minimum; Gates C and D
-are not closed by this pass. The
+correction was found. [Gate C](research/UNIFORM_MINIMUM.md) now treats the entire
+positive-minimum domain at a fixed margin below b=1: its central perturbation is
+offset-independent, its passive denominator does not require a sign of Im(h), and
+its shifted exact negative-tail defect is dominated uniformly by the zero-minimum
+integral. The coefficient and domain are preserved. These are author-side arguments;
+Gate D remains separate. The
 [reader packet](research/READER_PACKET.md) remains a brief, not a received report.
 
 ## Prior art and physical premises
@@ -55,8 +59,8 @@ Full crossover, optimal volume and experimental superiority remain unclaimed.
 
 The preserved scientific suites contain **5 suites, 28 groups and 272 controls**.
 Fourteen infrastructure tests, five predecessor checks, six operational checks,
-seven model-residual checks, seven amplitude checks and six reflection checks are
-counted separately.
+seven model-residual checks, seven amplitude checks, six reflection checks and
+seven uniform-minimum checks are counted separately.
 Execution, exact byte reproduction and independent scientific review are distinct.
 
 The Gate A base was `5167d02b9504596e1c1b071ed425dea63dec62c6`. Its downloaded main
@@ -84,7 +88,13 @@ reclassify any previous failed, cancelled or non-byte-identical execution.
 
 ## Next bounded step
 
-Follow [CURRENT](work_orders/CURRENT.md): challenge uniformity of the existing
-positive-minimum law on the whole stated b domain, or record a concrete objection.
+[Gate C provenance](provenance/GATE_C_2026-10-04.json) records the recovered current
+main, source-tree identity and the new diagnostic evidence. The first seven-test
+uniform-minimum run passed; no new failed scientific attempt is omitted. The early
+base-source run overlapped addition of the new note, changing only its navigation
+link count; a frozen candidate and actual hosted reports are separate evidence.
+
+Follow [CURRENT](work_orders/CURRENT.md): scrutinize the finite-volume initial-state,
+periodic-seam and return-amplitude estimates without optimizing lattice size.
 Do not broaden the model to prolong development. A genuinely separate report
 remains absent. No manuscript, release or outside invitation is initiated here.
