@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-04",
+  "repository": "GoGoKo699/Logarithmic-Threshold-Return",
+  "base_commit": "6bf14bd312f5dc9d31d4a7eb8fdce54aff7e7048",
+  "base_tree": "9fa310c9375d3a4145becd513bd72b5090310890",
+  "scope": "Author-side primary-source and operational preparation/readout audit; no change to the threshold theorem or adopted apparatus.",
+  "base_source": {
+    "artifact_id": 11309159162,
+    "run_id": 37218679211,
+    "artifact_sha256": "ed8bae7bd59f80ad9aaf6ce3d89c1883e6a24b3824c2c0093b9f7a29f9f17b99",
+    "source_files": 42,
+    "local_index_tree_equals_base_tree": true
+  },
+  "fresh_baseline": {
+    "command": "python verify.py --output-dir NEW_DIRECTORY",
+    "status": "PASS",
+    "suites": 5,
+    "groups": 28,
+    "finite_controls": 272,
+    "all_result_bytes_identical": true,
+    "report_sha256": "e00457901fe8db2690e9212c9a8ce4818d22741906e232e6b2780c6fb7cb4a49",
+    "preserved_files": 27,
+    "infrastructure_tests": 14,
+    "predecessor_tests": 5,
+    "logs": {
+      "base-integrity.log": "e9d42d6f3fd8f3cac940063da81f5f0e029a18f30dc6ce6a87b55f6a7135724f",
+      "base-infrastructure.log": "316494eb6370dc31b2a8e391be9ad828741c172ceaa198060369ac551dd2cbdf",
+      "base-predecessor.log": "1cf65abd003e0ad2f007bb5da52f485aa28eff89e4a0c610f943ce8ccc37498a",
+      "base-run-console.log": "87ed0f9ccdf923bcca1371b67b45be8e41917ff61e4bb561cebfd884e32ad240",
+      "base-exit.json": "c365161d39236fe0f1d32937fbc549796b8487d8faf65ed3879b96897c78ea5d"
+    },
+    "launch_failure": "An unsupported streaming session failed before execution. The subsequent local subprocess completed with return code zero. The launch note and complete logs are retained."
+  },
+  "source_access": {
+    "register": "literature/PHYSICAL_PRECEDENTS.md",
+    "passage_level_records": 9,
+    "abstract_only_comparators": 2,
+    "preparation_component_records": [
+      "Y22",
+      "W11",
+      "K12",
+      "T12",
+      "N18",
+      "Z16"
+    ],
+    "measurement_diagnostic_component_records": [
+      "Y22",
+      "W11",
+      "K12",
+      "T12",
+      "N18",
+      "S10",
+      "B22"
+    ],
+    "not_claimed": "Exact b4 preparation/projector or the joint threshold protocol, exhaustive search, complete supplements, reanalysis of experimental data, or fulfillment of every other premise count.",
+    "failed_access": "Some primary HTML/PDF and publisher attempts failed. P15 and C15 remain abstract-only; the Y22 publisher attempt failed but primary author HTML was read. Regenerated HTML dates are not publication dates.",
+    "third_party_pdf_committed": false
+  },
+  "operational_checks": {
+    "command": "python tools/test_operational_contract.py --output NEW_PATH.json",
+    "tests": 6,
+    "status": "PASS",
+    "report_sha256": "991d515e4a9d9e1f59aac81acbb7b2b36f5619fc66ee23f8cfbb4be7af64e2b5",
+    "log_sha256": "64682cd4700b4f03e0188645b82537b5adad003e622b53f9a66ac1fe447438a0",
+    "part_of_preserved_272_controls": false,
+    "scope": "Static endpoint, elementary projector/trace-distance and denominator checks; no new time-domain simulations or calibration certificate."
+  },
+  "decision": {
+    "core": "preserved",
+    "experimental_protocol": "not claimed",
+    "full_premise_audit": "incomplete",
+    "separate_reader_report": "absent",
+    "manuscript": "on hold",
+    "outreach": "not initiated"
+  },
+  "new_revision_checks": "Inspect actual candidate and post-merge runs separately; baseline success is not a substitute."
+}

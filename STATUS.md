@@ -31,10 +31,18 @@ status. This scoped comparison does not establish exhaustive priority.
 A [separate-reader packet](research/READER_PACKET.md) is prepared, but no separate
 report has been received and no reader has been contacted.
 
-The community-precedent matrix for preparation, calibrated local depth, other confinement,
-coherent area/time, single-band validity and the actual bound-state measurement is not
-complete. [ASSUMPTIONS.md](literature/ASSUMPTIONS.md) records those obligations without
-claiming a joint device. Full residual-depth crossover and optimal finite size are not
+The preparation/readout pass now records nine passage-level primary comparisons and
+two abstract-only comparators in [PHYSICAL_PRECEDENTS.md](literature/PHYSICAL_PRECEDENTS.md).
+Six preparation-related and seven measurement/diagnostic component records meet the
+component-count target, not exact model-specific preparation/readout. Other premise
+collections remain below the requested depth/count, as [ASSUMPTIONS.md](literature/ASSUMPTIONS.md)
+records explicitly. The closest joint subset is not the complete threshold protocol.
+
+The [operational audit](research/PREPARATION_READOUT.md) derives a static endpoint
+origin weight of about 0.72404, an equal-position-histogram ambiguity, and a sufficient
+preparation/dynamics/measurement error contract. These sharpen implementation boundaries;
+they do not correct or strengthen the preserved logarithmic theorem. Six new elementary
+checks are separate from the original 272 controls and from independent proof review. Full residual-depth crossover and optimal finite size are not
 required to be solved by default; they remain outside the demonstrated scope.
 
 ## Integration and evidence
@@ -72,3 +80,12 @@ The [continuation record](provenance/CONTINUATION_2026-10-04.json) pins that evi
 and the primary-source access depth. New-branch and post-merge outcomes must be read
 from their own GitHub runs, not inferred from the baseline. Five new algebra checks
 support the predecessor comparison and are separate from the 28 groups / 272 controls.
+
+## Preparation/readout pass evidence
+
+The fresh baseline at `6bf14bd312f5dc9d31d4a7eb8fdce54aff7e7048` passed all five
+scientific suites with byte-identical reference outputs, along with the 27-input
+integrity gate, 14 infrastructure tests and five predecessor-algebra checks. The
+[pass record](provenance/PREMISE_AUDIT_2026-10-04.json) pins the source snapshot,
+new diagnostic and retained logs. Candidate and post-merge results must be inspected
+from their actual runs; no success is inferred from this baseline.
