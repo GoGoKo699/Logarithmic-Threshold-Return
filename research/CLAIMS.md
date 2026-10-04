@@ -37,6 +37,11 @@ preserved notes; [SOURCES.md](SOURCES.md) resolves them.
 These are questions for the exact argument, not a claim that the software has proved it.
 The earlier audit answers are author-side answers. A separate report is not yet present.
 
+[Gate A](AMPLITUDE_IDENTIFICATION.md) now expands the physical-channel identification.
+[Gate B](REFLECTION_MATCHING.md) expands the endpoint cancellation and exact-lattice
+outer estimates for zero minimum. Neither supplies a separate report or automatically
+closes the positive-minimum uniformity and finite-volume scrutiny (Gates C and D).
+
 ## What is inherited and what remains open
 
 The static resolvent, essential weak binding, threshold-loss problem, energy-domain
