@@ -22,9 +22,14 @@ No operative equation is changed by this organizational pass.
 
 ## Remaining substantive work
 
-The older Devdariani reference identified in [PRIOR_ART.md](literature/PRIOR_ART.md)
-remains unread at full construction level. Existing direct comparisons are scoped,
-not exhaustive. A genuinely separate reader report is absent.
+The specified Devdariani (1972) construction-level comparison is now recorded in
+[DEVDARIANI_COMPARISON.md](literature/DEVDARIANI_COMPARISON.md), using the readable
+Russian primary text. The core is preserved and attribution narrowed. The older
+access status in the byte-preserved PRIOR_ART.md is historical, not the current
+status. This scoped comparison does not establish exhaustive priority.
+
+A [separate-reader packet](research/READER_PACKET.md) is prepared, but no separate
+report has been received and no reader has been contacted.
 
 The community-precedent matrix for preparation, calibrated local depth, other confinement,
 coherent area/time, single-band validity and the actual bound-state measurement is not
@@ -57,6 +62,13 @@ evaluations, not a physical observable or a count of scientific tests.
 A source-scoped review now records those work-count changes separately without altering
 the raw flags, scientific code, references or general tolerance. Four additional
 infrastructure tests check this boundary, including a rejected ordinary fidelity change.
-See the [hosted import review](provenance/HOSTED_IMPORT_REVIEW.json). Revised-branch and
-post-merge success must still be established from their actual runs. No machine-level
-cause for the floating differences or new scientific result is asserted.
+See the [hosted import review](provenance/HOSTED_IMPORT_REVIEW.json). The base main run
+37215229545 is now confirmed successful; its downloaded source/evidence artifact
+was inspected. The fresh local continuation baseline also passed every preserved
+suite with byte-identical result outputs. These observations do not identify a
+machine-level cause for the earlier differences or constitute a new physical result.
+
+The [continuation record](provenance/CONTINUATION_2026-10-04.json) pins that evidence
+and the primary-source access depth. New-branch and post-merge outcomes must be read
+from their own GitHub runs, not inferred from the baseline. Five new algebra checks
+support the predecessor comparison and are separate from the 28 groups / 272 controls.

@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-04",
+  "repository": "GoGoKo699/Logarithmic-Threshold-Return",
+  "base_commit": "3604714b9a38da484b3f78828d6d1a7cad35c7d4",
+  "scope": "Author-side source comparison, algebra and reader preparation; no scientific-source correction or external review.",
+  "base_hosted_evidence": {
+    "run_id": 37215229545,
+    "head_sha": "3604714b9a38da484b3f78828d6d1a7cad35c7d4",
+    "conclusion": "success",
+    "artifact_id": 11307834436,
+    "artifact_name": "verification-evidence",
+    "artifact_sha256": "19a202d0d9cf1b5d5b0e8035f971523d51157d012edad5d9af29fbfee8075700",
+    "source_snapshot": "Every non-directory entry of tracked-source.zip matched the extracted working copy before edits."
+  },
+  "fresh_local_baseline": {
+    "command": "python verify.py --output-dir /mnt/data/ltr-work/fresh-baseline",
+    "report_sha256": "f94602d628c6edc72eb64f54d1533fa28c82425aeaf3d304b1f1663eff7591e8",
+    "status": "PASS",
+    "suites": 5,
+    "groups": 28,
+    "finite_controls": 272,
+    "all_reference_bytes_identical": true,
+    "changed_fields": 0,
+    "preserved_files": 27,
+    "raw_evidence": "Fresh runner output, reference comparisons, execution logs and console log retained in the conversation evidence archive."
+  },
+  "primary_access": {
+    "record": "https://www.mathnet.ru/eng/tmf2852",
+    "doi": "10.1007/BF01028561",
+    "language_read": "Russian original; English bibliography metadata only",
+    "full_text_url": "https://www.mathnet.ru/php/getFT.phtml?jrnid=tmf&option_lang=rus&paperid=2852&what=fullt",
+    "visually_checked_printed_pages": [
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      224,
+      225
+    ],
+    "not_visually_checked_printed_pages": [
+      222,
+      223
+    ],
+    "comparison_depth": "Model, contour/energy construction, return normalization, scaling and threshold regimes; not reproduction of all interpolation results.",
+    "retrieval_failures": "Initial searches were unproductive; publisher retrieval failed; several MathNet page requests timed out or redirected. Only successful primary-page readings support the comparison.",
+    "older_lineage": "Reference [3] on p.225 was identified bibliographically only; its original was not read.",
+    "third_party_pdf_committed": false
+  },
+  "decision": {
+    "core": "preserved",
+    "attribution": "narrowed",
+    "specified_1972_construction_access_gap": "closed",
+    "exhaustive_priority": "not established",
+    "physical_premise_audit": "incomplete",
+    "separate_reader_report": "absent",
+    "reader_packet": "prepared, not a report",
+    "manuscript": "on hold",
+    "outside_contact": "not initiated"
+  },
+  "new_algebra_checks": {
+    "command": "python tools/test_predecessor.py",
+    "count": 5,
+    "status": "PASS",
+    "part_of_original_272_controls": false,
+    "log_sha256": "2b4b40816f6f4d64e7a3efed2554f4a54e47f4fa7bb6290108295accb4ae9cfa"
+  },
+  "new_revision_ci": "Not inferred from baseline; inspect actual PR and post-merge runs."
+}

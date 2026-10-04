@@ -77,7 +77,11 @@ and the fixed-positive-anisotropy check. It does not claim a dimensional crossov
 | Claim-to-proof route | [Claim map](research/CLAIMS.md) | Which derivation and numerical controls support each claim |
 | Full technical audit | [Asymptotic](research/ASYMPTOTIC.md), [boundary audit](research/AUDIT.md), [rounding](research/ROUNDING.md) | Check the matching, normalization and finite physical window |
 
-[Prior art](literature/PRIOR_ART.md) identifies the close threshold predecessors.
+[Prior art](literature/PRIOR_ART.md) identifies the close threshold predecessors;
+the [Devdariani comparison](literature/DEVDARIANI_COMPARISON.md) updates its historical
+primary-access gap without rewriting the preserved register. A
+[separate-reader packet](research/READER_PACKET.md) exposes the four proof obligations;
+it is not a completed review.
 [Source labels](research/SOURCES.md) map the preserved notes' local reference numbers.
 [Assumptions](literature/ASSUMPTIONS.md) distinguishes ideal model premises from a joint
 apparatus. [Status](STATUS.md) and the [work order](work_orders/CURRENT.md) identify what

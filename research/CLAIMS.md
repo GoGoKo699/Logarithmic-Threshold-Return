@@ -43,8 +43,11 @@ The static resolvent, essential weak binding, threshold-loss problem, energy-dom
 method, gapped recovery and locality tools are established ingredients. Read
 [PRIOR_ART.md](../literature/PRIOR_ART.md) before framing originality.
 
-The older Devdariani construction, complete physical-premise evidence and a separate
-reader report remain open. Full crossover, general trap universality, optimal volume,
-experimental superiority and a joint apparatus are not claimed. The known terminology
+The [Devdariani construction comparison](../literature/DEVDARIANI_COMPARISON.md)
+now closes the specifically recorded primary-access gap while preserving the narrow
+core and strengthening attribution. Complete physical-premise evidence and a separate
+reader report remain open; the [reader packet](READER_PACKET.md) is preparation only.
+Full crossover, general trap universality, optimal volume, experimental superiority
+and a joint apparatus are not claimed. The known terminology
 correction is in SPECTRAL_SCOPE: the lower-edge density is finite; the Green function
 is logarithmic. The original older wording is preserved, not silently rewritten.
