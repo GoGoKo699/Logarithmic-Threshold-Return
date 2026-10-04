@@ -24,8 +24,10 @@ are preferred.
 
 Current results are author-side derivations, not an external report or a publication
 priority certificate. A narrow result is acceptable; mathematical elegance alone is not
-a significance argument. Complete the precise predecessor comparison and prepare the
-fixed argument for a genuinely separate critical reading.
+a significance argument. The Devdariani construction comparison and separate-reader
+packet are now recorded; neither establishes exhaustive priority or a completed review.
+Continue the unfinished physical-premise audit and keep the fixed argument available
+for a genuinely separate critical reading.
 
 Manuscript drafting and outside contact remain on hold. Candidate identification does
 not authorize invitations. Other repositories, protected projects and parked scouts are
