@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-04",
+  "repository": "GoGoKo699/Logarithmic-Threshold-Return",
+  "base_commit": "5167d02b9504596e1c1b071ed425dea63dec62c6",
+  "base_tree": "c81dcc8df4319cb902f463844b09eacbb341e014",
+  "scope": "Author-side Gate A proof expansion; no new physical law or independent report.",
+  "base_artifact": {
+    "id": 11311981059,
+    "sha256": "c91e39a438d324c506df8f6d5b965fc143cc8276bc29e2199224ffad0124983b",
+    "source_tree_match": true
+  },
+  "local_baseline": {
+    "status": "PASS",
+    "suites": 5,
+    "groups": 28,
+    "finite_controls": 272,
+    "all_original_bytes_identical": true,
+    "report_sha256": "9c34301314b30bcafaed40099e1fe34ddbd72d71e2565d0b9ba681d324a0c52e"
+  },
+  "new_tests": {
+    "count": 7,
+    "status": "PASS",
+    "report_sha256": "4cff9ae6a2457c654679f03b3e1587952566971609b46265152bbc21d7e957e6",
+    "original_attempt": "FAIL in elliptic evaluator; exact patch and hashes in archive/GATE_A_DIAGNOSTIC_FAILURE.md",
+    "assertion_tolerances_changed": false,
+    "part_of_original_272": false
+  },
+  "preservation": {
+    "protected_inputs": 27,
+    "changed": 0,
+    "original_references_changed": false,
+    "comparison_policy_changed": false
+  },
+  "primary_reading": [
+    {
+      "source": "Sokolovski–Pons 2015",
+      "url": "https://arxiv.org/pdf/1506.04019",
+      "depth": "Section IV Eqs.21–26 parsed; printed page 4 visually checked",
+      "limitation": "Not a new full-paper audit; lattice reconstruction is author-side"
+    },
+    {
+      "source": "Avron–Elgart 1999",
+      "url": "https://arxiv.org/html/math-ph/9805022v4",
+      "depth": "Section 4 Lemma 1 and Eqs.3–11 HTML passages",
+      "limitation": "Commutator method on gapped tails only"
+    }
+  ],
+  "failed_access": "The initial arXiv abstract request for 1506.04019 failed; its PDF was subsequently readable. No failed retrieval is priority evidence.",
+  "outcome": {
+    "core": "unchanged",
+    "gate_a": "explicit author-side lemma chain supplied",
+    "other_gates": "not re-audited here",
+    "separate_report": "absent",
+    "implementation": "not established",
+    "manuscript": "on hold",
+    "outreach": "none"
+  },
+  "candidate_and_hosted": "Run and inspect candidate and actual PR/main outputs separately; no result inferred from the baseline."
+}

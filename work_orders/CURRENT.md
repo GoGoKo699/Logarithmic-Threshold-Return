@@ -1,62 +1,63 @@
-# Current work order: challenge the physical-amplitude identification
+# Current work order: challenge the leading reflection amplitude
 
-**4 October 2026, after the targeted local-control pass.** Work only in
-`GoGoKo699/Logarithmic-Threshold-Return`. The model, observable and claimed law in
-research/CORE.md are unchanged. Manuscript drafting and outreach remain on hold.
+**4 October 2026, after the physical-amplitude pass.** Work only in
+`GoGoKo699/Logarithmic-Threshold-Return`. The fixed Hamiltonian, observable and
+claimed law are unchanged. Manuscript drafting and outreach remain on hold.
 
-## What this pass settled, and what it did not
+## Gate A: what was supplied
 
-literature/ASSUMPTIONS.md is now a bounded support/mismatch map. The source register
-has twelve passage-level primary records (one caption-limited) and two abstract-only
-comparators. Source-count targets remain incomplete for some premises; no exact
-preparation, detector or joint device is established. Do not pad those counts with
-more ordinary microscope, spin-addressing or unrelated platform papers.
+research/AMPLITUDE_IDENTIFICATION.md supplies an author-side lemma chain for the
+retarded energy solution, its no-incoming-continuum norm asymptote, equal bound-leg
+normalization, exact continuum-current accounting, and the uniform O(1/T) finite-
+endpoint comparison. Remote time is taken first at fixed alpha and u. Only the
+subsequent tail bound needs the stated uniformity in the small-minimum family.
 
-research/MODEL_RESIDUAL.md provides an explicit generator residual for the fixed
-Hamiltonian, with an isometry identifying the physical orbitals. It distinguishes
-in-band errors, higher-band coupling, basis motion and background confinement.
-Its three-level example rejects a leakage-only certificate; its amplitude budget
-is sharper only under pure/unitary/rank-one assumptions. Seven small tests are not
-additional threshold-law controls or apparatus validation. The earlier generic
-operational error contract and all protected source files are unchanged.
+The reciprocal-log source lemma and the strong reconstruction are explicit new
+proof passages, not consequences of passing numerical checks. A separate reader
+should challenge them. Seven small new tests check algebra and finite examples;
+they do not constitute independent review or new asymptotic controls. The initial
+elliptic-evaluation failure and its exact arithmetic repair are preserved under
+archive/GATE_A_DIAGNOSTIC_FAILURE.md. Protected proofs and references are unchanged.
 
-Broad documentary expansion stops here. Reopen a premise only for a specific
-model-matched calibration or directly relevant primary result. The remaining
-implementation obligations are explicit, not silently declared solved.
+## Next bounded task: reader Gate B, author-side only
 
-## Next bounded scientific task: reader Gate A, author-side only
+Read READER_PACKET Gate B, ASYMPTOTIC Sections 4–7 and AUDIT Sections 3–5.
+Reconstruct the central transfer expansion and endpoint-basis cancellation,
+retaining both the principal-value and causal delta terms. Verify the sign and
+coefficient of i*pi/(2L), then the exact reflection-coordinate equation and
+passive far-band matching at amplitude error o(1/L). Do not replace the physical
+retarded condition by a numerical absorber, and do not discard the singular core.
 
-Read research/READER_PACKET.md Gate A, ASYMPTOTIC Sections 2–3, AUDIT Sections 2
-and 5, and ROUNDING Section 2. Reconstruct the energy-domain to time-domain mapping
-for the exact local quadratic cycle. Check the retarded/no-incoming-continuum
-solution, stationary-phase normalization on both bound trajectories, and the
-finite-endpoint comparison with a uniform O(1/T) amplitude-modulus error.
+Produce a concise lemma chain or a concrete objection naming the affected passage.
+Stop once that implication is supported at its stated order or a specific gap is
+recorded. Any objection changing the leading coefficient or domain requires the
+recorded approval process before editing protected files. Gates C and D are not
+automatically closed by work on B. Reopen A for a concrete objection, not another
+identical normalization check.
 
-Produce either a concise lemma chain that identifies all needed hypotheses and
-error orders, or a concrete objection with the exact earlier passage affected.
-Do not use scalar reflection plots as proof of the time-domain identification.
-Do not infer a wave-operator statement from norm conservation alone. A result must
-address this fixed proof obligation, not add a different ramp, model or detector.
+## Physical scope and independent reading
 
-This is author-side scrutiny and cannot close the absent separate-reader report.
-Do not contact a reader or issue invitations without explicit owner instruction.
-No protected scientific-file correction may be made without the specifically
-justified approval/record process. An unresolved issue must remain visibly open.
+The support/mismatch map in literature/ASSUMPTIONS.md remains the implementation
+boundary. Some source-count targets are unmet; exact preparation, unconditional
+projector readout and a calibrated joint device remain unestablished. Broad generic
+citation accumulation stays paused. New evidence must target an identified mismatch.
 
-## Preservation, verification and stopping rule
+A genuinely separate proof report is absent. Another assistant pass is author-side
+work. Do not contact readers or issue invitations without explicit instruction.
+No new ramp, platform, detector, disorder, interacting system, full crossover or
+optimal-size campaign is authorized. Correctness, significance and implementation
+are distinct assessments; verification counts do not establish physical importance.
 
-Pin the actual base and read WORKSPACE.md, AGENTS.md and STATUS.md. Run
-`python verify.py --integrity-only`, `python tools/test_verify.py`,
-`python tools/test_predecessor.py`, `python tools/test_operational_contract.py`,
-`python tools/test_model_residual.py`, and all preserved scientific suites in a
-fresh output directory. Retain logs, raw differences and failed launch records.
+## Verification and retained evidence
+
+Pin the actual base and read WORKSPACE.md, AGENTS.md and STATUS.md. Run integrity,
+all existing infrastructure/algebra/operational/residual tests, the new
+`python tools/test_amplitude_identification.py`, and all preserved scientific suites
+in fresh output paths. Keep complete logs and failures; do not overwrite references.
 Report byte equality separately from scientific assertion success. Inspect actual
-PR and post-merge runs and downloaded evidence. The existing workload-review
-policy and all 27 mapped source/history inputs remain unchanged.
+PR and post-merge runs and their downloaded artifacts. The existing workload-review
+policy and all 27 mapped inputs remain unchanged.
 
-provenance/CONTROL_AUDIT_2026-10-04.json pins this pass's baseline/access record.
-No full residual-depth crossover, optimal-size campaign, independent-review claim,
-experimental superiority, new platform or other-repository work is authorized.
-Stop a proof check once the specified implication is either supported at the
-claimed order or an actionable gap is recorded; do not create new tasks just to
-prolong development.
+provenance/GATE_A_2026-10-04.json records this pass's base, scope and local checks.
+The main claim still requires the remaining proof scrutiny, precise priority
+comparison and separate reading; no manuscript or release is initiated here.
