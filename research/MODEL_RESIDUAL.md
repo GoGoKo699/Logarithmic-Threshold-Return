@@ -102,7 +102,7 @@ image or a nearly uniform equilibrium density is not this dynamical certificate.
 ## 3. Small higher-band population does not certify the ideal return
 
 The following elementary three-level example tests a purported calibration
-criterion; it is not a new physical model for this project. Let $`N\ge2`$,
+criterion; it is not a new physical model for this project. Let $`N\ge2`$ be an integer,
 $`\Omega=N/(N-1)`$, $`g=\tfrac12\sqrt{\Omega^2-1}`$, and use
 
 ```math
