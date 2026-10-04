@@ -24,6 +24,12 @@ walks and report curvature/inhomogeneity limitations. **Classification: jointly
 demonstrated subset.** It neither measures our bound-state projector nor establishes
 our quadratic cycle, residual-depth family, or coherent volume/time requirement.
 
+**Control-pass access extension:** Methods I.2, I.3 and I.5, and Section II were
+also checked. Alignment can change the effective oracle depth and address neighbors;
+the supplement describes intensity-control dynamic range, higher-band filtering,
+curvature, and a dynamical oracle-depth calibration. None supplies a uniform residual
+certificate for our cycle. These are further passages of Y22, not a new source.
+
 ## J98 — single-band reduction and its hypotheses
 
 D. Jaksch et al., *Cold bosonic atoms in optical lattices*, Physical Review Letters
@@ -144,6 +150,53 @@ diagnostic component.** This shows why multiple controlled measurements contain 
 information than one position histogram; it is not a calibrated two-dimensional
 lattice bound-state projector or an adopted replacement detector.
 
+## L13 — a moving basis changes the generator
+
+M. Łącki and J. Zakrzewski, *Fast Dynamics for Atoms in Optical Lattices*, Physical
+Review Letters **110**, 065301 (2013),
+[DOI](https://doi.org/10.1103/PhysRevLett.110.065301),
+[arXiv:1210.7957v2](https://arxiv.org/abs/1210.7957v2).
+**Access:** [primary PDF](https://arxiv.org/pdf/1210.7957), pp. 1–2 visually checked,
+including Eqs. (3)–(6); publisher bibliographic record checked. HTML was blocked.
+
+The paper retains the derivative of the Wannier-basis transformation during lattice
+changes. It also distinguishes finite-band and nearest-neighbor truncations. Its
+parity-symmetric single-band correction vanishes; higher-band couplings need not.
+**Classification: theoretical reduction/limitation precedent.** It does not prove
+our local beam preserves a fixed band, nor supply an experimental error budget.
+The date printed inside a reformatted copy is not substituted for the 2013 record.
+
+## C18 — lattice-depth spectroscopy is not local-defect calibration
+
+C. Cabrera-Gutiérrez et al., *Robust calibration of an optical-lattice depth based on
+a phase shift*, Physical Review A **97**, 043617 (2018),
+[DOI](https://doi.org/10.1103/PhysRevA.97.043617).
+**Access:** [primary preprint HTML](https://arxiv.org/html/1801.08784v1), Sections
+II–III, especially Eqs. (14)–(19). Its preprint title begins *Ultrarobust*; the
+[abstract record](https://arxiv.org/abs/1801.08784) identifies the 2018 publication.
+
+A phase shift populates Bloch bands; their energy differences determine dominant
+oscillation frequencies used to infer lattice depth. The analysis goes beyond a
+single-well Gaussian approximation. **Classification: band-spectrum calibration
+component.** Calibrating the periodic lattice does not calibrate the added attractive
+site or certify negligible higher-band effects during another protocol. No benchmark
+from this method is assigned to our device, and its quench is not adopted here.
+
+## M17 — finite-region potential compensation, not an infinite flat lattice
+
+A. Mazurenko et al., *A cold-atom Fermi–Hubbard antiferromagnet*, Nature **545**,
+462–466 (2017), [DOI](https://doi.org/10.1038/nature22362).
+**Access:** [publisher primary page](https://www.nature.com/articles/nature22362),
+Extended Data Fig. 1–2 captions and bibliographic record only. The full main-text
+methods and preprint were not accessed successfully; this is a caption-level
+primary record, not an abstract-only record or a complete paper audit.
+
+The captions specify a shaped field compensating gradients and central curvature,
+with walls surrounding a finite subsystem. **Classification: confinement-control
+component in an interacting lattice.** Equilibrium density uniformity is not a
+bound on our single-particle phase error, propagation time, or residual generator.
+No many-body result is imported into the threshold theorem.
+
 ## Abstract-level comparators, excluded from detailed-access counts
 
 **P15:** P. M. Preiss et al., *Strongly Correlated Quantum Walks in Optical Lattices*,
@@ -162,7 +215,9 @@ fermionic-site-imaging precedent, not detailed proof of our motional readout.
 
 ## Access and counting policy
 
-There are **nine passage-level records and two abstract-only comparators** here.
+There are **twelve passage-level primary records and two abstract-only comparators**
+here. M17 is limited to primary extended-data captions; L13 and C18 are the two new
+main-text comparisons. The original nine access records are not upgraded wholesale.
 One article appearing under several applicable premises is still one article.
 Reformatted HTML dates are not publication dates; the cited preprint versions and
 bibliographic records determine those dates. Failed retrievals, reviews, unrelated
@@ -173,3 +228,7 @@ For the six preparation-component and seven measurement/diagnostic-component rec
 used in the matrix, the five-to-ten *component* target is met. The target is **not** met
 for demonstrated exact preparation/readout of this model, nor for every other premise.
 Those shortfalls and the absence of a joint protocol remain explicit in ASSUMPTIONS.md.
+Further retrieval attempts did not make P15 a full-text record; its count is unchanged.
+The [model-residual test](../research/MODEL_RESIDUAL.md) states what the remaining
+model-specific calibration must establish. No further generic source expansion is
+required merely to turn an unresolved implementation row into a larger citation count.

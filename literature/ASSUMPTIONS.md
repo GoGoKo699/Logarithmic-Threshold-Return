@@ -1,10 +1,12 @@
 # Physical premises: evidence, mismatch and the remaining obligation
 
-**4 October 2026. Preparation/readout pass; full premise audit still incomplete.**
-The [primary-source register](PHYSICAL_PRECEDENTS.md) records nine passage-level
-comparisons and two abstract-only comparators. Source IDs below resolve there.
+**4 October 2026. Targeted control pass; exact implementation remains unestablished.**
+The [primary-source register](PHYSICAL_PRECEDENTS.md) records twelve passage-level primary
+comparisons (one caption-limited) and two abstract-only comparators. Source IDs below resolve there.
 [The operational audit](../research/PREPARATION_READOUT.md) derives the distinction
 between site occupation and the bound-state projector, and a sufficient error budget.
+The [model-residual test](../research/MODEL_RESIDUAL.md) now makes the dynamical
+comparison explicit, including basis motion, higher-band coupling and confinement.
 The theorem remains about the fixed conditional Hamiltonian, not a completed device.
 
 ## Preparation and readout: component support is not closure
@@ -27,17 +29,17 @@ These facts sharpen the obligation; they do not change the asymptotic return law
 Cooling or initial heralding can occur before the declared experiment with costs
 reported separately. Filtering on survival after that start changes its denominator.
 
-## Other premises: partial evidence, not a completed five-paper gate
+## Other premises: what the targeted comparisons do and do not close
 
 | Premise/resource | Checked basis and boundary | What remains |
 |---|---|---|
-| Coherent single-particle lattice dynamics | Y22 and W11 at passage level; P15 abstract comparator only | More direct applicable precedents and an explicit finite coherent window. A large imaging area is not the same resource. |
-| Calibrated single attractive site, fixed quadratic schedule | Y22, W11 and Z16 give control components with different potential/sign/internal-state conditions; J98 gives the projection framework | Establish the actual on-site perturbation, residual depth and unwanted matrix elements for any device claim. No hardware calibration of our full schedule is supplied. |
-| Single-band description | J98 reduction; W11 excitation diagnostic; Y22 band preparation and lattice implementation | Compare the relevant energies and drive spectrum to the band gaps, and quantify excitations and hopping changes from sharp local control. Three records are not a completed five-to-ten audit. |
-| Other confinement and coherent area/time | J98, Y22, S10 and Z16 expose background potentials or finite operating regions | Specify curvature, disorder, boundaries and loss over the region/time actually used; no paper's separate benchmarks jointly establish our asymptotic finite-size family. |
-| Positive-minimum limit | Preserved ROUNDING proof with $`b\le1-\delta`$ | A joint mathematical limit is not experimental immunity to fixed residual depth. Full crossover remains unclaimed. |
+| Coherent single-particle lattice dynamics | Y22 and W11 at passage level; P15 remains abstract-only | A documented finite coherent window for this protocol. Two checked motion records do not meet a five-to-ten experimental count. |
+| Calibrated single attractive site, fixed quadratic schedule | Y22 expanded control passages; W11, Z16 and M17 offer addressing/shaping components with different signs, states or spatial profiles | Four component records, not four scalar single-site implementations. Certify all projected matrix elements and their time dependence, not just the central light shift. |
+| Single-band and nearest-neighbor description | J98, W11, Y22, L13 and C18: five framework/diagnostic records, including a PRL reduction audit | A component-count target is met, not five validations of our reduction. Bound in-band errors, higher-band coupling and any moving-basis term. Small leakage alone does not certify phase accuracy. |
+| Other confinement and coherent area/time | J98, Y22, S10, Z16, L13 and M17: six records exposing or controlling background potentials | These include idealizations and finite-region compensation, not six demonstrated coherent windows. Control the residual potential over the evolving state; a uniform density does not certify this. |
+| Positive-minimum limit | Preserved ROUNDING proof with $`b\le1-\delta`$ | A joint limit is not immunity to a fixed residual depth. Full crossover remains unclaimed. |
 | Fixed positive anisotropy | Preserved SPECTRAL_SCOPE proof and checks | Not uniform at zero transverse hopping; not evidence for arbitrary traps or extra bands. |
-| Closed evolution and no incoming continuum population | Conditional source model, with preparation/detection distinguished above | Audit initial contamination and environmental channels without relabeling continuum escape as lost atoms or discarding outcomes. |
+| Closed evolution and no incoming continuum population | Conditional source model and the preparation/detection distinction | Certify contamination and environmental channels without relabeling continuum escape as environmental loss or discarding outcomes. |
 
 For a physical local beam, the projected perturbation is generally
 
@@ -54,14 +56,22 @@ approximation to every focused beam. This is a calibration criterion, not a new 
 ## Decision and bounded next step
 
 **Preserve the conditional theory; do not claim a calibrated experimental protocol.**
-The operational audit bounds the probability discrepancy by the sum of preparation,
-dynamical and measurement errors. Errors $`o(L^{-2})`$ are sufficient to preserve the leading
-relative coefficient, but that worst-case condition is not a necessary apparatus
-precision requirement. Neither existing component fidelities nor dimensionless plots
-supply such a bound for this experiment.
+The generic operational probability bound remains valid. Under the additional pure-input,
+unitary-evolution and rank-one-readout assumptions, MODEL_RESIDUAL proves the sharper
+bound $`|p-P|\le2\sqrt P\,d+d^2`$. A total vector error $`d=o(L^{-1})`$ is
+sufficient in the fixed joint domain; the generic absolute-error condition
+$`o(L^{-2})`$ remains sufficient without that structure. Neither is a necessary
+hardware tolerance or evidence that an apparatus attains it.
 
-Finish only the specifically missing premise comparisons above and seek a model-matched
-preparation/readout error argument within the existing scope. Do not add citations
-merely to increase counts, replace the projector, or broaden to a new apparatus.
-An absence in the checked set is not a global impossibility result. A genuinely
-separate proof report remains absent; manuscript drafting and outreach remain on hold.
+The bounded documentary pass is complete as a **support/mismatch map**, not as proof
+of every physical premise. The requested count remains unmet for some rows; explicit
+model-specific gaps remain in every implementation claim. More generic papers cannot
+replace the required matrix elements, orbital identification, phase/error bounds or
+coherent operating window. Pause broad source accumulation here. Reopen a row only
+for a directly relevant primary result or a concrete model-matched calibration.
+
+Exact endpoint preparation and unconditional readout are still unresolved in the
+checked apparatus literature. The residual inequality does not construct them.
+A genuinely separate proof report is absent. The next author-side scientific check
+should challenge a specific proof obligation in READER_PACKET, without relabeling
+it as independent review. Manuscript drafting and outreach remain on hold.

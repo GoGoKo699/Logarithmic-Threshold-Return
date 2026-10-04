@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-04",
+  "repository": "GoGoKo699/Logarithmic-Threshold-Return",
+  "base_commit": "bcfeff934981595ee594e4dfc3a598ca25a36e0f",
+  "base_tree": "f8694ce56988deaf990f6f7c126af0b146c61bbb",
+  "base_artifact": {
+    "run_id": 37221121614,
+    "artifact_id": 11310825050,
+    "sha256": "382eb806d423b86ab348ec13a94a80ca65904e2582ead6943f56a29526c3f9ac",
+    "source_files": 46,
+    "local_git_tree_matches": true
+  },
+  "fresh_baseline": {
+    "status": "PASS",
+    "suite_count": 5,
+    "groups": 28,
+    "controls": 272,
+    "byte_identical": true,
+    "changed_fields": 0,
+    "preserved_files": 27,
+    "report_sha256": "4c7a99030828f4c425e503b109a3007d4d98b0e7f5980eb59292c2729df57f1e"
+  },
+  "new_checks": {
+    "command": "python tools/test_model_residual.py --output NEW_PATH.json",
+    "tests": 7,
+    "first_local_status": "PASS",
+    "part_of_original_272_controls": false,
+    "scope": "Small algebra, calibration and short 5-by-5 Duhamel checks; no new asymptotic campaign."
+  },
+  "primary_access": [
+    {
+      "id": "Y22",
+      "url": "https://arxiv.org/html/2202.01204v1",
+      "new_passages": "Methods I.2, I.3, I.5 and Section II: local-potential alignment, depth calibration, band filtering and confinement. Existing source; not a new article."
+    },
+    {
+      "id": "L13",
+      "url": "https://arxiv.org/pdf/1210.7957",
+      "version": "1210.7957v2",
+      "read": "PDF pages 1 and 2 visually checked, including equations (3)-(6); APS bibliographic record. HTML blocked by CAPTCHA. No full supplement audit.",
+      "doi": "10.1103/PhysRevLett.110.065301"
+    },
+    {
+      "id": "C18",
+      "url": "https://arxiv.org/html/1801.08784v1",
+      "read": "Sections II-III and equations (14)-(19); arXiv bibliography and APS title record. No raw data or quantitative performance audit.",
+      "doi": "10.1103/PhysRevA.97.043617"
+    },
+    {
+      "id": "M17",
+      "url": "https://www.nature.com/articles/nature22362",
+      "read": "Primary Extended Data Figure 1-2 captions and bibliographic record only. Main methods not read. Preprint HTML/PDF failed.",
+      "doi": "10.1038/nature22362"
+    }
+  ],
+  "retrieval_limits": [
+    "P15 HTML and PDF routes failed again; abstract/author bibliography only, not promoted.",
+    "An initially guessed Greiner paper path failed; the real author page was subsequently reached through its publication-list link, and still supplied only an abstract-level record.",
+    "Search-only unrelated results excluded. No third-party PDFs or full-text source copies are committed or redistributed."
+  ],
+  "decision": {
+    "core": "preserved",
+    "operational_note": "additional conditional residual and pure-amplitude bounds; not a correction of the earlier general bound",
+    "documentary_pass": "support/mismatch map complete at recorded depth; not all counts or exact premises validated",
+    "broad_source_expansion": "paused; reopen only a model-specific obligation",
+    "exact_device": "not established",
+    "separate_report": "absent",
+    "next_author_task": "Reader Gate A physical-amplitude identification",
+    "manuscript": "on hold",
+    "outside_contact": "not initiated"
+  },
+  "execution_limits": "Streaming container launch was rejected before a scientific result; a separately logged subprocess completed the full baseline. Actual candidate/PR/main evidence must be inspected separately.",
+  "candidate_ci": "not inferred from baseline; see actual PR and post-merge records"
+}
