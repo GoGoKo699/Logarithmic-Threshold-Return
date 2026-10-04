@@ -1,55 +1,59 @@
-# Current work order: challenge uniform positive-minimum return
+# Current work order: scrutinize the finite-volume comparison
 
-**4 October 2026, after the reflection-matching pass.** Work only in
+**4 October 2026, after the uniform-minimum pass.** Work only in
 `GoGoKo699/Logarithmic-Threshold-Return`. The fixed Hamiltonian, observable,
 coefficient and claimed domain are unchanged. Manuscript and outreach remain on hold.
 
-## What Gate B supplied
+## What Gate C supplied
 
-research/REFLECTION_MATCHING.md expands the zero-minimum proof. It displays the
-central plane-wave transfer and both endpoint basis matrices, retaining the
-principal-value and causal delta contributions. Positive-side control is based on
-the actual retarded current, with a nonsingular reflection chart and an explicit
-exact-lattice bound. The entire negative tail is controlled directly through the
-positive spectral measure, with the energy-coordinate factor retained.
+research/UNIFORM_MINIMUM.md exposes the supremum over every 0<=b<=1-delta for fixed
+delta>0. Subtracting b from both the exact coefficient and its reference wave number
+leaves the central perturbation independent of b. The full integrable singular core
+and its exponentially narrow forbidden region are retained, not cut out.
 
-The resulting phase-adjusted auxiliary amplitude is i*pi/(2L)+O(L^(-5/4)); Gate A
-supplies the finite-endpoint amplitude-modulus comparison. This is author-side
-reasoning, not independent review or a new physical result. No protected proof was
-rewritten. Six small diagnostic tests remain separate from the original 272 controls.
-The initial structural symbolic-zero failure and exact repair are archived.
+The passive denominator is controlled without assuming the zero-minimum sign of
+Im(h). On the entire negative outer interval, W-u>=(delta/2)W, and positivity of
+the two exact defect terms gives I_minus(u)<=(2/delta)^(5/2) I_minus(0), at the same
+alpha and cutoff. This supplies a uniform author-side matching route and the old
+coefficient pi^2/[4L^2(1-b)^2], without changing protected proof files or extending
+through b=1. Seven small tests include varying-b examples but are not a proof by
+sampling or additions to the original 272 controls.
 
-## Next bounded task: Gate C, not a crossover campaign
+## Next bounded task: Gate D
 
-Read READER_PACKET Gate C, ROUNDING Sections 2–4, and REFLECTION_MATCHING. Test
-uniformity over every 0<=b<=1-delta for fixed delta>0, not merely each fixed b.
+Read READER_PACKET Gate D and ROUNDING Section 6, with CORE's finite-size statement.
+Reconstruct the endpoint-state comparison between the finite torus and infinite
+lattice, including normalization, energy dependence and phase choice. Do not assume
+that the initial vector is compactly supported or the finite and infinite states
+are identical.
 
-Track the central transfer constants with q0=sqrt(1-b), including the exponentially
-narrow turning region; no pointwise Taylor expansion or removal of that region is
-permitted. Check the physical-to-local replacement and the passive denominator
-without assuming the zero-minimum sign of Im(h). The direct negative-tail estimate
-now involves W-u and must be justified uniformly, not copied from W alone. Keep the
-uniform finite-endpoint estimate and the relation among u, alpha, L and T explicit.
+Check the weighted hopping estimate on each geometry, the periodic seam residual
+and the time-integrated comparison. Explain why the real, even-time Hamiltonian
+makes the return amplitude the midpoint bilinear psi(0)^T psi(0), not its norm.
+Propagate the midpoint state error to this amplitude uniformly in the stated b
+family. Verify that mu=1/2 and n(T)=2 ceil(4.5T)+1 yield o(1/L) error, including
+the endpoint localization condition and all size-independent constants.
 
-Produce either a concise uniform lemma chain with all amplitude errors o(1/L),
-or a concrete objection naming the earlier passage and affected claim. Stop there.
-Do not extend through b=1, solve the complete crossover, optimize lattice size,
-change the cycle, or adopt another detector/platform. A required coefficient or
-domain correction must be recorded and approved before any protected-file edit.
-Gate D's finite-volume scrutiny remains a separate task.
+Produce a concise lemma chain or a concrete objection identifying the affected
+passage. Do not optimize the lattice size, change boundaries or the cycle, solve
+the residual-depth crossover, or adopt a different detector or platform. A required
+coefficient/domain correction must be recorded and approved before editing protected
+files. A completed author-side pass would still not be the absent separate report.
 
 ## Evidence, preservation and stopping rule
 
 Pin current main and read WORKSPACE.md, AGENTS.md and STATUS.md. Run integrity,
-all existing supplementary tests and every preserved scientific suite in fresh
-output paths. Include tools/test_reflection_matching.py, whose optional JSON
-output is exclusive-create. Preserve raw failures, numerical differences and
-exact reference bytes. Inspect actual candidate, PR and post-merge runs separately.
-The source/workload policy and all 27 mapped inputs remain unchanged.
+all supplementary tests including tools/test_uniform_minimum.py, and all five
+preserved scientific suites in fresh output paths. Keep raw failures and every
+numerical difference; report byte equality separately from assertion success.
+Inspect actual candidate, PR and post-merge reports, not only workflow badges.
 
-provenance/GATE_B_2026-10-04.json records this pass's base and local evidence;
-subsequent hosted results must be obtained from their reports, not inferred.
-A fresh assistant pass is not the absent separate-reader report. No invitations
-or other outside contact are authorized. Broad source collection remains paused;
-reopen a physical premise only for model-matched evidence. Implementation and
-priority limitations remain in the existing support/mismatch map.
+All 27 mapped inputs, original references, and comparison/workload policy remain
+unchanged. provenance/GATE_C_2026-10-04.json pins the incoming source and local
+scope; later hosted outcomes require their own evidence. Other repositories and
+the earlier unmerged alternate Gate B package are not imported into this work.
+
+Broad source collection remains paused. Implementation and priority gaps remain
+explicit in the support/mismatch map. No manuscript, release or outside invitation
+is initiated. After the bounded proof scrutiny, consolidate rather than adding
+new models to prolong development.

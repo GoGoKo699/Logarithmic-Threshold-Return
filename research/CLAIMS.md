@@ -13,7 +13,7 @@ positive-minimum and finite-volume domain are supporting parts of that statement
 |---|---|---|---|
 | Local unitary source and bound-state return | CORE, model; ASYMPTOTIC Sections 2–4 | Suite 05 coordinate/spectral comparison, suite 06 time/energy comparison | Site occupation is not the return projector |
 | Leading logarithmic law and coefficient | ASYMPTOTIC Sections 5–7, read together with AUDIT | Suites 06–07 scalar formulations, physical-band and boundary checks | Numerical convergence is not the matching proof |
-| Positive-minimum law for b below one | ROUNDING Sections 2–4 | Suite 08 joint-coefficient and finite-time checks | No formula through b=1 or every fixed residual depth |
+| Positive-minimum law for b below one | ROUNDING Sections 2–4; UNIFORM_MINIMUM | Suite 08 joint-coefficient and finite-time checks | No formula through b=1 or every fixed residual depth |
 | A finite-system family with the same limit | ROUNDING Section 6 | Suite 08 finite torus/coordinate and locality controls | Sufficient size is not necessary or optimized size |
 | Fixed positive unequal hoppings | SPECTRAL_SCOPE Sections 2–4 | Suite 09 resolvent, causality and scalar checks | Not uniform as transverse hopping vanishes |
 
@@ -56,3 +56,7 @@ Full crossover, general trap universality, optimal volume, experimental superior
 and a joint apparatus are not claimed. The known terminology
 correction is in SPECTRAL_SCOPE: the lower-edge density is finite; the Green function
 is logarithmic. The original older wording is preserved, not silently rewritten.
+
+[Gate C](UNIFORM_MINIMUM.md) makes the positive-minimum quantifiers and shifted
+negative-tail domination explicit. Its seven finite diagnostics are separate from
+the preserved scientific suites and do not constitute an independent report.

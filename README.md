@@ -86,6 +86,8 @@ The [physical-amplitude lemma chain](research/AMPLITUDE_IDENTIFICATION.md) now s
 an author-side retarded reconstruction, channel normalization and uniform tail comparison.
 The [reflection-matching note](research/REFLECTION_MATCHING.md) expands Gate B: explicit
 endpoint cancellation and exact-lattice positive/negative outer control at zero minimum.
+The [uniform-minimum note](research/UNIFORM_MINIMUM.md) expands Gate C: the full
+positive-minimum domain, including its narrow turning region and shifted negative tail.
 [Source labels](research/SOURCES.md) map the preserved notes' local reference numbers.
 [Assumptions](literature/ASSUMPTIONS.md) distinguishes ideal model premises from a joint
 apparatus, with a [primary-source register](literature/PHYSICAL_PRECEDENTS.md) and
