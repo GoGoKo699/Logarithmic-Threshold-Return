@@ -84,7 +84,9 @@ primary-access gap without rewriting the preserved register. A
 it is not a completed review.
 [Source labels](research/SOURCES.md) map the preserved notes' local reference numbers.
 [Assumptions](literature/ASSUMPTIONS.md) distinguishes ideal model premises from a joint
-apparatus. [Status](STATUS.md) and the [work order](work_orders/CURRENT.md) identify what
+apparatus, with a [primary-source register](literature/PHYSICAL_PRECEDENTS.md) and
+[preparation/readout audit](research/PREPARATION_READOUT.md). The latter quantifies why
+site occupation cannot simply replace the declared bound-state projector. [Status](STATUS.md) and the [work order](work_orders/CURRENT.md) identify what
 remains open. No external tutorial has been selected for this project.
 
 ## Reproduce without rewriting evidence
