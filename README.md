@@ -82,6 +82,8 @@ the [Devdariani comparison](literature/DEVDARIANI_COMPARISON.md) updates its his
 primary-access gap without rewriting the preserved register. A
 [separate-reader packet](research/READER_PACKET.md) exposes the four proof obligations;
 it is not a completed review.
+The [physical-amplitude lemma chain](research/AMPLITUDE_IDENTIFICATION.md) now supplies
+an author-side retarded reconstruction, channel normalization and uniform tail comparison.
 [Source labels](research/SOURCES.md) map the preserved notes' local reference numbers.
 [Assumptions](literature/ASSUMPTIONS.md) distinguishes ideal model premises from a joint
 apparatus, with a [primary-source register](literature/PHYSICAL_PRECEDENTS.md) and
