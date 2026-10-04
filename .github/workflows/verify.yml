@@ -38,6 +38,8 @@ jobs:
         run: python tools/test_predecessor.py
       - name: Check the operational contract separately
         run: python tools/test_operational_contract.py --output operational-evidence/REPORT.json
+      - name: Check microscopic model residuals separately
+        run: python tools/test_model_residual.py --output model-residual-evidence/REPORT.json
       - name: Check preserved inputs and document links
         run: python verify.py --integrity-only
       - name: Run every scientific suite and retain comparisons
@@ -56,6 +58,7 @@ jobs:
           path: |
             verification-artifacts/
             operational-evidence/
+            model-residual-evidence/
             tracked-source.zip
           if-no-files-found: warn
           retention-days: 14

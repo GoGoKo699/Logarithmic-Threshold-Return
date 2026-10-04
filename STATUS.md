@@ -31,19 +31,26 @@ status. This scoped comparison does not establish exhaustive priority.
 A [separate-reader packet](research/READER_PACKET.md) is prepared, but no separate
 report has been received and no reader has been contacted.
 
-The preparation/readout pass now records nine passage-level primary comparisons and
-two abstract-only comparators in [PHYSICAL_PRECEDENTS.md](literature/PHYSICAL_PRECEDENTS.md).
-Six preparation-related and seven measurement/diagnostic component records meet the
-component-count target, not exact model-specific preparation/readout. Other premise
-collections remain below the requested depth/count, as [ASSUMPTIONS.md](literature/ASSUMPTIONS.md)
-records explicitly. The closest joint subset is not the complete threshold protocol.
+The physical-source register now contains twelve passage-level primary records
+(one restricted to extended-data captions) and two abstract-only comparators in
+[PHYSICAL_PRECEDENTS.md](literature/PHYSICAL_PRECEDENTS.md). The targeted audit is
+complete as a support/mismatch map, not a calibrated implementation or a completed
+five-to-ten gate for every row. [ASSUMPTIONS.md](literature/ASSUMPTIONS.md) retains
+those count shortfalls and exact model-specific obligations. Broad citation expansion
+is paused; further evidence must target an identified mismatch.
 
-The [operational audit](research/PREPARATION_READOUT.md) derives a static endpoint
-origin weight of about 0.72404, an equal-position-histogram ambiguity, and a sufficient
-preparation/dynamics/measurement error contract. These sharpen implementation boundaries;
-they do not correct or strengthen the preserved logarithmic theorem. Six new elementary
-checks are separate from the original 272 controls and from independent proof review. Full residual-depth crossover and optimal finite size are not
-required to be solved by default; they remain outside the demonstrated scope.
+The [preparation/readout audit](research/PREPARATION_READOUT.md) and its six checks
+are unchanged. The new [model-residual note](research/MODEL_RESIDUAL.md) connects
+microscopic generator errors to the fixed dynamics, including higher-band coupling
+and time-dependent orbital identification. It gives a counterexample to certification
+from small leakage alone and a sharper sufficient amplitude budget for pure/unitary/
+rank-one operation. Seven new small tests check these elementary arguments, not the
+asymptotic theorem or any apparatus. They are separate from the original 272 controls.
+
+The logarithmic coefficient, positive-minimum domain and finite-size statement are
+preserved. Full crossover, optimal size and a joint experiment are not claimed.
+The next author-side task is a focused challenge to reader Gate A, not a new model
+or a self-issued independent report.
 
 ## Integration and evidence
 
@@ -89,3 +96,14 @@ integrity gate, 14 infrastructure tests and five predecessor-algebra checks. The
 [pass record](provenance/PREMISE_AUDIT_2026-10-04.json) pins the source snapshot,
 new diagnostic and retained logs. Candidate and post-merge results must be inspected
 from their actual runs; no success is inferred from this baseline.
+
+## Local-control and reduction pass
+
+Base revision `bcfeff934981595ee594e4dfc3a598ca25a36e0f` was recovered from the
+inspected main artifact; its complete source tree matched
+`f8694ce56988deaf990f6f7c126af0b146c61bbb`. A fresh base run passed all five suites,
+28 groups and 272 controls with byte-identical results. The
+[control-pass record](provenance/CONTROL_AUDIT_2026-10-04.json) records primary access
+and the new checks. Candidate and post-merge results must come from their own actual
+runs and retained artifacts, not from this baseline. All 27 protected inputs remain
+unchanged; no earlier reference or comparison policy is refreshed.

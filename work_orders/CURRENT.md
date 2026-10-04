@@ -1,70 +1,62 @@
-# Current work order: finish only the remaining premise gaps
+# Current work order: challenge the physical-amplitude identification
 
-**4 October 2026, after the preparation/readout pass.** Work only in
+**4 October 2026, after the targeted local-control pass.** Work only in
 `GoGoKo699/Logarithmic-Threshold-Return`. The model, observable and claimed law in
 research/CORE.md are unchanged. Manuscript drafting and outreach remain on hold.
 
-## What is now established in the author-side record
+## What this pass settled, and what it did not
 
-The Devdariani construction comparison remains complete at its documented access
-depth; the preserved PRIOR_ART.md has a historical access label. Do not redo that
-retrieval without a new question. It is still not exhaustive priority.
+literature/ASSUMPTIONS.md is now a bounded support/mismatch map. The source register
+has twelve passage-level primary records (one caption-limited) and two abstract-only
+comparators. Source-count targets remain incomplete for some premises; no exact
+preparation, detector or joint device is established. Do not pad those counts with
+more ordinary microscope, spin-addressing or unrelated platform papers.
 
-literature/PHYSICAL_PRECEDENTS.md records nine passage-level primary comparisons
-and two abstract-only comparators. The preparation and diagnostic collections have
-six and seven component records respectively; neither is a demonstration of our
-exact input, projector or joint protocol. Y22 is the closest joint subset. The
-other premise collections are still partial. See literature/ASSUMPTIONS.md.
+research/MODEL_RESIDUAL.md provides an explicit generator residual for the fixed
+Hamiltonian, with an isometry identifying the physical orbitals. It distinguishes
+in-band errors, higher-band coupling, basis motion and background confinement.
+Its three-level example rejects a leakage-only certificate; its amplitude budget
+is sharper only under pure/unitary/rank-one assumptions. Seven small tests are not
+additional threshold-law controls or apparatus validation. The earlier generic
+operational error contract and all protected source files are unchanged.
 
-research/PREPARATION_READOUT.md quantifies the site/orbital mismatch and derives a
-sufficient error contract. Its six elementary/static tests are not six new threshold
-dynamics suites, a detector proposal, or an independent report. No preserved proof,
-scientific script or numerical reference was changed.
+Broad documentary expansion stops here. Reopen a premise only for a specific
+model-matched calibration or directly relevant primary result. The remaining
+implementation obligations are explicit, not silently declared solved.
 
-## Next bounded work
+## Next bounded scientific task: reader Gate A, author-side only
 
-Prioritize model-matched evidence over more generic imaging citations. Resolve the
-remaining local-potential projection/calibration, single-band and background-confinement
-premises through suitable primary passages. The requested five-to-ten references per
-applicable convention is still not met for every row. Do not pad counts with abstracts,
-internal-spin addressing alone, or multiple versions of the same paper.
+Read research/READER_PACKET.md Gate A, ASYMPTOTIC Sections 2–3, AUDIT Sections 2
+and 5, and ROUNDING Section 2. Reconstruct the energy-domain to time-domain mapping
+for the exact local quadratic cycle. Check the retarded/no-incoming-continuum
+solution, stationary-phase normalization on both bound trajectories, and the
+finite-endpoint comparison with a uniform O(1/T) amplitude-modulus error.
 
-For preparation/readout, determine whether the checked precedents actually support
-an error-controlled realization of the fixed extended endpoint orbital and its
-unconditional projector. Retain the distinction between initial loading yield and
-post-start survival conditioning. A position-density overlap is not a phase certificate.
-A formal measurement-effect identity is not an implemented inverse-loading sequence.
-No new detector, ramp, or platform may be adopted without an explicit scope decision.
+Produce either a concise lemma chain that identifies all needed hypotheses and
+error orders, or a concrete objection with the exact earlier passage affected.
+Do not use scalar reflection plots as proof of the time-domain identification.
+Do not infer a wave-operator statement from norm conservation alone. A result must
+address this fixed proof obligation, not add a different ramp, model or detector.
 
-Use the conservative operational error bound as a sufficient test, not a necessary
-hardware precision claim. Do not transplant field of view, optical-bench precision,
-internal coherence or separately optimized fidelities into this protocol's resources.
-If evidence remains component-only, say so and retain the conditional theory framing.
-Do not manufacture an experimental claim merely to mark the audit complete.
+This is author-side scrutiny and cannot close the absent separate-reader report.
+Do not contact a reader or issue invitations without explicit owner instruction.
+No protected scientific-file correction may be made without the specifically
+justified approval/record process. An unresolved issue must remain visibly open.
 
-## Separate proof reading and stopping rule
+## Preservation, verification and stopping rule
 
-research/READER_PACKET.md exposes four mathematical gates. A separate report is
-still absent. Another assistant pass is author-side work, not independent validation.
-No outside invitations or contact without explicit owner instruction.
-
-Stop expanding the source list when every load-bearing premise has either appropriate
-direct support or an explicit unresolved model-specific obligation. Further work
-must target one such obligation or a concrete objection to the proof, not create a
-new model to prolong development. Full crossover, optimal size and experimental
-superiority remain unclaimed.
-
-## Verification and correction
-
-Read WORKSPACE.md, AGENTS.md and STATUS.md; pin the actual base. Run
+Pin the actual base and read WORKSPACE.md, AGENTS.md and STATUS.md. Run
 `python verify.py --integrity-only`, `python tools/test_verify.py`,
 `python tools/test_predecessor.py`, `python tools/test_operational_contract.py`,
-and all preserved scientific suites in a fresh output directory. Keep complete
-logs, differences and failed-launch records. New output paths must not overwrite
-references. Report exact bytes separately from scientific assertion success.
+`python tools/test_model_residual.py`, and all preserved scientific suites in a
+fresh output directory. Retain logs, raw differences and failed launch records.
+Report byte equality separately from scientific assertion success. Inspect actual
+PR and post-merge runs and downloaded evidence. The existing workload-review
+policy and all 27 mapped source/history inputs remain unchanged.
 
-provenance/PREMISE_AUDIT_2026-10-04.json pins this pass's evidence; actual PR and
-post-merge workflows must be checked independently of the baseline. Preserve all
-27 mapped inputs, archived attempts and the existing workload-review policy. Any
-future scientific correction must identify the affected passage and be approved
-and recorded before changing protected files. Other repositories remain untouched.
+provenance/CONTROL_AUDIT_2026-10-04.json pins this pass's baseline/access record.
+No full residual-depth crossover, optimal-size campaign, independent-review claim,
+experimental superiority, new platform or other-repository work is authorized.
+Stop a proof check once the specified implication is either supported at the
+claimed order or an actionable gap is recorded; do not create new tasks just to
+prolong development.
