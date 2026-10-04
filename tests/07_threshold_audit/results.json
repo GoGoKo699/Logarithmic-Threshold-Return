@@ -1,0 +1,780 @@
+{
+  "status": "PASS",
+  "date": "2026-10-04",
+  "group_count": 6,
+  "cases": 58,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "groups": {
+    "algebra_and_bound_normalization": {
+      "cases": 10,
+      "symbolic_riccati_residual": "0",
+      "symbolic_defect_residual": "0",
+      "normalization": [
+        {
+          "T": 30,
+          "energy": -0.001,
+          "site_weight": 0.008552394652660927,
+          "normalization_ratio": 0.008888888888888889,
+          "expected": 0.008888888888888889
+        },
+        {
+          "T": 30,
+          "energy": -0.1,
+          "site_weight": 0.24809404646881225,
+          "normalization_ratio": 0.008888888888888889,
+          "expected": 0.008888888888888889
+        },
+        {
+          "T": 30,
+          "energy": -1.0,
+          "site_weight": 0.7148756009438624,
+          "normalization_ratio": 0.008888888888888889,
+          "expected": 0.008888888888888889
+        },
+        {
+          "T": 30,
+          "energy": -10.0,
+          "site_weight": 0.9783811726470314,
+          "normalization_ratio": 0.008888888888888889,
+          "expected": 0.008888888888888889
+        },
+        {
+          "T": 100,
+          "energy": -0.001,
+          "site_weight": 0.008552394652660927,
+          "normalization_ratio": 0.0008,
+          "expected": 0.0008
+        },
+        {
+          "T": 100,
+          "energy": -0.1,
+          "site_weight": 0.24809404646881225,
+          "normalization_ratio": 0.0008,
+          "expected": 0.0008
+        },
+        {
+          "T": 100,
+          "energy": -1.0,
+          "site_weight": 0.7148756009438624,
+          "normalization_ratio": 0.0008,
+          "expected": 0.0008
+        },
+        {
+          "T": 100,
+          "energy": -10.0,
+          "site_weight": 0.9783811726470314,
+          "normalization_ratio": 0.0008,
+          "expected": 0.0008
+        }
+      ],
+      "scope": "Algebraic and static identities; full time-scattering interpretation additionally uses the stated no-incoming-continuum boundary."
+    },
+    "full_physical_band": {
+      "cases": 8,
+      "rows": [
+        {
+          "T": 30.0,
+          "values": [
+            {
+              "T": 30.0,
+              "L": 6.5031545408135,
+              "energy_scale": 0.047958528168986755,
+              "upper_energy": 12.0,
+              "lower_energy": -18.7129032139727,
+              "terminal_load": "airy",
+              "amplitude": [
+                0.18625676085788673,
+                -0.004338692066015638
+              ],
+              "probability": 0.03471040521411571,
+              "function_evaluations": 116576,
+              "scope": "Auxiliary infinite parabola; asymptotic far-energy boundary and finite extraction checked by refinement, not the exact finite-time cycle."
+            },
+            {
+              "T": 30.0,
+              "L": 6.5031545408135,
+              "energy_scale": 0.047958528168986755,
+              "upper_energy": 12.0,
+              "lower_energy": -18.7129032139727,
+              "terminal_load": "neumann",
+              "amplitude": [
+                0.18625676085789805,
+                -0.004338692066016026
+              ],
+              "probability": 0.03471040521411993,
+              "function_evaluations": 116744,
+              "scope": "Auxiliary infinite parabola; asymptotic far-energy boundary and finite extraction checked by refinement, not the exact finite-time cycle."
+            },
+            {
+              "T": 30.0,
+              "L": 6.5031545408135,
+              "energy_scale": 0.047958528168986755,
+              "upper_energy": 12.0,
+              "lower_energy": -18.7129032139727,
+              "terminal_load": "dissipative_test",
+              "amplitude": [
+                0.1862567608578841,
+                -0.0043386920660056375
+              ],
+              "probability": 0.03471040521411464,
+              "function_evaluations": 116696,
+              "scope": "Auxiliary infinite parabola; asymptotic far-energy boundary and finite extraction checked by refinement, not the exact finite-time cycle."
+            },
+            {
+              "T": 30.0,
+              "L": 6.5031545408135,
+              "energy_scale": 0.047958528168986755,
+              "upper_energy": 16.0,
+              "lower_energy": -18.7129032139727,
+              "terminal_load": "airy",
+              "amplitude": [
+                0.18625676012399509,
+                -0.0043386914771163946
+              ],
+              "probability": 0.034710404935621046,
+              "function_evaluations": 134840,
+              "scope": "Auxiliary infinite parabola; asymptotic far-energy boundary and finite extraction checked by refinement, not the exact finite-time cycle."
+            }
+          ],
+          "spread": 2.784988836768143e-10,
+          "prior_local_boundary": 0.0347104052,
+          "difference_from_prior": 1.4115708601991628e-11
+        },
+        {
+          "T": 100.0,
+          "values": [
+            {
+              "T": 100.0,
+              "L": 7.627397670861312,
+              "energy_scale": 0.015581643316705635,
+              "upper_energy": 12.0,
+              "lower_energy": -7.130843396521937,
+              "terminal_load": "airy",
+              "amplitude": [
+                0.14321632609172838,
+                0.08131521954482808
+              ],
+              "probability": 0.027123080988835868,
+              "function_evaluations": 121772,
+              "scope": "Auxiliary infinite parabola; asymptotic far-energy boundary and finite extraction checked by refinement, not the exact finite-time cycle."
+            },
+            {
+              "T": 100.0,
+              "L": 7.627397670861312,
+              "energy_scale": 0.015581643316705635,
+              "upper_energy": 12.0,
+              "lower_energy": -7.130843396521937,
+              "terminal_load": "neumann",
+              "amplitude": [
+                0.14321632609174667,
+                0.08131521954483878
+              ],
+              "probability": 0.027123080988842852,
+              "function_evaluations": 121880,
+              "scope": "Auxiliary infinite parabola; asymptotic far-energy boundary and finite extraction checked by refinement, not the exact finite-time cycle."
+            },
+            {
+              "T": 100.0,
+              "L": 7.627397670861312,
+              "energy_scale": 0.015581643316705635,
+              "upper_energy": 12.0,
+              "lower_energy": -7.130843396521937,
+              "terminal_load": "dissipative_test",
+              "amplitude": [
+                0.14321632609173143,
+                0.08131521954483557
+              ],
+              "probability": 0.02712308098883796,
+              "function_evaluations": 121868,
+              "scope": "Auxiliary infinite parabola; asymptotic far-energy boundary and finite extraction checked by refinement, not the exact finite-time cycle."
+            },
+            {
+              "T": 100.0,
+              "L": 7.627397670861312,
+              "energy_scale": 0.015581643316705635,
+              "upper_energy": 16.0,
+              "lower_energy": -7.130843396521937,
+              "terminal_load": "airy",
+              "amplitude": [
+                0.14321632525450212,
+                0.08131521991336438
+              ],
+              "probability": 0.02712308080896215,
+              "function_evaluations": 145868,
+              "scope": "Auxiliary infinite parabola; asymptotic far-energy boundary and finite extraction checked by refinement, not the exact finite-time cycle."
+            }
+          ],
+          "spread": 1.798807006125891e-10,
+          "prior_local_boundary": 0.0271230811,
+          "difference_from_prior": 1.1116413345391152e-10
+        }
+      ],
+      "scope": "Includes omega=4 singularity, upper band edge, and forbidden positive-energy tail; not merely one absorbing boundary placed near zero."
+    },
+    "passive_boundary_family": {
+      "cases": 20,
+      "rows": [
+        {
+          "L": 10.0,
+          "values": [
+            {
+              "L": 10.0,
+              "positive_endpoint": 80.0,
+              "extraction_point": -200.0,
+              "load": "wkb",
+              "method": "riccati",
+              "amplitude": [
+                0.09885269575826891,
+                0.08775181751723812
+              ],
+              "squared_modulus": 0.017472236936255537,
+              "function_evaluations": 32914,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 10.0,
+              "positive_endpoint": 80.0,
+              "extraction_point": -200.0,
+              "load": "0.0",
+              "method": "riccati",
+              "amplitude": [
+                0.09885269575347247,
+                0.08775181751188552
+              ],
+              "squared_modulus": 0.01747223693436785,
+              "function_evaluations": 33514,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 10.0,
+              "positive_endpoint": 80.0,
+              "extraction_point": -200.0,
+              "load": "10.0",
+              "method": "riccati",
+              "amplitude": [
+                0.09885269576529838,
+                0.08775181752676019
+              ],
+              "squared_modulus": 0.017472236939316457,
+              "function_evaluations": 35410,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 10.0,
+              "positive_endpoint": 80.0,
+              "extraction_point": -200.0,
+              "load": "-10.0",
+              "method": "riccati",
+              "amplitude": [
+                0.09885269575271893,
+                0.0877518175108267
+              ],
+              "squared_modulus": 0.017472236934033047,
+              "function_evaluations": 33550,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 10.0,
+              "positive_endpoint": 80.0,
+              "extraction_point": -200.0,
+              "load": "(-0-1j)",
+              "method": "riccati",
+              "amplitude": [
+                0.09885269575332416,
+                0.08775181751167864
+              ],
+              "squared_modulus": 0.01747223693430222,
+              "function_evaluations": 33106,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 10.0,
+              "positive_endpoint": 80.0,
+              "extraction_point": -200.0,
+              "load": "(-0-100j)",
+              "method": "riccati",
+              "amplitude": [
+                0.09885269575692245,
+                0.08775181751672667
+              ],
+              "squared_modulus": 0.017472236935899575,
+              "function_evaluations": 33958,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            }
+          ],
+          "probability_spread": 5.28340912686609e-12
+        },
+        {
+          "L": 20.0,
+          "values": [
+            {
+              "L": 20.0,
+              "positive_endpoint": 160.0,
+              "extraction_point": -400.0,
+              "load": "wkb",
+              "method": "riccati",
+              "amplitude": [
+                0.07006378957794805,
+                0.016359411295151158
+              ],
+              "squared_modulus": 0.005176564947946901,
+              "function_evaluations": 48754,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 20.0,
+              "positive_endpoint": 160.0,
+              "extraction_point": -400.0,
+              "load": "0.0",
+              "method": "riccati",
+              "amplitude": [
+                0.07006378956179903,
+                0.016359411290343445
+              ],
+              "squared_modulus": 0.005176564945526674,
+              "function_evaluations": 50266,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 20.0,
+              "positive_endpoint": 160.0,
+              "extraction_point": -400.0,
+              "load": "10.0",
+              "method": "riccati",
+              "amplitude": [
+                0.07006378955913455,
+                0.016359411288607247
+              ],
+              "squared_modulus": 0.005176564945096501,
+              "function_evaluations": 52330,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 20.0,
+              "positive_endpoint": 160.0,
+              "extraction_point": -400.0,
+              "load": "-10.0",
+              "method": "riccati",
+              "amplitude": [
+                0.07006378956802196,
+                0.016359411292468717
+              ],
+              "squared_modulus": 0.005176564946468216,
+              "function_evaluations": 50146,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 20.0,
+              "positive_endpoint": 160.0,
+              "extraction_point": -400.0,
+              "load": "(-0-1j)",
+              "method": "riccati",
+              "amplitude": [
+                0.07006378955898963,
+                0.0163594112889422
+              ],
+              "squared_modulus": 0.005176564945087153,
+              "function_evaluations": 48970,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 20.0,
+              "positive_endpoint": 160.0,
+              "extraction_point": -400.0,
+              "load": "(-0-100j)",
+              "method": "riccati",
+              "amplitude": [
+                0.07006378956596734,
+                0.01635941129111611
+              ],
+              "squared_modulus": 0.00517656494613605,
+              "function_evaluations": 50506,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            }
+          ],
+          "probability_spread": 2.8597480286607357e-12
+        },
+        {
+          "L": 50.0,
+          "values": [
+            {
+              "L": 50.0,
+              "positive_endpoint": 400.0,
+              "extraction_point": -1000.0,
+              "load": "wkb",
+              "method": "riccati",
+              "amplitude": [
+                0.006101418308870035,
+                0.02970622582890682
+              ],
+              "squared_modulus": 0.0009196871583778252,
+              "function_evaluations": 94378,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 50.0,
+              "positive_endpoint": 400.0,
+              "extraction_point": -1000.0,
+              "load": "0.0",
+              "method": "riccati",
+              "amplitude": [
+                0.006101418310310393,
+                0.029706225838126266
+              ],
+              "squared_modulus": 0.0009196871589431516,
+              "function_evaluations": 98470,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 50.0,
+              "positive_endpoint": 400.0,
+              "extraction_point": -1000.0,
+              "load": "10.0",
+              "method": "riccati",
+              "amplitude": [
+                0.0061014183073664335,
+                0.029706225821037074
+              ],
+              "squared_modulus": 0.000919687157891916,
+              "function_evaluations": 100882,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 50.0,
+              "positive_endpoint": 400.0,
+              "extraction_point": -1000.0,
+              "load": "-10.0",
+              "method": "riccati",
+              "amplitude": [
+                0.006101418311281476,
+                0.029706225843408263
+              ],
+              "squared_modulus": 0.0009196871592688177,
+              "function_evaluations": 98206,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 50.0,
+              "positive_endpoint": 400.0,
+              "extraction_point": -1000.0,
+              "load": "(-0-1j)",
+              "method": "riccati",
+              "amplitude": [
+                0.006101418309552464,
+                0.02970622583473308
+              ],
+              "squared_modulus": 0.0009196871587323051,
+              "function_evaluations": 94498,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 50.0,
+              "positive_endpoint": 400.0,
+              "extraction_point": -1000.0,
+              "load": "(-0-100j)",
+              "method": "riccati",
+              "amplitude": [
+                0.006101418309778489,
+                0.029706225837078503
+              ],
+              "squared_modulus": 0.0009196871588744106,
+              "function_evaluations": 98530,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            }
+          ],
+          "probability_spread": 1.3769017393264193e-12
+        }
+      ],
+      "independent_formulation": {
+        "vector": {
+          "L": 20.0,
+          "positive_endpoint": 160.0,
+          "extraction_point": -400.0,
+          "load": "0.0",
+          "method": "vector",
+          "amplitude": [
+            0.0700637895981034,
+            0.016359411873783238
+          ],
+          "squared_modulus": 0.0051765649697033825,
+          "function_evaluations": 35002,
+          "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+        },
+        "riccati": {
+          "L": 20.0,
+          "positive_endpoint": 160.0,
+          "extraction_point": -400.0,
+          "load": "0.0",
+          "method": "riccati",
+          "amplitude": [
+            0.07006378956179903,
+            0.016359411290343445
+          ],
+          "squared_modulus": 0.005176564945526674,
+          "function_evaluations": 50266,
+          "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+        },
+        "error": 2.4176708378342848e-11
+      },
+      "scope": "Six stress-test terminations are finite evidence. The all-passive statement follows from the analytic half-plane bound, not sampling."
+    },
+    "finite_passivity_bound": {
+      "cases": 9,
+      "rows": [
+        {
+          "L": 10.0,
+          "R": 1.7782794100389228,
+          "B": 100.0,
+          "oneway_attenuation": 27.2243465546388,
+          "integrated_defect": 0.013416281125228966,
+          "amplitude_bound": 0.16770351406536207,
+          "largest_tested_local_reflection": 0.001471361521560006,
+          "half_plane_sample_max": 1.2956658879617373,
+          "terminations": [
+            {
+              "L": 10.0,
+              "positive_endpoint": 100.0,
+              "extraction_point": 1.7782794100389228,
+              "load": "0.0",
+              "method": "riccati",
+              "amplitude": [
+                -0.0013470378120052041,
+                -0.0005919407572789304
+              ],
+              "squared_modulus": 2.1649047270997213e-06,
+              "function_evaluations": 6485,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 10.0,
+              "positive_endpoint": 100.0,
+              "extraction_point": 1.7782794100389228,
+              "load": "10.0",
+              "method": "riccati",
+              "amplitude": [
+                -0.0013470378120036288,
+                -0.0005919407572786488
+              ],
+              "squared_modulus": 2.1649047270951435e-06,
+              "function_evaluations": 8441,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 10.0,
+              "positive_endpoint": 100.0,
+              "extraction_point": 1.7782794100389228,
+              "load": "(-0-1j)",
+              "method": "riccati",
+              "amplitude": [
+                -0.0013470378120117054,
+                -0.000591940757287495
+              ],
+              "squared_modulus": 2.1649047271273757e-06,
+              "function_evaluations": 6101,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            }
+          ]
+        },
+        {
+          "L": 20.0,
+          "R": 2.114742526881128,
+          "B": 400.0,
+          "oneway_attenuation": 47.20559022462883,
+          "integrated_defect": 0.0058670887083672,
+          "amplitude_bound": 0.07333860885459001,
+          "largest_tested_local_reflection": 0.0005739261137751139,
+          "half_plane_sample_max": 1.115171931831238,
+          "terminations": [
+            {
+              "L": 20.0,
+              "positive_endpoint": 400.0,
+              "extraction_point": 2.114742526881128,
+              "load": "0.0",
+              "method": "riccati",
+              "amplitude": [
+                -0.0005357350979969067,
+                -0.0002058618197836113
+              ],
+              "squared_modulus": 3.293911840703752e-07,
+              "function_evaluations": 25253,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 20.0,
+              "positive_endpoint": 400.0,
+              "extraction_point": 2.114742526881128,
+              "load": "10.0",
+              "method": "riccati",
+              "amplitude": [
+                -0.0005357350979969518,
+                -0.00020586181978305177
+              ],
+              "squared_modulus": 3.2939118407019327e-07,
+              "function_evaluations": 27377,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 20.0,
+              "positive_endpoint": 400.0,
+              "extraction_point": 2.114742526881128,
+              "load": "(-0-1j)",
+              "method": "riccati",
+              "amplitude": [
+                -0.0005357350979977847,
+                -0.00020586181978771338
+              ],
+              "squared_modulus": 3.29391184073005e-07,
+              "function_evaluations": 24113,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            }
+          ]
+        },
+        {
+          "L": 50.0,
+          "R": 2.6591479484724942,
+          "B": 2500.0,
+          "oneway_attenuation": 97.56385388242624,
+          "integrated_defect": 0.0018849167067469049,
+          "amplitude_bound": 0.023561458834336312,
+          "largest_tested_local_reflection": 0.00015668486419568065,
+          "half_plane_sample_max": 1.0377486733847627,
+          "terminations": [
+            {
+              "L": 50.0,
+              "positive_endpoint": 2500.0,
+              "extraction_point": 2.6591479484724942,
+              "load": "0.0",
+              "method": "riccati",
+              "amplitude": [
+                -0.00014900337115235677,
+                -4.845763152223273e-05
+              ],
+              "squared_modulus": 2.4550146667511473e-08,
+              "function_evaluations": 153797,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 50.0,
+              "positive_endpoint": 2500.0,
+              "extraction_point": 2.6591479484724942,
+              "load": "10.0",
+              "method": "riccati",
+              "amplitude": [
+                -0.00014900337115253908,
+                -4.8457631523418324e-05
+              ],
+              "squared_modulus": 2.4550146667680697e-08,
+              "function_evaluations": 156125,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            },
+            {
+              "L": 50.0,
+              "positive_endpoint": 2500.0,
+              "extraction_point": 2.6591479484724942,
+              "load": "(-0-1j)",
+              "method": "riccati",
+              "amplitude": [
+                -0.00014900337115400213,
+                -4.8457631522409054e-05
+              ],
+              "squared_modulus": 2.4550146668018888e-08,
+              "function_evaluations": 150017,
+              "scope": "Local-WKB reflection at R, or return at a common negative extraction point. Terminal loads are mathematical stress tests."
+            }
+          ]
+        }
+      ],
+      "scope": "Universal constant is proved by Mobius/half-plane geometry. Sampling only tests the implementation."
+    },
+    "power_law_comparator": {
+      "cases": 8,
+      "power_rows": [
+        {
+          "spectral_power": 0.05,
+          "numerical_reflection": 0.005868397646327903,
+          "bessel_reflection": 0.005868397632519052,
+          "error": 1.3808850764240876e-11
+        },
+        {
+          "spectral_power": 0.1,
+          "numerical_reflection": 0.022338347577277082,
+          "bessel_reflection": 0.022338347549742992,
+          "error": 2.7534089591663147e-11
+        },
+        {
+          "spectral_power": 0.25,
+          "numerical_reflection": 0.1206147584780677,
+          "bessel_reflection": 0.12061475842818332,
+          "error": 4.988437440900384e-11
+        },
+        {
+          "spectral_power": 0.5,
+          "numerical_reflection": 0.38196601129580016,
+          "bessel_reflection": 0.3819660112501052,
+          "error": 4.569494782558081e-11
+        },
+        {
+          "spectral_power": 0.75,
+          "numerical_reflection": 0.6902785321362478,
+          "bessel_reflection": 0.6902785321094299,
+          "error": 2.6817881249030506e-11
+        }
+      ],
+      "tangent": [
+        {
+          "L": 20,
+          "power_comparator": 0.005868397632519052,
+          "ratio_to_log_leading": 0.9513487907371571
+        },
+        {
+          "L": 100,
+          "power_comparator": 0.0002442861186939807,
+          "ratio_to_log_leading": 0.9900543477386698
+        },
+        {
+          "L": 500,
+          "power_comparator": 9.849886676636341e-06,
+          "ratio_to_log_leading": 0.9980021768196868
+        }
+      ],
+      "scope": "Standard Bessel matching comparator, not a new physical model or an attribution of the general spectral-power formula to the time-ramp exponents of Sokolovski-Pons."
+    },
+    "gapless_projection_boundary": {
+      "cases": 3,
+      "rows": [
+        {
+          "binding_energy": 0.001,
+          "binding_ratio": 4.0,
+          "overlap": 0.9239813681575707,
+          "projector_distance": 0.3824374867840022,
+          "limiting_overlap": 0.9241962407465938,
+          "limiting_projector_distance": 0.3819179343653086
+        },
+        {
+          "binding_energy": 1e-06,
+          "binding_ratio": 4.0,
+          "overlap": 0.9241957558716416,
+          "projector_distance": 0.38191910770324783,
+          "limiting_overlap": 0.9241962407465938,
+          "limiting_projector_distance": 0.3819179343653086
+        },
+        {
+          "binding_energy": 1e-10,
+          "binding_ratio": 4.0,
+          "overlap": 0.9241962406623591,
+          "projector_distance": 0.3819179345691466,
+          "limiting_overlap": 0.9241962407465938,
+          "limiting_projector_distance": 0.3819179343653086
+        }
+      ],
+      "scope": "A concrete failure of the continuous-projection hypothesis of a gapless adiabatic theorem, not a contradiction to that theorem."
+    }
+  },
+  "scope": "Author-side analytical-audit diagnostics. No independent review, physical realization, or complete novelty certification."
+}

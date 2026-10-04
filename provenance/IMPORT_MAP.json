@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-04",
+  "scope": "Active proof and scientific files are preserved byte-for-byte. Original source registers and failed-grid evidence are unchanged history-archive members; original per-scout metadata are retained in the supplied archives rather than duplicated.",
+  "source_archives": [
+    {
+      "archive": "fresh_scout_05_threshold_return.zip",
+      "bytes": 30751,
+      "sha256": "c967eccc0d9b2e869e33a2336900e066f1dc0529594da6a35ce31b6ba2f47990"
+    },
+    {
+      "archive": "fresh_scout_06_logarithmic_threshold.zip",
+      "bytes": 65210,
+      "sha256": "0676c070a13f85aef4cb90d7d6a4e2422cf6126a2c239cb668db4da1f0766fb4"
+    },
+    {
+      "archive": "fresh_scout_07_threshold_audit.zip",
+      "bytes": 101353,
+      "sha256": "96316f8fa63a4c8fc6899636239db5a64439c43e86b8c70ad399fcf66ffc2ade"
+    },
+    {
+      "archive": "fresh_scout_08_threshold_rounding.zip",
+      "bytes": 145591,
+      "sha256": "16c816af0129c3dee22476471506474c573ff1fd0a1cac388d4bbba38251b2b4"
+    },
+    {
+      "archive": "fresh_scout_09_threshold_core.zip",
+      "bytes": 172567,
+      "sha256": "9d3131eb8c13ff8c37faccafffb988754ac8fd96712585199178e0e68ee77d35"
+    }
+  ],
+  "files": {
+    "tests/05_threshold_return/checks.py": {
+      "source": "fresh_scout_05_threshold_return/checks.py",
+      "bytes": 12967,
+      "sha256": "69d172a6d1d940a6db120c59cc1023192de166d6a081e118b55baa3272656a4c"
+    },
+    "tests/05_threshold_return/results.json": {
+      "source": "fresh_scout_05_threshold_return/results.json",
+      "bytes": 30171,
+      "sha256": "bd03cef741f800420364f33ed0a224aa941ba6f3b6bf5b6fa4a724d585278ba0"
+    },
+    "literature/05_threshold_return_SOURCES.md": {
+      "source": "fresh_scout_05_threshold_return/SOURCES.md",
+      "bytes": 7658,
+      "sha256": "c2dd745323cf44b058beac9f069ecc4b5eece04185ff7b4b19e2ba144e0228b8",
+      "archive_member": "literature/05_threshold_return_SOURCES.md",
+      "container": "archive/scout-records.tar.xz"
+    },
+    "tests/06_logarithmic_threshold/checks.py": {
+      "source": "fresh_scout_06_logarithmic_threshold/checks.py",
+      "bytes": 11170,
+      "sha256": "7196ec962f5e9b734a62f1dc719611698872a0eac33db0cf266f931527570cfa"
+    },
+    "tests/06_logarithmic_threshold/results.json": {
+      "source": "fresh_scout_06_logarithmic_threshold/results.json",
+      "bytes": 22449,
+      "sha256": "1edcc106e0a6422ea7b2862a1e8b895e6f66a9cf20af0b0cec35de4619d7cd2b"
+    },
+    "literature/06_logarithmic_threshold_SOURCES.md": {
+      "source": "fresh_scout_06_logarithmic_threshold/SOURCES.md",
+      "bytes": 6242,
+      "sha256": "91f53b66c6c9cda9aba4e7e35f8d285acf2e4da198b6b0595670a8c07bfea1ce",
+      "archive_member": "literature/06_logarithmic_threshold_SOURCES.md",
+      "container": "archive/scout-records.tar.xz"
+    },
+    "tests/07_threshold_audit/checks.py": {
+      "source": "fresh_scout_07_threshold_audit/checks.py",
+      "bytes": 12990,
+      "sha256": "b37910ec5ee5e51e252e6ddb14a3687ed514305e367129d7451b20754e01c699"
+    },
+    "tests/07_threshold_audit/results.json": {
+      "source": "fresh_scout_07_threshold_audit/results.json",
+      "bytes": 29805,
+      "sha256": "a551899163adf5900ac1b2b71bdb850c59006220d5b918e9f566e3ca4b9fa978"
+    },
+    "literature/07_threshold_audit_SOURCES.md": {
+      "source": "fresh_scout_07_threshold_audit/SOURCES.md",
+      "bytes": 5052,
+      "sha256": "fd0dfbcec036011708b2d55914ee33872458887536bdb50b7edd5ff2dc36db20",
+      "archive_member": "literature/07_threshold_audit_SOURCES.md",
+      "container": "archive/scout-records.tar.xz"
+    },
+    "tests/08_threshold_rounding/checks.py": {
+      "source": "fresh_scout_08_threshold_rounding/checks.py",
+      "bytes": 8638,
+      "sha256": "5d786a20d9c85643859427dc42db9fba41385b95952d87ab9d80ff7bdd954770"
+    },
+    "tests/08_threshold_rounding/results.json": {
+      "source": "fresh_scout_08_threshold_rounding/results.json",
+      "bytes": 26854,
+      "sha256": "989ba59016508cc50c05c3e462b5bf57bfe047cfbe1e0cb1816b650bc3c279b2"
+    },
+    "tests/08_threshold_rounding/model.py": {
+      "source": "fresh_scout_08_threshold_rounding/model.py",
+      "bytes": 4995,
+      "sha256": "f6f29c4ff49efdd92c150fd9a0d195ee3ed5e4b155f5eb4a27b3d149506ffe90"
+    },
+    "literature/08_threshold_rounding_SOURCES.md": {
+      "source": "fresh_scout_08_threshold_rounding/SOURCES.md",
+      "bytes": 4899,
+      "sha256": "d7daf5de1448562020985f8fe1a41bcc77677d7a091081e0fc7642fd67068aa0",
+      "archive_member": "literature/08_threshold_rounding_SOURCES.md",
+      "container": "archive/scout-records.tar.xz"
+    },
+    "tests/09_threshold_core/checks.py": {
+      "source": "fresh_scout_09_threshold_core/checks.py",
+      "bytes": 9289,
+      "sha256": "56f0a05917b4b2262f72f040fd74aaeb91df43d9bb84d11e17dd2968764d2681"
+    },
+    "tests/09_threshold_core/results.json": {
+      "source": "fresh_scout_09_threshold_core/results.json",
+      "bytes": 15127,
+      "sha256": "facf2ebf50316e5db582e6f34e932e1e527e76ddab5c0cff08aa53f47082146c"
+    },
+    "research/CORE.md": {
+      "source": "fresh_scout_09_threshold_core/CORE.md",
+      "bytes": 9240,
+      "sha256": "5476ba424289ca26db735d3d07ccce682a2dba5f35a436bc484279a751bd07fc"
+    },
+    "research/ASYMPTOTIC.md": {
+      "source": "fresh_scout_06_logarithmic_threshold/ASYMPTOTIC.md",
+      "bytes": 12846,
+      "sha256": "5a2edf6ad261c973a4234b9b457040cae037af66d037584aedfefb2304978755"
+    },
+    "research/AUDIT.md": {
+      "source": "fresh_scout_07_threshold_audit/AUDIT.md",
+      "bytes": 13780,
+      "sha256": "462263a163339152b97509b8a14e50dd23c8525c79ff23aced88d4f2e2c4ec91"
+    },
+    "research/ROUNDING.md": {
+      "source": "fresh_scout_08_threshold_rounding/ROUNDING.md",
+      "bytes": 13915,
+      "sha256": "fabd7f8d3a17029b037ac5f57407fdf581267b859311b452ab94e4ab545e7f6e"
+    },
+    "research/SPECTRAL_SCOPE.md": {
+      "source": "fresh_scout_09_threshold_core/SPECTRAL_SCOPE.md",
+      "bytes": 9599,
+      "sha256": "efa688f1fcfe667b53baa7c7a5e73ca10d727a4b0e31fa0807708fc0a60068ed"
+    },
+    "literature/PRIOR_ART.md": {
+      "source": "fresh_scout_09_threshold_core/PRIOR_ART.md",
+      "bytes": 7524,
+      "sha256": "cd7a104afe47e06fcfe664325cc8ee3197cfd158547c15f22221895f49289dde"
+    },
+    "archive/quadrature-grid/DEVELOPMENT.md": {
+      "source": "fresh_scout_08_threshold_rounding/DEVELOPMENT.md",
+      "bytes": 2446,
+      "sha256": "5bd99c290516be32e1be2889bc82b1d2d303303117fdde1f636abff9bae8bb10",
+      "archive_member": "archive/quadrature-grid/DEVELOPMENT.md",
+      "container": "archive/scout-records.tar.xz"
+    },
+    "archive/quadrature-grid/checks_before_grid_repair.py": {
+      "source": "fresh_scout_08_threshold_rounding/development/checks_before_grid_repair.py",
+      "bytes": 8354,
+      "sha256": "c581a8622be31aef4f09eaa37a19423d5b9220c9a7f1d08e8836e26ae4b2fa3b",
+      "archive_member": "archive/quadrature-grid/checks_before_grid_repair.py",
+      "container": "archive/scout-records.tar.xz"
+    },
+    "archive/quadrature-grid/model_before_grid_repair.py": {
+      "source": "fresh_scout_08_threshold_rounding/development/model_before_grid_repair.py",
+      "bytes": 4863,
+      "sha256": "6eac2b836520b6df6b277808255f647e18a92368e225aea0ed75dbf52472c057",
+      "archive_member": "archive/quadrature-grid/model_before_grid_repair.py",
+      "container": "archive/scout-records.tar.xz"
+    },
+    "archive/quadrature-grid/REFERENCE_RUN.log": {
+      "source": "fresh_scout_08_threshold_rounding/development/REFERENCE_RUN.log",
+      "bytes": 1192,
+      "sha256": "9a8cc30cc6e6c4728826a7e04c91567453122d602e349c4e9ebeb2f3588b2938",
+      "archive_member": "archive/quadrature-grid/REFERENCE_RUN.log",
+      "container": "archive/scout-records.tar.xz"
+    },
+    "archive/quadrature-grid/GRID_REPAIRED_RUN.log": {
+      "source": "fresh_scout_08_threshold_rounding/development/GRID_REPAIRED_RUN.log",
+      "bytes": 298,
+      "sha256": "d5af9fdeeee45bad5a44f72eb835a115348914b74ed5186a60d0aedef599b250",
+      "archive_member": "archive/quadrature-grid/GRID_REPAIRED_RUN.log",
+      "container": "archive/scout-records.tar.xz"
+    },
+    "archive/quadrature-grid/quadrature_repair_scan.json": {
+      "source": "fresh_scout_08_threshold_rounding/development/quadrature_repair_scan.json",
+      "bytes": 1313,
+      "sha256": "cead448251e4b7049824a9c957b5bfc7ce6aaf020f898d380f15a55615312187",
+      "archive_member": "archive/quadrature-grid/quadrature_repair_scan.json",
+      "container": "archive/scout-records.tar.xz"
+    }
+  },
+  "history_archive": {
+    "path": "archive/scout-records.tar.xz",
+    "members": 10,
+    "sha256": "a2916269eff4e913629ee24817a0ef24ff9884d9e2c4623fc8b0224181a3764a",
+    "scope": "Unchanged source-access registers and failed-grid evidence only. Original historical manifests/provenance/validation remain in the supplied archives, identified separately but not duplicated here."
+  }
+}

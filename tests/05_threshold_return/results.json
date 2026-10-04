@@ -1,0 +1,892 @@
+{
+  "status": "PASS",
+  "date": "2026-10-04",
+  "group_count": 5,
+  "cases": 60,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "groups": {
+    "static_spectrum": {
+      "cases": 18,
+      "identities": [
+        {
+          "dimension": 1,
+          "time": 0.1,
+          "kernel_error": 1.1443916996305594e-16
+        },
+        {
+          "dimension": 1,
+          "time": 1.0,
+          "kernel_error": 2.1958940779924523e-15
+        },
+        {
+          "dimension": 1,
+          "time": 5.0,
+          "kernel_error": 9.276343563884516e-16
+        },
+        {
+          "dimension": 1,
+          "g": 2.0,
+          "binding": 0.8284271247461881,
+          "analytic_binding": 0.8284271247461903,
+          "residual": 1.6818757621583408e-16
+        },
+        {
+          "dimension": 1,
+          "g": 4.0,
+          "binding": 2.472135954999577,
+          "analytic_binding": 2.4721359549995796,
+          "residual": 1.264844287819484e-15
+        },
+        {
+          "dimension": 1,
+          "g": 6.0,
+          "binding": 4.324555320336758,
+          "analytic_binding": 4.324555320336759,
+          "residual": 8.755117761529564e-16
+        },
+        {
+          "dimension": 1,
+          "moments": [
+            1.0,
+            1.9999999999999998,
+            5.999999999999993
+          ],
+          "targets": [
+            1.0,
+            2.0,
+            6.0
+          ]
+        },
+        {
+          "dimension": 2,
+          "time": 0.1,
+          "kernel_error": 4.9005652489539805e-12
+        },
+        {
+          "dimension": 2,
+          "time": 1.0,
+          "kernel_error": 4.897497309522466e-12
+        },
+        {
+          "dimension": 2,
+          "time": 5.0,
+          "kernel_error": 4.8984802027287045e-12
+        },
+        {
+          "dimension": 2,
+          "g": 2.0,
+          "binding": 0.05753270456472248,
+          "analytic_binding": 0.05753270456387468,
+          "residual": 8.798256539540855e-17
+        },
+        {
+          "dimension": 2,
+          "g": 4.0,
+          "binding": 1.0458781668470112,
+          "analytic_binding": 1.045878166835758,
+          "residual": 5.064399804061303e-16
+        },
+        {
+          "dimension": 2,
+          "g": 6.0,
+          "binding": 2.683045740446445,
+          "analytic_binding": 2.6830457404231773,
+          "residual": 1.920409856599486e-15
+        },
+        {
+          "dimension": 2,
+          "moments": [
+            1.0000000000049005,
+            4.000000000019602,
+            20.000000000078423
+          ],
+          "targets": [
+            1.0,
+            4.0,
+            20.0
+          ]
+        }
+      ],
+      "weak_binding": [
+        {
+          "g": 2.0,
+          "binding": 0.05753270456387468,
+          "weak_coupling_formula": 0.05975816741465566,
+          "ratio": 0.962758850428951
+        },
+        {
+          "g": 1.0,
+          "binding": 0.00011157695467761949,
+          "weak_coupling_formula": 0.00011159495539868791,
+          "ratio": 0.999838695924882
+        },
+        {
+          "g": 0.5,
+          "binding": 3.8916981424422427e-10,
+          "weak_coupling_formula": 3.8916981470109825e-10,
+          "ratio": 0.9999999988260293
+        },
+        {
+          "g": 0.25,
+          "binding": 4.732910771077734e-21,
+          "weak_coupling_formula": 4.732910771077723e-21,
+          "ratio": 1.0000000000000022
+        }
+      ],
+      "scope": "Static formulas are derived from the exact local lattice resolvent; not new weak-binding physics."
+    },
+    "matched_dynamics": {
+      "cases": 10,
+      "matched_initial_binding": 1.045878166835758,
+      "one_dimensional_attraction": 2.29725353568272,
+      "one_dimensional_known_limit": 0.3819660112501052,
+      "rows": [
+        {
+          "half_duration": 30.0,
+          "square_lattice": {
+            "half_duration": 30.0,
+            "full_duration": 60.0,
+            "nodes": 1600,
+            "quadrature_order": 800,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668470112,
+            "return_probability": 0.03580743687611301,
+            "norm": 0.9999999999999882,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.10115802066932472,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "chain": {
+            "half_duration": 30.0,
+            "full_duration": 60.0,
+            "nodes": 600,
+            "quadrature_order": 600,
+            "dimension": 1,
+            "initial_attraction": 2.29725353568272,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668357688,
+            "return_probability": 0.3792902776230604,
+            "norm": 1.000000000000059,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.036203732386655925,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          }
+        },
+        {
+          "half_duration": 100.0,
+          "square_lattice": {
+            "half_duration": 100.0,
+            "full_duration": 200.0,
+            "nodes": 1600,
+            "quadrature_order": 800,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668470112,
+            "return_probability": 0.026996579850332558,
+            "norm": 0.9999999999999831,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.03780568808978679,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "chain": {
+            "half_duration": 100.0,
+            "full_duration": 200.0,
+            "nodes": 600,
+            "quadrature_order": 600,
+            "dimension": 1,
+            "initial_attraction": 2.29725353568272,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668357688,
+            "return_probability": 0.3823317920805518,
+            "norm": 1.0000000000003544,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.01362958910750878,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          }
+        },
+        {
+          "half_duration": 300.0,
+          "square_lattice": {
+            "half_duration": 300.0,
+            "full_duration": 600.0,
+            "nodes": 1600,
+            "quadrature_order": 800,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668470112,
+            "return_probability": 0.022102560175808205,
+            "norm": 0.9999999999999825,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.014853879130533928,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "chain": {
+            "half_duration": 300.0,
+            "full_duration": 600.0,
+            "nodes": 600,
+            "quadrature_order": 600,
+            "dimension": 1,
+            "initial_attraction": 2.29725353568272,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668357688,
+            "return_probability": 0.3819426587572737,
+            "norm": 1.0000000000003733,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.0056539475929918625,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          }
+        },
+        {
+          "half_duration": 1000.0,
+          "square_lattice": {
+            "half_duration": 1000.0,
+            "full_duration": 2000.0,
+            "nodes": 1600,
+            "quadrature_order": 800,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668470112,
+            "return_probability": 0.01805791030407751,
+            "norm": 0.9999999999999631,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.00526978734541216,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "chain": {
+            "half_duration": 1000.0,
+            "full_duration": 2000.0,
+            "nodes": 600,
+            "quadrature_order": 600,
+            "dimension": 1,
+            "initial_attraction": 2.29725353568272,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668357688,
+            "return_probability": 0.38196997869852595,
+            "norm": 0.9999999999892282,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.0021567793420642248,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          }
+        },
+        {
+          "half_duration": 3000.0,
+          "square_lattice": {
+            "half_duration": 3000.0,
+            "full_duration": 6000.0,
+            "nodes": 1600,
+            "quadrature_order": 800,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668470112,
+            "return_probability": 0.015229927871073941,
+            "norm": 0.999999999998014,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.002022384970085029,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "chain": {
+            "half_duration": 3000.0,
+            "full_duration": 6000.0,
+            "nodes": 600,
+            "quadrature_order": 600,
+            "dimension": 1,
+            "initial_attraction": 2.29725353568272,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668357688,
+            "return_probability": 0.38196660792063275,
+            "norm": 0.9999999999347114,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.0008954715453433194,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          }
+        }
+      ],
+      "scope": "Finite-duration results. Decreasing sampled values are not a monotonicity or infinite-time theorem for two dimensions."
+    },
+    "numerical_controls": {
+      "cases": 20,
+      "controls": [
+        {
+          "test": "quadrature",
+          "half_duration": 100.0,
+          "coarse": {
+            "half_duration": 100.0,
+            "full_duration": 200.0,
+            "nodes": 800,
+            "quadrature_order": 400,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781670151185,
+            "return_probability": 0.026996602638523704,
+            "norm": 0.9999999999999927,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.037805688091018766,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "base": {
+            "half_duration": 100.0,
+            "full_duration": 200.0,
+            "nodes": 1600,
+            "quadrature_order": 800,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668470112,
+            "return_probability": 0.026996579850332558,
+            "norm": 0.9999999999999831,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.03780568808978679,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "fine": {
+            "half_duration": 100.0,
+            "full_duration": 200.0,
+            "nodes": 2400,
+            "quadrature_order": 1200,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.04587816683832,
+            "return_probability": 0.026996579850408122,
+            "norm": 0.9999999999999876,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.03780568808971403,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "base_fine_difference": 7.556455461354972e-14
+        },
+        {
+          "test": "quadrature",
+          "half_duration": 1000.0,
+          "coarse": {
+            "half_duration": 1000.0,
+            "full_duration": 2000.0,
+            "nodes": 800,
+            "quadrature_order": 400,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781670151185,
+            "return_probability": 0.018057918052920032,
+            "norm": 0.9999999999999659,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.005269790422799216,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "base": {
+            "half_duration": 1000.0,
+            "full_duration": 2000.0,
+            "nodes": 1600,
+            "quadrature_order": 800,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668470112,
+            "return_probability": 0.01805791030407751,
+            "norm": 0.9999999999999631,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.00526978734541216,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "fine": {
+            "half_duration": 1000.0,
+            "full_duration": 2000.0,
+            "nodes": 2400,
+            "quadrature_order": 1200,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.04587816683832,
+            "return_probability": 0.018057921976814665,
+            "norm": 0.9999999999999366,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.005269786649037934,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "base_fine_difference": 1.1672737155327129e-08
+        },
+        {
+          "test": "quadrature",
+          "half_duration": 3000.0,
+          "coarse": {
+            "half_duration": 3000.0,
+            "full_duration": 6000.0,
+            "nodes": 800,
+            "quadrature_order": 400,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781670151185,
+            "return_probability": 0.015230022252238247,
+            "norm": 0.9999999999982724,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.0020223853191627945,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "base": {
+            "half_duration": 3000.0,
+            "full_duration": 6000.0,
+            "nodes": 1600,
+            "quadrature_order": 800,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668470112,
+            "return_probability": 0.015229927871073941,
+            "norm": 0.999999999998014,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.002022384970085029,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "fine": {
+            "half_duration": 3000.0,
+            "full_duration": 6000.0,
+            "nodes": 2400,
+            "quadrature_order": 1200,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.04587816683832,
+            "return_probability": 0.015229927204469184,
+            "norm": 0.9999999999979168,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.0020223848488491736,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "base_fine_difference": 6.666047575043521e-10
+        },
+        {
+          "test": "tighter_integration",
+          "tight": {
+            "half_duration": 1000.0,
+            "full_duration": 2000.0,
+            "nodes": 2000,
+            "quadrature_order": 1000,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.045878166840936,
+            "return_probability": 0.018057918445814638,
+            "norm": 0.9999999999999921,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.0052697868922060055,
+            "rtol": 2e-12,
+            "atol": 2e-15,
+            "full_cycle_explicit": false
+          },
+          "base_difference": 8.141737128236626e-09
+        },
+        {
+          "test": "unitary_split",
+          "base": {
+            "half_duration": 10.0,
+            "full_duration": 20.0,
+            "nodes": 1200,
+            "quadrature_order": 600,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668711759,
+            "return_probability": 0.03768384845931656,
+            "norm": 0.9999999999999913,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.2745750691907875,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "splittings": [
+            {
+              "half_duration": 10.0,
+              "step": 0.05,
+              "nodes": 1200,
+              "return_probability": 0.03768318108259066,
+              "norm": 1.0000000000000004
+            },
+            {
+              "half_duration": 10.0,
+              "step": 0.025,
+              "nodes": 1200,
+              "return_probability": 0.03768380650782344,
+              "norm": 1.0000000000000075
+            },
+            {
+              "half_duration": 10.0,
+              "step": 0.0125,
+              "nodes": 1200,
+              "return_probability": 0.03768384583355513,
+              "norm": 1.0000000000000013
+            }
+          ],
+          "absolute_errors": [
+            6.673767259032792e-07,
+            4.195149311964075e-08,
+            2.6257614346714142e-09
+          ]
+        },
+        {
+          "test": "unitary_split",
+          "base": {
+            "half_duration": 100.0,
+            "full_duration": 200.0,
+            "nodes": 1200,
+            "quadrature_order": 600,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668711759,
+            "return_probability": 0.02699657985011818,
+            "norm": 0.9999999999999866,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.0378056880899678,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "splittings": [
+            {
+              "half_duration": 100.0,
+              "step": 0.05,
+              "nodes": 1200,
+              "return_probability": 0.02699648809116033,
+              "norm": 0.9999999999999948
+            },
+            {
+              "half_duration": 100.0,
+              "step": 0.025,
+              "nodes": 1200,
+              "return_probability": 0.026996574000436487,
+              "norm": 0.9999999999999769
+            },
+            {
+              "half_duration": 100.0,
+              "step": 0.0125,
+              "nodes": 1200,
+              "return_probability": 0.026996579482656186,
+              "norm": 0.999999999999982
+            }
+          ],
+          "absolute_errors": [
+            9.175895785210053e-08,
+            5.84968169389799e-09,
+            3.674619948601521e-10
+          ]
+        },
+        {
+          "test": "explicit_full_cycle",
+          "full": {
+            "half_duration": 30.0,
+            "full_duration": 60.0,
+            "nodes": 1200,
+            "quadrature_order": 600,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668711759,
+            "return_probability": 0.03580743687592315,
+            "norm": 0.9999999999999897,
+            "final_time_of_computation": 30.0,
+            "midpoint_free_energy": null,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": true
+          },
+          "half": {
+            "half_duration": 30.0,
+            "full_duration": 60.0,
+            "nodes": 1200,
+            "quadrature_order": 600,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.0458781668711759,
+            "return_probability": 0.035807436875923165,
+            "norm": 0.9999999999999938,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.10115802067010585,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "difference": 1.3877787807814457e-17
+        }
+      ],
+      "scope": "Grid/time convergence and distinct stepping algorithms, not a rigorous continuum error bound."
+    },
+    "coordinate_checks": {
+      "cases": 4,
+      "comparisons": [
+        {
+          "real_space": {
+            "half_duration": 10.0,
+            "side": 64,
+            "sites": 4096,
+            "return_probability": 0.03768384845922943,
+            "norm": 0.9999999999999283,
+            "far_boundary_band_probability": 5.5028985127567877e-11,
+            "initial_binding_energy": 1.0458781668357577,
+            "full_cycle_explicit": false
+          },
+          "spectral": {
+            "half_duration": 10.0,
+            "full_duration": 20.0,
+            "nodes": 2000,
+            "quadrature_order": 1000,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.045878166840936,
+            "return_probability": 0.03768384845967732,
+            "norm": 0.9999999999999885,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.27457506918983676,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "difference": 4.478917237094038e-13
+        },
+        {
+          "real_space": {
+            "half_duration": 10.0,
+            "side": 128,
+            "sites": 16384,
+            "return_probability": 0.0376838484597288,
+            "norm": 0.9999999999998379,
+            "far_boundary_band_probability": 1.6755083305107782e-33,
+            "initial_binding_energy": 1.045878166835758,
+            "full_cycle_explicit": false
+          },
+          "spectral": {
+            "half_duration": 10.0,
+            "full_duration": 20.0,
+            "nodes": 2000,
+            "quadrature_order": 1000,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.045878166840936,
+            "return_probability": 0.03768384845967732,
+            "norm": 0.9999999999999885,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.27457506918983676,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "difference": 5.147965387308773e-14
+        },
+        {
+          "real_space": {
+            "half_duration": 30.0,
+            "side": 256,
+            "sites": 65536,
+            "return_probability": 0.03580743687620247,
+            "norm": 0.9999999999998646,
+            "far_boundary_band_probability": 9.168205928072778e-34,
+            "initial_binding_energy": 1.0458781668357582,
+            "full_cycle_explicit": false
+          },
+          "spectral": {
+            "half_duration": 30.0,
+            "full_duration": 60.0,
+            "nodes": 2000,
+            "quadrature_order": 1000,
+            "dimension": 2,
+            "initial_attraction": 4.0,
+            "minimum_attraction": 0.0,
+            "initial_binding_energy": 1.045878166840936,
+            "return_probability": 0.035807436876167366,
+            "norm": 0.9999999999999927,
+            "final_time_of_computation": 0.0,
+            "midpoint_free_energy": 0.10115802066912079,
+            "rtol": 2e-11,
+            "atol": 3e-14,
+            "full_cycle_explicit": false
+          },
+          "difference": 3.510386425986667e-14
+        }
+      ],
+      "explicit_full_cycle": {
+        "half_duration": 10.0,
+        "side": 64,
+        "sites": 4096,
+        "return_probability": 0.03768384845922906,
+        "norm": 0.9999999999999012,
+        "far_boundary_band_probability": 0.010240959330659407,
+        "initial_binding_energy": 1.0458781668357577,
+        "full_cycle_explicit": true
+      },
+      "full_half_difference": 3.677613769070831e-16,
+      "scope": "Finite torus propagation checks the local model and reduction at stated times; not used to infer infinite-time continuum physics."
+    },
+    "gap_and_finite_size": {
+      "cases": 8,
+      "residual_attraction": [
+        {
+          "half_duration": 30.0,
+          "full_duration": 60.0,
+          "nodes": 1200,
+          "quadrature_order": 600,
+          "dimension": 2,
+          "initial_attraction": 4.0,
+          "minimum_attraction": 2.0,
+          "initial_binding_energy": 1.0458781668711759,
+          "return_probability": 0.8760343175957809,
+          "norm": 0.9999999999999923,
+          "final_time_of_computation": 0.0,
+          "midpoint_free_energy": 0.2709591992812941,
+          "rtol": 2e-11,
+          "atol": 3e-14,
+          "full_cycle_explicit": false
+        },
+        {
+          "half_duration": 100.0,
+          "full_duration": 200.0,
+          "nodes": 1200,
+          "quadrature_order": 600,
+          "dimension": 2,
+          "initial_attraction": 4.0,
+          "minimum_attraction": 2.0,
+          "initial_binding_energy": 1.0458781668711759,
+          "return_probability": 0.9932520573464881,
+          "norm": 0.9999999999999907,
+          "final_time_of_computation": 0.0,
+          "midpoint_free_energy": 0.28261605472247975,
+          "rtol": 2e-11,
+          "atol": 3e-14,
+          "full_cycle_explicit": false
+        },
+        {
+          "half_duration": 300.0,
+          "full_duration": 600.0,
+          "nodes": 1200,
+          "quadrature_order": 600,
+          "dimension": 2,
+          "initial_attraction": 4.0,
+          "minimum_attraction": 2.0,
+          "initial_binding_energy": 1.0458781668711759,
+          "return_probability": 0.9999933604694958,
+          "norm": 0.9999999999999927,
+          "final_time_of_computation": 0.0,
+          "midpoint_free_energy": 0.29186006192333813,
+          "rtol": 2e-11,
+          "atol": 3e-14,
+          "full_cycle_explicit": false
+        },
+        {
+          "half_duration": 1000.0,
+          "full_duration": 2000.0,
+          "nodes": 1200,
+          "quadrature_order": 600,
+          "dimension": 2,
+          "initial_attraction": 4.0,
+          "minimum_attraction": 2.0,
+          "initial_binding_energy": 1.0458781668711759,
+          "return_probability": 0.9999996419063436,
+          "norm": 0.9999999999995125,
+          "final_time_of_computation": 0.0,
+          "midpoint_free_energy": 0.2931644668890657,
+          "rtol": 2e-11,
+          "atol": 3e-14,
+          "full_cycle_explicit": false
+        }
+      ],
+      "residual_binding": 0.05753270456387468,
+      "finite_periodic_square": [
+        {
+          "half_duration": 30.0,
+          "side": 9,
+          "sites": 81,
+          "return_probability": 0.9257653620351578,
+          "norm": 0.9999999999999246,
+          "far_boundary_band_probability": 0.9265484238386754,
+          "initial_binding_energy": 1.0462990402173897,
+          "full_cycle_explicit": false
+        },
+        {
+          "half_duration": 100.0,
+          "side": 9,
+          "sites": 81,
+          "return_probability": 0.9967617061812489,
+          "norm": 0.9999999999999036,
+          "far_boundary_band_probability": 0.7956284172669059,
+          "initial_binding_energy": 1.0462990402173897,
+          "full_cycle_explicit": false
+        },
+        {
+          "half_duration": 300.0,
+          "side": 9,
+          "sites": 81,
+          "return_probability": 0.9999637650654267,
+          "norm": 0.9999999999998891,
+          "far_boundary_band_probability": 0.8025069673134135,
+          "initial_binding_energy": 1.0462990402173897,
+          "full_cycle_explicit": false
+        },
+        {
+          "half_duration": 1000.0,
+          "side": 9,
+          "sites": 81,
+          "return_probability": 0.9999969695974097,
+          "norm": 0.9999999999998511,
+          "far_boundary_band_probability": 0.8024843853529018,
+          "initial_binding_energy": 1.0462990402173897,
+          "full_cycle_explicit": false
+        }
+      ],
+      "finite_free_gap": 0.46791111376204386,
+      "scope": "A residual attraction and a fixed finite volume remove the relevant continuum touching. This does not prove the unknown infinite-lattice limit."
+    }
+  },
+  "scope": "Author-side finite controls. No proof of a two-dimensional zero-survival or logarithmic asymptotic law is claimed."
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "suites": [
+    {
+      "name": "05_threshold_return",
+      "groups": 5,
+      "cases": 60,
+      "files": {
+        "checks.py": "69d172a6d1d940a6db120c59cc1023192de166d6a081e118b55baa3272656a4c",
+        "results.json": "bd03cef741f800420364f33ed0a224aa941ba6f3b6bf5b6fa4a724d585278ba0"
+      }
+    },
+    {
+      "name": "06_logarithmic_threshold",
+      "groups": 6,
+      "cases": 51,
+      "files": {
+        "checks.py": "7196ec962f5e9b734a62f1dc719611698872a0eac33db0cf266f931527570cfa",
+        "results.json": "1edcc106e0a6422ea7b2862a1e8b895e6f66a9cf20af0b0cec35de4619d7cd2b"
+      }
+    },
+    {
+      "name": "07_threshold_audit",
+      "groups": 6,
+      "cases": 58,
+      "files": {
+        "checks.py": "b37910ec5ee5e51e252e6ddb14a3687ed514305e367129d7451b20754e01c699",
+        "results.json": "a551899163adf5900ac1b2b71bdb850c59006220d5b918e9f566e3ca4b9fa978"
+      }
+    },
+    {
+      "name": "08_threshold_rounding",
+      "groups": 6,
+      "cases": 58,
+      "files": {
+        "checks.py": "5d786a20d9c85643859427dc42db9fba41385b95952d87ab9d80ff7bdd954770",
+        "results.json": "989ba59016508cc50c05c3e462b5bf57bfe047cfbe1e0cb1816b650bc3c279b2",
+        "model.py": "f6f29c4ff49efdd92c150fd9a0d195ee3ed5e4b155f5eb4a27b3d149506ffe90"
+      }
+    },
+    {
+      "name": "09_threshold_core",
+      "groups": 5,
+      "cases": 45,
+      "files": {
+        "checks.py": "56f0a05917b4b2262f72f040fd74aaeb91df43d9bb84d11e17dd2968764d2681",
+        "results.json": "facf2ebf50316e5db582e6f34e932e1e527e76ddab5c0cff08aa53f47082146c"
+      }
+    }
+  ]
+}
