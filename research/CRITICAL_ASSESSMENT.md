@@ -174,6 +174,60 @@ new model or numerical campaign merely to maintain activity. All four external
 reader ratings remain unfilled. This assessment cannot serve as its own independent
 review. Manuscript drafting, release and outside contact remain on hold.
 
+## 5. Bounded significance follow-up
+
+**5 October 2026, at `eb2ff9823e5c742ceb92e1625d857780141a4101`, tree
+`7471a6fb06b072abe8f12bbf6047db7e76e940e7`.** This follow-up tests the physical
+increment, not the proofs again. The additional internal readings are not separate
+expert reports. The earlier assessed revision and its findings remain as recorded.
+
+The strongest physical statement survives two idealization objections. Choose a
+fixed $`0<b_0<1`$, set $`u=b_0/(\rho_0L)`$ and use the existing $`T(L,b_0)`$
+and sufficient finite squares $`n(T)=2\lceil4.5T\rceil+1`$. Then
+$`P_{n(T)}\sim\pi^2/[4L^2(1-b_0)^2]\to0`$. Every member is finite and has
+strictly positive attraction throughout; its ground state remains isolated.
+Exact threshold touching is therefore unnecessary along this specified family.
+Depth and volume change with duration. The statement does not contradict return
+to one for a fixed positive minimum or a fixed finite square in its slow limit.
+
+There is a useful physical reading of the residual-depth factor. The
+**infinite-lattice** minimum binding energy obeys
+$`\eta(u)\sim32e^{-L/b_0}`$, while $`e_*=32e^{-L}`$. Consequently
+
+```math
+\frac{\eta(u)}{e_*}\sim e^{-L(1/b_0-1)}\longrightarrow0,
+\qquad
+\frac{P_\infty(T,u(T))}{P_\infty(T,0)}\longrightarrow\frac1{(1-b_0)^2}.
+```
+
+The probabilities in the ratio have the same half-duration; their implicit
+logarithmic scales have ratio tending to one. A binding energy exponentially
+below the dynamical energy scale can thus change the leading return by a finite
+relative factor. Both probabilities still vanish. This is a corollary of the
+existing law and static weak binding, also predicted by the frozen-slope
+heuristic; it is not another mechanism or an application advantage. The
+finite-volume comparison does not equate $`\eta(u)`$ with the torus's minimum
+instantaneous gap. The excluded boundary $`b=1`$ is not a proved crossover.
+
+A concrete general-theorem check also leaves the result intact. Avron-Elgart's
+Theorem 4 [R4] assumes a finite-rank spectral projection with piecewise second
+derivatives and continuity everywhere in operator norm. At zero attraction the
+infinite lattice has no normalizable threshold eigenstate to continue the bound
+projection. Hence that theorem does not subsume this touching cycle. Applying a
+fixed-family theorem separately at each positive $`u`$ also supplies no uniform
+shrinking-minimum estimate. This is a hypothesis comparison, not a claim about
+every gapless adiabatic theorem. Tolstikhin's broader method paper [R5] was
+available only at abstract depth; construction-level exclusion remains unwarranted.
+
+**Assessment unchanged:** the controlled marginal return and its joint domain are
+the defensible contribution. They establish when an anticipated asymptotic is a
+physical return law. The leading prediction itself remains available from the
+local power tangent. This pass found no additional conceptual consequence that
+resolves the broad-significance objection, and no concrete defect requiring repair.
+Preserve the fixed result and the existing stop boundary. A genuinely separate
+reader's reasoned assessment could change the judgment; more internal controls or
+rewordings do not. No manuscript, release or outside contact was initiated.
+
 ## Primary sources and actual access depth
 
 [R1] D. Sokolovski and M. Pons, PRA **92**, 042121 (2015),
@@ -191,6 +245,20 @@ published record, not that line. These source-specific observations are scoped.
 HTML accessed for the inherited special-function identities, not a new physical
 predecessor or selected tutorial. The comparator itself is the retained author-side
 calculation in AUDIT Section 7.
+
+[R4] J. E. Avron and A. Elgart, *Adiabatic Theorem without a Gap Condition*,
+[arXiv:math-ph/9805022](https://arxiv.org/pdf/math-ph/9805022), version 4.
+Parsed PDF retrieved in the follow-up; Theorems 1, 3 and 4 and the opening of
+Section 6 checked. Theorem 4 is on printed p. 16. This is a targeted hypothesis
+check, not a complete reproof or a new rate result.
+
+[R5] O. I. Tolstikhin, PRA **77**, 032711 (2008),
+[publisher abstract](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.77.032711).
+Only the abstract was accessible in the follow-up. It describes generalized
+Born-Fock equations and leading ejected-particle spectra for underbarrier and
+overbarrier evolution. Exact applicability to essential-threshold recapture was
+not established from this access. The bounded search found no direct match but
+does not exclude one or improve the priority assessment.
 
 Targeted searches beyond these records did not identify a directly matching
 logarithmic-return theorem, but also produced irrelevant results. This is not
