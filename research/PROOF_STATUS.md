@@ -9,7 +9,7 @@ what it did not establish, and where further work should stop.
 
 The protocol remains one particle, a nearest-neighbor square lattice, attraction
 $`U(t)=u+(4-u)(t/T)^2`$ for $`-T\le t\le T`$, and unconditional return to the
-endpoint bound orbital. For fixed $`\delta>0`$, let
+endpoint bound orbital. For fixed $`0<\delta\le1`$, let
 
 ```math
 \rho_0=\frac1{4\pi},\quad u(L,b)=\frac b{\rho_0L},\quad

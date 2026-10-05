@@ -54,6 +54,12 @@ extensions and application superiority are not claimed or automatically requeste
 
 ## Verification record and preservation
 
+The [full sanity check](research/SANITY_CHECK_2026-10-05.md) records fresh
+verification and a reconciled A-D reading of main `66a7d719`. No mathematical
+correction was found in the inspected arguments. It repairs the separate-reader
+packet's stale revision/reading route and makes the existing delta range explicit
+in the proof summary. This remains internal scrutiny, not an external report.
+
 The preserved suite is **5 suites / 28 groups / 272 controls**. The supplementary
 checks remain **60**: 14 infrastructure, five predecessor, six operational, seven
 model-residual, seven amplitude, six reflection, seven uniform-minimum and eight

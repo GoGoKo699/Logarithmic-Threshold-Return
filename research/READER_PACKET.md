@@ -1,24 +1,34 @@
 # Separate-reader packet: try to break the fixed claim
 
-**Prepared 4 October 2026; no separate report received.** This is an author-prepared
+**Prepared 4 October; reading route updated 5 October 2026; no separate report received.** This is an author-prepared
 review brief, not a review. It neither nominates nor contacts a reader. Manuscript
 writing and outreach remain on hold.
 
 ## The object under review
 
-The preserved argument is pinned to repository revision
-`3604714b9a38da484b3f78828d6d1a7cad35c7d4`; its source hashes are in
+The full author-side argument to assess is pinned to repository revision
+`66a7d7197c220474db212b698bc5a759cbd0e964`, tree
+`ad01016782af5fede546ad13571487ee250b2ec5`. This includes all four A-D
+expansions and the consolidated critical assessment. The earlier packet pinned
+`3604714b9a38da484b3f78828d6d1a7cad35c7d4`, before those expansions existed;
+that remains a historical core-source revision, not the complete current route.
+The protected source hashes are in
 [IMPORT_MAP.json](../provenance/IMPORT_MAP.json). Read [CORE](CORE.md), then
 [ASYMPTOTIC](ASYMPTOTIC.md), [AUDIT](AUDIT.md) and [ROUNDING](ROUNDING.md).
 Read [SPECTRAL_SCOPE](SPECTRAL_SCOPE.md) only for the terminology correction and
-fixed-positive-anisotropy corollary. This packet changes none of those files.
+fixed-positive-anisotropy corollary. Then read the A-D notes named below,
+[PROOF_STATUS](PROOF_STATUS.md) and [CRITICAL_ASSESSMENT](CRITICAL_ASSESSMENT.md).
+Date-specific next-step statements in the earlier notes record their original
+stage; [CURRENT](../work_orders/CURRENT.md) controls the present work order.
+This packet changes none of the scientific source files. Its route update is
+not a received review, and every external-reader rating remains unfilled.
 
 The single main statement, in the conventions of CORE, is
 
 ```math
 P_\infty(T,u(T))=
 \frac{\pi^2}{4L^2[1-b(T)]^2}[1+o(1)],\qquad
-0\le b(T)\le1-\delta,\quad \delta>0\text{ fixed}.
+0\le b(T)\le1-\delta,\quad 0<\delta\le1\text{ fixed}.
 ```
 
 The observable is endpoint bound-state return, not origin occupation. The lattice
@@ -29,7 +39,8 @@ some plot looks compatible with it.
 
 ## Gate A: physical amplitude, retarded choice and finite endpoints
 
-**Read:** ASYMPTOTIC Sections 2–3; AUDIT Sections 2 and 5; ROUNDING Section 2.
+**Read:** ASYMPTOTIC Sections 2–3; AUDIT Sections 2 and 5; ROUNDING Section 2;
+[AMPLITUDE_IDENTIFICATION](AMPLITUDE_IDENTIFICATION.md), Sections 1–5.
 
 Reconstruct the outgoing Fourier problem with its non-decaying remote-time bound
 amplitude. Decide whether an oscillatory-distribution formulation and the absence
@@ -46,7 +57,8 @@ not a detail to assume away.
 
 ## Gate B: central reflection and the physical far band
 
-**Read:** ASYMPTOTIC Sections 4–7; AUDIT Sections 3–5.
+**Read:** ASYMPTOTIC Sections 4–7; AUDIT Sections 3–5;
+[REFLECTION_MATCHING](REFLECTION_MATCHING.md), Sections 1–5.
 
 Check the lower-edge retarded branch and the integrated, rather than pointwise,
 central expansion. Derive the endpoint-basis cancellation explicitly, retaining
@@ -63,7 +75,8 @@ outer estimate is $`O(L^{-5/4})`$.
 
 ## Gate C: a uniform, positive-minimum family
 
-**Read:** ROUNDING Sections 2–5, alongside Gate B.
+**Read:** ROUNDING Sections 2–5, alongside Gate B;
+[UNIFORM_MINIMUM](UNIFORM_MINIMUM.md), Sections 1–5.
 
 Take the supremum over $`0\le b\le1-\delta`$ at each step. In particular, test
 the exponentially narrow turning region inside the central interval, the
@@ -78,7 +91,8 @@ uses one of those stronger statements.
 
 ## Gate D: finite initial states, periodic seam and return
 
-**Read:** ROUNDING Section 6.
+**Read:** ROUNDING Section 6;
+[FINITE_VOLUME](FINITE_VOLUME.md), Sections 1–6.
 
 Verify the weighted-hopping estimate on the torus and infinite lattice, including
 the normalized endpoint states and their energy-dependent resolvents. Check the
