@@ -81,22 +81,32 @@ do not supply this lattice result by substitution, or its shrinking-minimum
 uniformity. This does not exclude an extension of the method. The access gap is
 closed for this scoped comparison, not for an independent audit of that paper.
 
-## 4. The remaining 2014 construction-access gap
+## 4. The 2014 construction comparison: targeted gap closed
 
 Sokolovski–Pons–Muga, *Adiabaticity near a continuum threshold: An exactly solvable
 model*, Phys. Rev. A **89**, 042125 (2014):
 [publisher](https://link.aps.org/doi/10.1103/PhysRevA.89.042125),
 [author-institution record](https://ekoizpen-zientifikoa.ehu.eus/documentos/5ed32bdf2999526aa7417480).
-The primary abstract describes a linearly changing delta potential treated with
-a Sturmian representation. This supports method attribution only. The complete
-schedule, return observable, binding law and asymptotic domain have not been read
-from its derivation. Publisher PDF/API access failed; author and institutional
-publication lists did not provide an accessible manuscript in this bounded pass.
-No access control was bypassed and no author was contacted.
+The user supplied the seven-page primary paper. Full text was read and decisive
+pp. 2–6 were visually checked. The
+[passage-level comparison](SOKOLOVSKI_PONS_MUGA_2014.md) supersedes the earlier
+abstract-only status; failed retrievals remain historical evidence.
 
-Keep this entry **primary abstract read; construction-level comparison open**.
-Later papers cannot substitute for its full text. An authorized copy would enable
-the remaining exact comparison; no conclusion is invented in its absence.
+The protocol approaches a one-dimensional threshold monotonically with a linear
+delta attraction, starting at remote past and stopping below threshold. Equation (26)
+projects onto the normalized final bound state. The first-order energy equation (22)
+and quadratures (24)–(28) establish inherited method and observable precedents.
+Equation (29) takes the slow limit at fixed final binding. Criterion (31) concerns
+stationary-phase separation for the amplitude, not a universal necessary condition
+for high return probability; Eqs. (6), (32) are small-loss formulas. Section VII's
+box analysis, Eqs. (36), (38)–(40), already supplies a finite-box/continuum contrast;
+its Sturmian pole $`\omega_1`$ is not the final perturbed energy $`E_1(t_f)`$.
+
+**Comparison inference:** these results do not supply the two-leg quadratic
+logarithmic return law or its required joint uniform estimate. The specific
+source-access/comparison task is closed, with stronger inherited attribution and
+no central coefficient, model, domain or proof correction. This is not exhaustive
+novelty clearance or a separate expert review. No outside contact was made.
 
 ## 5. What this preparation does and does not settle
 

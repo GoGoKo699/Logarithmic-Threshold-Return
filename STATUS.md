@@ -1,6 +1,6 @@
 # Research status
 
-**5 October 2026. Targeted scientific preparation integrated; one primary-source comparison open.**
+**5 October 2026. Targeted scientific preparation integrated; identified source comparison closed.**
 Manuscript drafting and outreach remain on hold.
 
 The claim remains logarithmic bound-state return for one attractive square-lattice
@@ -43,7 +43,7 @@ The bounded significance follow-up in the assessment retains the strongest physi
 point: vanishing return along the specified finite, strictly positive-minimum family.
 Its gap-based corollary clarifies the leading relative factor but is already predicted
 by the local tangent. A targeted Avron-Elgart hypothesis check does not subsume the
-touching cycle; broader method access remains incomplete. No new conceptual claim,
+touching cycle; subsequent source readings are recorded below. No new conceptual claim,
 priority clearance or reason to reopen routine internal development was established.
 
 ## Prior art and implementation
@@ -58,9 +58,13 @@ The protected notes and [source map](research/SOURCES.md) retain the original ro
 The new [scientific context](literature/SCIENTIFIC_CONTEXT.md) records exact static,
 weak-binding, adiabatic and localization attributions. Tolstikhin 2008 is now checked
 in public author-uploaded full text: its displayed turning-point/separation assumptions
-do not directly supply this essential-binding limit. Sokolovski-Pons-Muga 2014 remains
-at publisher-abstract depth; its construction-level comparison is the identified open
-source task. No exhaustive priority clearance is claimed.
+do not directly supply this essential-binding limit. The
+[Sokolovski-Pons-Muga 2014 comparison](literature/SOKOLOVSKI_PONS_MUGA_2014.md)
+now records the supplied seven-page full text and visual checks of decisive pp. 2–6.
+Its monotone linear delta-trap approach, normalized final-bound projection and
+finite-box comparison strengthen inherited attribution. They do not supply the
+two-leg quadratic logarithmic law or its required joint uniform estimate. The
+identified source task is closed; exhaustive priority and separate review are not.
 
 [ASSUMPTIONS](literature/ASSUMPTIONS.md) remains a support/mismatch map. The
 [primary register](literature/PHYSICAL_PRECEDENTS.md) has fifteen passage-level
@@ -105,9 +109,9 @@ past failure, cancelled run or non-byte-identical result.
 
 ## Stop boundary
 
-Follow [CURRENT](work_orders/CURRENT.md). Complete the specific 2014 primary-source
-comparison when readable text is available; do not mark all scientific due diligence
-complete while it remains unread. Routine proof expansion stays closed except for
-an exact objection. A separate report and a device remain unestablished; neither is
-an extra hypothesis of the conditional theorem. No outside contact, manuscript or
+Follow [CURRENT](work_orders/CURRENT.md). The specific 2014 primary-source comparison
+is complete at its recorded scope. Stop routine research unless an exact objection
+or a genuinely separate reading supplies a concrete task. A separate report and a
+device remain unestablished; neither is an extra hypothesis of the conditional
+theorem. No outside contact, manuscript or
 release is initiated.

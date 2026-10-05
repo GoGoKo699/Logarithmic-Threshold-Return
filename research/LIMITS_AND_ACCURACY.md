@@ -71,6 +71,14 @@ the following bound on printed pp. 4–5, gives the standard gap-dependent estim
 Those passages were checked in parsed full text. The compact-parameter argument
 above supplies the uniformity in $`u`$; a pointwise theorem alone would not.
 
+The [2014 primary comparison](../literature/SOKOLOVSKI_PONS_MUGA_2014.md)
+also supplies direct historical context: its Section VII already contrasts
+finite-box Sturmian poles with the continuum threshold cut and ordinary
+near-adiabatic recovery. That discussion is not our uniform-in-minimum torus
+estimate, and its pole is not the next instantaneous eigenvalue. Neither generic
+finite-confinement recovery nor its qualitative contrast with a continuum is a
+new physical mechanism claimed here.
+
 ## 2. The controlled remainder does not resolve subleading logarithms
 
 At zero minimum put $`\ell=\ln T`$. The exact scale definition gives

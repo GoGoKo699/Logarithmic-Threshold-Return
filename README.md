@@ -102,7 +102,10 @@ higher-band population and coherent return-amplitude errors. [Status](STATUS.md)
 remains open. No external tutorial has been selected for this project.
 
 [Scientific preparation](research/SCIENTIFIC_PREPARATION.md) maps the current
-claim support and the one remaining primary-source comparison before writing.
+claim support and completed targeted source comparisons before writing. The
+[2014 construction comparison](literature/SOKOLOVSKI_PONS_MUGA_2014.md) closes the
+identified access gap using the supplied full paper; it strengthens inherited
+method and finite-size attribution without changing the central result.
 [Limits and accuracy](research/LIMITS_AND_ACCURACY.md) spells out fixed-size
 recovery and what the leading asymptotic does not resolve; the
 [scientific context](literature/SCIENTIFIC_CONTEXT.md) supplies updated attributions.

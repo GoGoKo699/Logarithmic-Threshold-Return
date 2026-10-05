@@ -32,9 +32,11 @@ Keep this fixed argument available for a genuinely separate critical reading. Br
 physical-premise collection is paused after the authorized targeted preparation pass;
 its implementation gaps remain explicit and should be reopened only for concrete
 model-matched evidence or an exact objection. Read research/SCIENTIFIC_PREPARATION.md
-for the integrated source/quantifier work and the one identified open primary-source
-comparison: Sokolovski-Pons-Muga 2014. A readable full text is still needed before
-that scientific due-diligence item can be closed.
+for the integrated source/quantifier work. The supplied full paper now closes the
+identified Sokolovski-Pons-Muga 2014 source task at the scope recorded in
+literature/SOKOLOVSKI_PONS_MUGA_2014.md. This strengthens attribution; exhaustive
+priority and independent review remain unestablished. Stop routine research unless
+an exact objection or a genuinely separate reading supplies a concrete task.
 
 Manuscript drafting and outside contact remain on hold. Candidate identification does
 not authorize invitations. Other repositories, protected projects and parked scouts are

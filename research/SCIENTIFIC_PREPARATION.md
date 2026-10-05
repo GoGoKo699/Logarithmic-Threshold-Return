@@ -11,10 +11,12 @@ law remain those in [PROOF_STATUS](PROOF_STATUS.md).
 The accessible author-side work identified in this pass is integrated: a precise
 fixed-size recovery corollary, accuracy and comparator-domain clarification,
 updated predecessor reading, and the missing conventional motion/control support.
-**One concrete source-comparison gap remains:** the full derivation in
-Sokolovski-Pons-Muga, PRA **89**, 042125 (2014). Its publisher abstract is readable;
-its construction was not. Accordingly, this record does not declare all scientific
-due diligence complete.
+The owner subsequently supplied the missing Sokolovski-Pons-Muga 2014 paper.
+The [construction-level comparison](../literature/SOKOLOVSKI_PONS_MUGA_2014.md),
+assessed at base `34ae43a4a8e8b596fe853995fd0d4c20de13b61c`, closes that
+specific access and comparison task. The identified bounded author-side research
+tasks are now recorded; this does not certify exhaustive novelty or independent
+review.
 
 The central physical contribution remains the controlled logarithmic return for
 the specified cycle and its stated joint domain. The local power tangent predicts
@@ -31,7 +33,7 @@ declared physical return; its significance remains a reasoned judgment.
 | Fixed finite geometry, including $`u=u(T)\to0`$ | [Limits and accuracy, Section 1](LIMITS_AND_ACCURACY.md) | Uniform recovery proved with an $`n`$-dependent bound; no substitution of growing $`n`$ |
 | Meaning of implicit $`L`$ and the current remainder | [Limits and accuracy, Section 2](LIMITS_AND_ACCURACY.md) | Leading coefficient only; no certified subleading log coefficient, finite-time precision or eventual monotonicity |
 | Static logarithm, essential binding, adiabatic and localization tools | [Scientific context](../literature/SCIENTIFIC_CONTEXT.md); [source map](SOURCES.md) | Inherited ingredients attributed; exact lattice conventions separated from continuum analogies |
-| Closest threshold-dynamics constructions | [Prior art](../literature/PRIOR_ART.md), [Devdariani](../literature/DEVDARIANI_COMPARISON.md), current [context](../literature/SCIENTIFIC_CONTEXT.md) | Tolstikhin now read at passage level; 2014 construction still unverified |
+| Closest threshold-dynamics constructions | [Prior art](../literature/PRIOR_ART.md), [Devdariani](../literature/DEVDARIANI_COMPARISON.md), [context](../literature/SCIENTIFIC_CONTEXT.md), [2014 construction](../literature/SOKOLOVSKI_PONS_MUGA_2014.md) | Targeted source comparisons recorded; no direct subsumption found, without exhaustive priority clearance |
 | Physical model conventions | [Physical precedents](../literature/PHYSICAL_PRECEDENTS.md) and [assumptions](../literature/ASSUMPTIONS.md) | Listed component collections reach five-to-ten records with source-specific mismatches; no joint device inferred |
 | Possible implementation errors | [Preparation/readout](PREPARATION_READOUT.md), [generator residual](MODEL_RESIDUAL.md) | Sufficient conditional inequalities, not attained specifications |
 
@@ -39,22 +41,20 @@ The existing fixed-positive-anisotropy result remains a supporting scope check.
 No arbitrary-trap, dimensional-crossover, many-body, application-advantage or
 complete residual-depth-crossover assertion is needed for the present claim.
 
-## The remaining source task is specific
+## The supplied primary text closes the identified task
 
-Read the 2014 primary derivation through a lawful accessible copy and record:
+The 2014 paper was read in full, with its decisive equations visually checked.
+It solves a monotone linear approach stopped below threshold, measures the final
+normalized bound-state population, and has algebraic binding. Its exact integral
+and fixed-final-energy slow limit do not supply the two-leg logarithmic return
+or the required joint uniform estimates. Its energy method and finite-box contrast
+strengthen the inherited attribution; no central correction was identified.
 
-1. Its full schedule and endpoints, not just the abstract's description.
-2. Its normalized observable and the state counted after evolution.
-3. Its bound-energy threshold form and limiting parameter.
-4. Whether it actually contains this logarithmic return or a theorem that covers
-   the essential-binding cycle with the needed uniformity.
-
-The publisher PDF/full-text route was inaccessible in this pass. Author publication
-pages and institutional records yielded metadata without an open manuscript.
-A supplied lawful copy or authorized institutional access would enable this check.
-No hypothesis is inferred from unread pages, and negative searches do not establish
-priority. This gap is narrower than a request for another unrestricted literature
-survey or another numerical campaign.
+The [comparison](../literature/SOKOLOVSKI_PONS_MUGA_2014.md) records all four
+requested items: schedule/endpoints, observable, binding law and asymptotic
+hypotheses. [Follow-up provenance](../provenance/SOURCE_COMPARISON_2014_2026-10-05.json)
+records the supplied PDF hash and supersedes the earlier open access status.
+The historical failed-access record is retained. No third-party PDF is committed.
 
 ## What is unresolved but is not an added theorem hypothesis
 
@@ -84,10 +84,12 @@ No numerical campaign or new suite was needed for the elementary clarifications.
 Their justification is the displayed argument and its checked standard hypotheses.
 
 Fresh execution, actual candidate CI and post-merge results are recorded separately
-in the integration PR and retained evidence. Passing execution cannot settle an
-unread predecessor or replace proof review. Manuscript drafting, release and
-outside contact remain on hold. The next necessary source action is the specific
-2014 comparison; a concrete objection can reopen its affected proof passage.
+in the integration PR and retained evidence. Numerical agreement cannot replace
+proof review or a primary-source comparison. The identified bounded research pass
+is closed; stop routine expansion unless a concrete objection, directly matching
+predecessor or genuinely separate reading changes the assessment. Manuscript
+drafting, release and outside contact remain on hold.
 
 [Preparation provenance](../provenance/SCIENTIFIC_PREPARATION_2026-10-05.json)
-pins the assessed base, preservation scope and source-access disposition.
+pins the earlier assessed base, preservation scope and historical access disposition;
+the follow-up above records the later closure.

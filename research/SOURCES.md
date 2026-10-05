@@ -26,8 +26,12 @@ primary reading. No new title, theorem or completed apparatus is inferred from a
 bibliographic lead.
 
 The active [scientific context](../literature/SCIENTIFIC_CONTEXT.md) adds the precise
-static and adiabatic attributions, the updated Tolstikhin comparison and the still
-access-limited 2014 predecessor. [Physical precedents](../literature/PHYSICAL_PRECEDENTS.md)
+static and adiabatic attributions, the updated Tolstikhin comparison and the
+2014 predecessor. Its later
+[construction comparison](../literature/SOKOLOVSKI_PONS_MUGA_2014.md) records the
+supplied full text and visual checks of decisive passages, closing that specific
+access task and strengthening method/finite-size attribution.
+[Physical precedents](../literature/PHYSICAL_PRECEDENTS.md)
 records the later full-text P15 reading and the motion/control additions. These dated
 updates supersede only their specified earlier access labels, not the preserved notes.
 
