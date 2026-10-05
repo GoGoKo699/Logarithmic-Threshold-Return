@@ -88,6 +88,10 @@ The [reflection-matching note](research/REFLECTION_MATCHING.md) expands Gate B: 
 endpoint cancellation and exact-lattice positive/negative outer control at zero minimum.
 The [uniform-minimum note](research/UNIFORM_MINIMUM.md) expands Gate C: the full
 positive-minimum domain, including its narrow turning region and shifted negative tail.
+The [finite-volume note](research/FINITE_VOLUME.md) expands Gate D: distinct endpoint
+states, periodic seams and the midpoint return identity. The
+[consolidated proof status](research/PROOF_STATUS.md) gathers A-D and the remaining
+review, priority and implementation obligations; no independent report is implied.
 [Source labels](research/SOURCES.md) map the preserved notes' local reference numbers.
 [Assumptions](literature/ASSUMPTIONS.md) distinguishes ideal model premises from a joint
 apparatus, with a [primary-source register](literature/PHYSICAL_PRECEDENTS.md) and

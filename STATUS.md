@@ -1,6 +1,6 @@
 # Research status
 
-**4 October 2026. Dedicated theory workspace; manuscript and outreach on hold.**
+**5 October 2026. Dedicated theory workspace; manuscript and outreach on hold.**
 
 The fixed claim is the logarithmic bound-state return law for one attractive lattice
 site under the stated quadratic cycle. The Hamiltonian, observable, coefficient and
@@ -13,7 +13,7 @@ and history inputs remain byte-preserved.
 | Energy reflection equals physical return | Explicit Gate A lemma chain | Not independent proof review |
 | Leading reflection and outer matching | Explicit Gate B endpoint and exact-lattice estimates | Zero minimum; not independent proof review |
 | Positive-minimum joint law | Explicit Gate C uniform lemma chain | Fixed margin below b=1; no crossover claim |
-| Finite-volume family | Sufficient bound and finite examples | Not an optimized size requirement |
+| Finite-volume family | Explicit Gate D endpoint, seam and midpoint comparison | Same sufficient size; not optimized or independently reviewed |
 | Fixed positive hopping anisotropy | Scope corollary with checked hypotheses | Not uniform at zero transverse hopping |
 
 The [claim map](research/CLAIMS.md) routes the original proof. The
@@ -30,7 +30,11 @@ positive-minimum domain at a fixed margin below b=1: its central perturbation is
 offset-independent, its passive denominator does not require a sign of Im(h), and
 its shifted exact negative-tail defect is dominated uniformly by the zero-minimum
 integral. The coefficient and domain are preserved. These are author-side arguments;
-Gate D remains separate. The
+[Gate D](research/FINITE_VOLUME.md) supplies the finite-volume chain with an analytic
+endpoint-gap lower bound, normalized-state and energy comparison, bounded-weight
+limit, explicit seam estimate and midpoint transpose identity. The
+[consolidated map](research/PROOF_STATUS.md) collects A-D; the bounded author-side
+expansion is complete, not an independent assessment. The
 [reader packet](research/READER_PACKET.md) remains a brief, not a received report.
 
 ## Prior art and physical premises
@@ -60,7 +64,7 @@ Full crossover, optimal volume and experimental superiority remain unclaimed.
 The preserved scientific suites contain **5 suites, 28 groups and 272 controls**.
 Fourteen infrastructure tests, five predecessor checks, six operational checks,
 seven model-residual checks, seven amplitude checks, six reflection checks and
-seven uniform-minimum checks are counted separately.
+seven uniform-minimum checks and eight finite-volume checks are counted separately.
 Execution, exact byte reproduction and independent scientific review are distinct.
 
 The Gate A base was `5167d02b9504596e1c1b071ed425dea63dec62c6`. Its downloaded main
@@ -94,7 +98,13 @@ uniform-minimum run passed; no new failed scientific attempt is omitted. The ear
 base-source run overlapped addition of the new note, changing only its navigation
 link count; a frozen candidate and actual hosted reports are separate evidence.
 
-Follow [CURRENT](work_orders/CURRENT.md): scrutinize the finite-volume initial-state,
-periodic-seam and return-amplitude estimates without optimizing lattice size.
-Do not broaden the model to prolong development. A genuinely separate report
-remains absent. No manuscript, release or outside invitation is initiated here.
+[Gate D provenance](provenance/GATE_D_2026-10-05.json) pins the incoming current-main
+source artifact, baseline and eight new diagnostics. The same sufficient finite
+family and law are preserved; no protected proof or original reference is changed.
+Actual candidate and hosted outcomes require their own reports.
+
+Follow [CURRENT](work_orders/CURRENT.md): consolidate the fixed A-D route for critical
+assessment and address concrete objections, rather than starting another automatic
+audit gate or model. A genuinely separate report remains absent. Priority and exact
+implementation are not established. No manuscript, release or outside invitation
+is initiated here.

@@ -46,6 +46,8 @@ jobs:
         run: python tools/test_reflection_matching.py --output reflection-evidence/REPORT.json
       - name: Check uniform positive-minimum estimates separately
         run: python tools/test_uniform_minimum.py --output uniform-minimum-evidence/REPORT.json
+      - name: Check finite-volume identities separately
+        run: python tools/test_finite_volume.py --output finite-volume-evidence/REPORT.json
       - name: Check preserved inputs and document links
         run: python verify.py --integrity-only
       - name: Run every scientific suite and retain comparisons
@@ -68,6 +70,7 @@ jobs:
             amplitude-evidence/
             reflection-evidence/
             uniform-minimum-evidence/
+            finite-volume-evidence/
             tracked-source.zip
           if-no-files-found: warn
           retention-days: 14
