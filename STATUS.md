@@ -1,110 +1,82 @@
 # Research status
 
-**5 October 2026. Dedicated theory workspace; manuscript and outreach on hold.**
+**5 October 2026. Fixed theory under critical assessment; manuscript and outreach on hold.**
 
-The fixed claim is the logarithmic bound-state return law for one attractive lattice
-site under the stated quadratic cycle. The Hamiltonian, observable, coefficient and
-uniform residual-depth/finite-volume domain are unchanged. All 27 protected scientific
-and history inputs remain byte-preserved.
+The claim remains logarithmic bound-state return for one attractive square-lattice
+site under the specified quadratic cycle, with the stated uniform residual-depth
+and sufficient finite-volume limits. The Hamiltonian, observable and coefficient
+are unchanged. All 27 protected scientific/history inputs are byte-preserved.
 
-| Part of the claim | Current evidence | Boundary |
+## Scientific position after consolidated assessment
+
+| Part of the fixed claim | Author-side route | Retained boundary |
 |---|---|---|
-| Inverse-square-logarithmic return | Author-side matched-asymptotic derivation | Fixed local trap and order of limits |
-| Energy reflection equals physical return | Explicit Gate A lemma chain | Not independent proof review |
-| Leading reflection and outer matching | Explicit Gate B endpoint and exact-lattice estimates | Zero minimum; not independent proof review |
-| Positive-minimum joint law | Explicit Gate C uniform lemma chain | Fixed margin below b=1; no crossover claim |
-| Finite-volume family | Explicit Gate D endpoint, seam and midpoint comparison | Same sufficient size; not optimized or independently reviewed |
-| Fixed positive hopping anisotropy | Scope corollary with checked hypotheses | Not uniform at zero transverse hopping |
+| Energy reflection equals physical return | [Gate A](research/AMPLITUDE_IDENTIFICATION.md) | Retarded norm reconstruction; remote time first; uniform finite-endpoint modulus estimate |
+| Leading reflection and physical outer matching | [Gate B](research/REFLECTION_MATCHING.md) | Exact touching; both causal terms and exact-lattice tail estimates |
+| Uniform positive-minimum return | [Gate C](research/UNIFORM_MINIMUM.md) | Fixed margin below b=1; full singular core and shifted negative tail |
+| Finite periodic squares | [Gate D](research/FINITE_VOLUME.md) | Own normalized endpoint states; seam and midpoint comparison; sufficient, not optimal size |
+| Fixed positive hopping anisotropy | [Scope check](research/SPECTRAL_SCOPE.md) | Not uniform at zero transverse hopping or a dimensional crossover |
 
-The [claim map](research/CLAIMS.md) routes the original proof. The
-[physical-amplitude note](research/AMPLITUDE_IDENTIFICATION.md) expands Gate A:
-reciprocal-log source regularity, retarded norm reconstruction, equal bound-leg
-normalization, continuum-current accounting and a uniform O(1/T) tail comparison.
-The former normalization paragraph alone was not a norm-scattering construction.
-The new argument supplies that intermediate reasoning without changing the law.
-[Gate B](research/REFLECTION_MATCHING.md) now makes the endpoint-basis cancellation
-explicit, treats positive-side passivity without a chosen absorber, and bounds the
-entire negative tail with the exact positive spectral measure. No leading coefficient
-correction was found. [Gate C](research/UNIFORM_MINIMUM.md) now treats the entire
-positive-minimum domain at a fixed margin below b=1: its central perturbation is
-offset-independent, its passive denominator does not require a sign of Im(h), and
-its shifted exact negative-tail defect is dominated uniformly by the zero-minimum
-integral. The coefficient and domain are preserved. These are author-side arguments;
-[Gate D](research/FINITE_VOLUME.md) supplies the finite-volume chain with an analytic
-endpoint-gap lower bound, normalized-state and energy comparison, bounded-weight
-limit, explicit seam estimate and midpoint transpose identity. The
-[consolidated map](research/PROOF_STATUS.md) collects A-D; the bounded author-side
-expansion is complete, not an independent assessment. The
-[reader packet](research/READER_PACKET.md) remains a brief, not a received report.
+[PROOF_STATUS](research/PROOF_STATUS.md) assembles A-D. The
+[critical assessment](research/CRITICAL_ASSESSMENT.md) found no required coefficient
+or domain correction in its specific cross-gate checks. It composes amplitude errors
+without identifying irrelevant phases or interchanging remote-time and slow limits.
+This is author-side assessment, not a genuinely separate reader report; the
+[reader packet](research/READER_PACKET.md) is still an unsent brief.
 
-## Prior art and physical premises
+The strongest originality objection is sharper: the local power-law tangent predicts
+the full leading positive-minimum prefactor, not only the zero-minimum constant.
+The contribution to assess is the controlled logarithmic physical limit and its
+joint domain, not a new transform, midpoint identity or prefactor heuristic. The
+assessment directly attributes the midpoint identity to Sokolovski-Pons 2016 Eq. (5).
+All A-D proof files remain unchanged in this documentary pass.
 
-The [Devdariani comparison](literature/DEVDARIANI_COMPARISON.md) closes the specified
-1972 construction-access gap at its recorded depth, while narrowing attribution.
-The older unread label in the preserved PRIOR_ART.md is historical. Exhaustive
-priority is not established. The static resolvent, threshold-loss problem,
-Sturmian method and adiabatic commutator technique are inherited ingredients.
-The logarithm belongs to the local resolvent, not a divergent lower-edge density;
-[SPECTRAL_SCOPE](research/SPECTRAL_SCOPE.md) records that terminology correction.
+## Prior art and implementation
 
-[ASSUMPTIONS](literature/ASSUMPTIONS.md) is a bounded support/mismatch map. Its
+The [Devdariani construction comparison](literature/DEVDARIANI_COMPARISON.md) closes
+the specified 1972 access gap at its recorded depth. The earlier unread label in
+[PRIOR_ART](literature/PRIOR_ART.md) is historical. Exhaustive priority and broad
+significance are not established by either this comparison or successful tests.
+The local resolvent is logarithmic; the lower-edge density of states is finite.
+The protected notes and [source map](research/SOURCES.md) retain the original routes.
+
+[ASSUMPTIONS](literature/ASSUMPTIONS.md) remains a support/mismatch map. The
 [primary register](literature/PHYSICAL_PRECEDENTS.md) has twelve passage-level
-records (one caption-limited) and two abstract-only comparators. Some source-count
-targets remain unmet. Exact preparation, unconditional projector readout and a
-calibrated joint device are not established. Broad generic citation collection
-is paused; new evidence must resolve an identified mismatch.
+records, one caption-limited, and two abstract-only comparators. Some source-count
+targets remain unmet. Exact preparation, unconditional orbital readout, calibrated
+generator and joint coherent operating window are not established as a device.
+Broad generic collection remains paused.
 
-The [preparation/readout audit](research/PREPARATION_READOUT.md) and
-[model-residual argument](research/MODEL_RESIDUAL.md) retain their conditional error
-bounds and counterexamples. They are not new threshold laws or apparatus validation.
-Full crossover, optimal volume and experimental superiority remain unclaimed.
+[Preparation/readout](research/PREPARATION_READOUT.md) and
+[model residuals](research/MODEL_RESIDUAL.md) give conditional error bounds, not
+implemented protocols. Full crossover, optimal volume, arbitrary traps, many-body
+extensions and application superiority are not claimed or automatically requested.
 
-## Verification record
+## Verification record and preservation
 
-The preserved scientific suites contain **5 suites, 28 groups and 272 controls**.
-Fourteen infrastructure tests, five predecessor checks, six operational checks,
-seven model-residual checks, seven amplitude checks, six reflection checks,
-seven uniform-minimum checks and eight finite-volume checks are counted separately.
-Execution, exact byte reproduction and independent scientific review are distinct.
+The preserved suite is **5 suites / 28 groups / 272 controls**. The supplementary
+checks remain **60**: 14 infrastructure, five predecessor, six operational, seven
+model-residual, seven amplitude, six reflection, seven uniform-minimum and eight
+finite-volume tests. No new scientific suite or numerical campaign was added.
+Three one-off exact algebra checks support the comparison in the critical assessment;
+they are not additions to these counts or independent scientific review.
 
-The Gate A base was `5167d02b9504596e1c1b071ed425dea63dec62c6`. Its downloaded main
-artifact matched the complete source tree `c81dcc8df4319cb902f463844b09eacbb341e014`.
-The fresh local baseline passed every preserved suite with byte-identical results.
-The first new current diagnostic failed from cancellation near an elliptic
-singularity; its [failure and exact repair](archive/GATE_A_DIAGNOSTIC_FAILURE.md)
-are retained, with no changed assertion tolerance. The corrected seven-test run passes.
+[Assessment provenance](provenance/CRITICAL_ASSESSMENT_2026-10-05.json) pins the
+assessed base, its recovered source artifact and completed fresh baseline. Candidate,
+PR and post-merge results must be inspected separately. Raw comparisons and the
+existing [workload review](provenance/HOSTED_IMPORT_REVIEW.json) distinguish scientific
+agreement from exact byte equality. No saved reference, tolerance or policy changes.
 
-[Gate A provenance](provenance/GATE_A_2026-10-04.json) pins this pass's local evidence
-and primary reading depth. Candidate, PR and post-merge results must be read from
-their own actual runs, not inferred from the baseline. Earlier import, predecessor,
-premise and control records remain under provenance/. The existing
-[hosted-workload review](provenance/HOSTED_IMPORT_REVIEW.json) is unchanged: solver
-work counters are not physical observables; raw flags and differences must be retained.
-No original reference or numerical comparison policy is refreshed.
+The full earlier records remain in [Gate A provenance](provenance/GATE_A_2026-10-04.json),
+[Gate B provenance](provenance/GATE_B_2026-10-04.json),
+[Gate C provenance](provenance/GATE_C_2026-10-04.json), and
+[Gate D provenance](provenance/GATE_D_2026-10-05.json), with their failed attempts
+under [archive](archive/README.md). This status condensation does not reclassify any
+past failure, cancelled run or non-byte-identical result.
 
-[Gate B provenance](provenance/GATE_B_2026-10-04.json) records the recovered main
-revision `1aef5645bc957ef8e0bd8abcb1246f57c80dc7e1`, its matched source artifact,
-and a fresh baseline with all original outputs byte-identical. The initial new
-symbolic-zero assertion failure and its exact canonicalization repair are
-[archived](archive/GATE_B_DIAGNOSTIC_FAILURE.md); all six corrected checks pass.
-Candidate and hosted outcomes still require their actual reports. This does not
-reclassify any previous failed, cancelled or non-byte-identical execution.
+## Stop boundary
 
-## Next bounded step
-
-[Gate C provenance](provenance/GATE_C_2026-10-04.json) records the recovered current
-main, source-tree identity and the new diagnostic evidence. The first seven-test
-uniform-minimum run passed; no new failed scientific attempt is omitted. The early
-base-source run overlapped addition of the new note, changing only its navigation
-link count; a frozen candidate and actual hosted reports are separate evidence.
-
-[Gate D provenance](provenance/GATE_D_2026-10-05.json) pins the incoming current-main
-source artifact, baseline and eight new diagnostics. The same sufficient finite
-family and law are preserved; no protected proof or original reference is changed.
-Actual candidate and hosted outcomes require their own reports.
-
-Follow [CURRENT](work_orders/CURRENT.md): consolidate the fixed A-D route for critical
-assessment and address concrete objections, rather than starting another automatic
-audit gate or model. A genuinely separate report remains absent. Priority and exact
-implementation are not established. No manuscript, release or outside invitation
-is initiated here.
+Follow [CURRENT](work_orders/CURRENT.md). Routine author-side proof expansion is
+closed. Further work must respond to an exact objection, a directly matching
+predecessor or a genuinely separate assessment, not manufacture another gate or
+model. No outside contact, manuscript or release is initiated.
