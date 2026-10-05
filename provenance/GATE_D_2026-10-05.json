@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-05",
+  "repository": "GoGoKo699/Logarithmic-Threshold-Return",
+  "base_commit": "aa4173781adf2ddd38f7ed80038629d6ae31ffb6",
+  "base_tree": "478ba79d3f0a08c0b1e2563be25909e983148b39",
+  "scope": "Author-side Gate D and consolidated A-D map; same law, domain and sufficient finite-size family.",
+  "recovered_source": {
+    "run_id": 37232743508,
+    "artifact_id": 11314532263,
+    "sha256": "5b1ddfa74592fb47d2863c2cdf97da8cfe90f04d3fe4232d62014e8702decb64",
+    "tracked_files": 61,
+    "source_tree_match": true,
+    "method": "Exact hosted source snapshot via connected GitHub artifact; public clone failed DNS."
+  },
+  "fresh_frozen_local_baseline": {
+    "status": "PASS",
+    "suite_count": 5,
+    "group_count": 28,
+    "case_count": 272,
+    "all_reference_bytes_identical": true,
+    "changed_fields": 0,
+    "report_sha256": "77a8e0f9a56efa4894f62194bfb008c30b32136905f387a2e56e9fbb1199acc0",
+    "before": {
+      "status": "PASS",
+      "preserved_files": 27,
+      "local_links": 89,
+      "suites": 5
+    },
+    "after": {
+      "status": "PASS",
+      "preserved_files": 27,
+      "local_links": 89,
+      "suites": 5
+    },
+    "supplementary_tests_passed": 52
+  },
+  "hosted_base_boundary": {
+    "status": "PASS under unchanged comparison policy; not byte-identical",
+    "floating_differences": 518,
+    "maximum_absolute_floating_difference": 7.92932386417533e-12,
+    "workload_counter_differences": 8,
+    "raw_evidence": "Downloaded artifact and complete inspection retained separately; not substituted for the fresh local baseline."
+  },
+  "new_diagnostics": {
+    "count": 8,
+    "first_run": "PASS",
+    "script_sha256": "194ff2d4caafac07b3aac1152f0833128d24285526f16910507aa9624eab5fea",
+    "report_sha256": "6a83a90b2899835960b4f2b3997bc4853ab8a7050c55c4acc3e4bf18067dcc85",
+    "original_272_controls": false,
+    "scope": "Exact small matrices, static Fourier quadrature with refinement, short finite comparisons, and analytic envelope evaluation; no infinite-time/volume numerical certification.",
+    "failed_scientific_attempts": 0
+  },
+  "preservation": {
+    "mapped_inputs": 27,
+    "protected_proofs_changed": false,
+    "references_changed": false,
+    "comparison_or_workload_policy_changed": false
+  },
+  "method_access": [
+    {
+      "source": "Combes and Thomas, Commun. Math. Phys. 34, 251-270 (1973)",
+      "doi": "10.1007/BF01646473",
+      "url": "https://link.springer.com/article/10.1007/BF01646473",
+      "depth": "Primary publisher metadata and abstract only, checked 5 October 2026.",
+      "boundary": "Attribution context for exponential localization; no construction or continuum theorem imported. All required lattice bounds are derived in FINITE_VOLUME.md. Not an experimental precedent."
+    }
+  ],
+  "operational_failures": [
+    "Public git clone failed: Could not resolve host github.com. Source recovered from authenticated hosted artifact.",
+    "Interactive verification launch rejected with StreamingExecNotEnabledContainerError before scientific execution; corrected worker records each subprocess and completion status."
+  ],
+  "decision": {
+    "gate_d": "Explicit author-side route; no coefficient, domain or size-family correction found.",
+    "phase_boundary": "Consolidate A-D; no automatic Gate E or model expansion.",
+    "separate_report": "Absent.",
+    "exhaustive_priority": "Not established.",
+    "exact_device": "Not established.",
+    "manuscript": "On hold.",
+    "outreach": "None."
+  },
+  "candidate_and_hosted": "Inspect frozen candidate and actual PR/main artifacts separately. Their results are not inferred from this record or stored prospectively."
+}

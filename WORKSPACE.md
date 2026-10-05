@@ -26,8 +26,10 @@ Current results are author-side derivations, not an external report or a publica
 priority certificate. A narrow result is acceptable; mathematical elegance alone is not
 a significance argument. The Devdariani construction comparison and separate-reader
 packet are now recorded; neither establishes exhaustive priority or a completed review.
-Continue the unfinished physical-premise audit and keep the fixed argument available
-for a genuinely separate critical reading.
+The bounded A-D author-side expansions are collected in research/PROOF_STATUS.md.
+Keep this fixed argument available for a genuinely separate critical reading. Broad
+physical-premise collection is paused; its implementation gaps remain explicit and
+should be reopened only for concrete model-matched evidence or an exact objection.
 
 Manuscript drafting and outside contact remain on hold. Candidate identification does
 not authorize invitations. Other repositories, protected projects and parked scouts are
