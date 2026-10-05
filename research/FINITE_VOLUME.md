@@ -27,7 +27,7 @@ Define the entirely analytic lower bound and weight constants
 
 ```math
 g_*=2\sqrt2-2,\quad a_\mu=4(\cosh\mu-1),\quad v_\mu=4\sinh\mu,\qquad
-0<a_\mu<g_*,\quad C_\mu=\frac{12}{g_*-a_\mu},\quad
+\mu>0,\quad a_\mu<g_*,\quad C_\mu=\frac{12}{g_*-a_\mu},\quad
 D_\mu=\frac{4\sqrt2 C_\mu}{g_*}.
 ```
 

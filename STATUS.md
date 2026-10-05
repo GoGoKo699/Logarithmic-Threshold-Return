@@ -63,7 +63,7 @@ Full crossover, optimal volume and experimental superiority remain unclaimed.
 
 The preserved scientific suites contain **5 suites, 28 groups and 272 controls**.
 Fourteen infrastructure tests, five predecessor checks, six operational checks,
-seven model-residual checks, seven amplitude checks, six reflection checks and
+seven model-residual checks, seven amplitude checks, six reflection checks,
 seven uniform-minimum checks and eight finite-volume checks are counted separately.
 Execution, exact byte reproduction and independent scientific review are distinct.
 
