@@ -57,6 +57,16 @@ sentence in the historical source. No coefficient, Hamiltonian or domain
 correction was found in these bounded author-side passes. This is an author-side
 assessment, not evidence of an independent reader's agreement.
 
+## Consolidated author-side assessment
+
+[CRITICAL_ASSESSMENT](CRITICAL_ASSESSMENT.md) checks the A-D interfaces and combines
+their amplitude errors explicitly. No coefficient or domain correction was found in
+those checks. It also sharpens the originality objection: the local power-law tangent
+predicts the full positive-minimum prefactor, not only the zero-minimum constant.
+The controlled physical limit, not those prefactors in isolation, is the contribution
+under assessment. The assessment adds direct attribution of the midpoint identity to the 2016
+predecessor. No independent reader rating is supplied by this pass.
+
 ## What remains genuinely unresolved
 
 **Separate critical reading.** All four reader gates remain unrated by an external
@@ -91,9 +101,9 @@ central proof gate or a substitute for significance.
 ## Completion boundary for this phase
 
 The bounded author-side A-D expansion is complete as a route for critical reading.
-Do not start an automatic Gate E or another numerical campaign. The next action is
-a consolidated critical assessment of this fixed route or a response to an exact
-objection. Reopen a physical premise only for directly model-matched evidence.
+Do not start an automatic Gate E or another numerical campaign. The consolidated author-side assessment is now recorded. Further work must
+respond to an exact objection, a directly matching predecessor, or a genuinely
+separate critical reading; routine internal proof expansion stops here. Reopen a physical premise only for directly model-matched evidence.
 Manuscript drafting, release and all outside contact remain on hold.
 
 Numerical execution, byte reproduction, symbolic diagnostics and scientific proof

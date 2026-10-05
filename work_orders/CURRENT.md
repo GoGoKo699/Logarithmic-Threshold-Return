@@ -1,65 +1,66 @@
-# Current work order: consolidate the fixed proof and assess it critically
+# Current work order: respond to concrete objections to the fixed result
 
-**5 October 2026, after the finite-volume pass.** Work only in
+**5 October 2026, after consolidated critical assessment.** Work only in
 `GoGoKo699/Logarithmic-Threshold-Return`. The model, observable, coefficient,
 uniform minimum-depth domain and sufficient finite-size family are unchanged.
-Manuscript drafting, release and outside contact remain on hold.
+Manuscript drafting, release and all outside contact remain on hold.
 
-## What the bounded A-D passes now supply
+## Fixed record and present decision
 
-Read research/PROOF_STATUS.md first. It links the four author-side expansions:
-physical-amplitude identification; reflection matching; uniform positive minimum;
-and finite volume. The protected ASYMPTOTIC, AUDIT and ROUNDING notes remain
-unchanged. No independent reader has rated these gates.
+Read research/PROOF_STATUS.md and research/CRITICAL_ASSESSMENT.md. The A-D
+expansions and their cross-gate assessment now form one fixed author-side route.
+The assessment found no required coefficient or domain correction in its specific
+checks. It explicitly composes the three amplitude errors without conflating phases,
+remote-time limits or the two different cutoff radii. It is not independent review.
 
-research/FINITE_VOLUME.md now supplies the endpoint state, periodic seam and
-midpoint comparison. A two-dimensional Rayleigh bound proves the weight margin
-without a rounded binding energy. The proof retains distinct finite/infinite
-energies and normalized positive states, uses bounded weights before their
-infinite limit, and propagates the seam error over only a half-cycle. The real,
-even-time Hamiltonian gives a transpose bilinear, not a conserved norm. The
-existing n(T)=2 ceil(4.5T)+1 family still suffices uniformly in b<=1-delta.
-Eight small checks support these identities, not an all-size proof by sampling.
+The small-power objection is stronger than a comparison of the zero-minimum constant:
+a frozen logarithmic slope predicts the full leading residual-depth prefactor too.
+That does not prove the logarithmic physical limit or its uniform error estimates.
+The controlled physical law and joint domain remain the contribution to assess;
+the coefficient, energy transform, midpoint identity and localization tools are
+not separate discoveries. The assessment explicitly credits the midpoint identity
+to Sokolovski-Pons 2016 Eq. (5), with its actual reading-depth limitation.
 
-## Next task: critical assessment, not an automatic Gate E
+## No automatic new gate or numerical campaign
 
-Check the assembled statement and dependency map against the fixed claim. Prioritize
-an exact counterargument to one load-bearing step or a precise predecessor comparison
-that could change the novelty assessment. If none is found, state that outcome as an
-author-side assessment, not independent validation. Do not keep adding lemmas or
-numerical cases simply because the previous work order is complete.
+Routine author-side proof expansion is closed. Further scientific work must address
+an exact mathematical objection naming the affected passage, a directly matching
+predecessor with the relevant hypotheses, or a genuinely separate critical report.
+Do not invent another internal task merely to keep development active.
 
-A genuinely separate report requires an identified reader, exact revision, actual
-reading depth and reasoned findings under READER_PACKET.md. Another assistant session
-alone is not such a report. Do not contact anyone or send invitations without explicit
-owner instruction. The packet remains a brief, not a completed report.
+A separate report must identify its reader, exact revision, passages checked and
+reasoned findings under READER_PACKET.md. Another assistant session or this
+assessment is not such a report. The packet remains an unsent brief. No invitation,
+email or other outside contact is authorized by this work order.
 
-## Remaining boundaries
+Priority and broad significance remain judgments to resolve, not consequences of
+passing tests. The fixed-power time-ramp exponent is not the energy-coordinate
+power used in the local tangent; do not use a duration-dependent substitution as
+an already proved predecessor theorem. Failed searches are not novelty evidence.
 
-Exhaustive priority and model-specific preparation, unconditional projector readout,
-calibrated generator and joint coherent area/time remain unestablished. Some physical
-precedent-count targets are incomplete. ASSUMPTIONS.md is a support/mismatch map,
-not an apparatus certificate; broad generic collection stays paused. Reopen a row
-only for concrete model-matched evidence. The calibration inequalities do not design
-a detector or loading ramp and do not assert achieved tolerances.
+## Unchanged implementation and scope boundaries
 
-Do not solve a new crossover, optimize the size bound, add interactions, change the
-cycle/boundaries/detector, or adopt another platform to sustain development. Fixed
-positive anisotropy is a scope check, not a new central problem. A correction affecting
-the protected coefficient, proof or domain must identify its exact passage and be
-approved and recorded before any protected-source edit.
+ASSUMPTIONS.md remains a support/mismatch map. Exact endpoint preparation,
+unconditional bound-projector readout, calibrated generator and joint coherent
+area/time are not established. Some requested source-count targets are incomplete.
+Reopen a premise only for directly model-matched evidence, not ordinary microscope
+or unrelated platform citations. Conditional error bounds are not device designs.
 
-## Evidence and handoff discipline
+No new crossover, optimized size, many-body model, boundary condition, drive,
+detector or platform is authorized. The existing positive-anisotropy result is a
+scope check, not a new centerpiece. A change to a protected coefficient, proof or
+domain must be justified, approved and recorded before editing protected files.
 
-Pin actual main; read WORKSPACE.md, AGENTS.md and STATUS.md. Inspect the reports for
-its exact source tree rather than trusting earlier chat summaries. All 27 mapped
-scientific/history inputs, original results and comparison/workload policy remain
-unchanged. Use fresh output paths for integrity, every supplementary script including
-tools/test_finite_volume.py, and all five preserved scientific suites. Retain complete
-logs and numerical differences, and distinguish assertion success from byte equality.
+## Verification and preservation
 
-provenance/GATE_D_2026-10-05.json records this pass's base and available local evidence.
-Candidate, PR and post-merge reports must be inspected separately; no prospective
-hosted success is implied there. Other repositories and alternate old patches remain
-outside this work. Consolidation is the stop boundary for the present proof-expansion
-phase, not authorization for a manuscript or external action.
+Pin actual main and read WORKSPACE.md, AGENTS.md and STATUS.md. All 27 mapped
+scientific/history inputs, original scripts and results, and the comparison/workload
+policy remain unchanged. Use fresh paths for integrity, all 60 supplementary checks
+and all five original scientific suites. Retain failures and all raw differences;
+separate assertion success from byte equality and proof review.
+
+provenance/CRITICAL_ASSESSMENT_2026-10-05.json pins the assessed base, completed
+baseline and source-access limits. Candidate, PR and post-merge outcomes require
+their own reports. No hosted success is inferred from a baseline or planned run.
+No new scientific suite was added for the one-off comparison algebra. Other
+repositories, alternate historical patches and third-party PDFs are not imported.

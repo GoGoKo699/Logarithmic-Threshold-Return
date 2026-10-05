@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-05",
+  "repository": "GoGoKo699/Logarithmic-Threshold-Return",
+  "assessed_commit": "5f372c4809973771db78847f773bec61ddce377f",
+  "assessed_tree": "56f699c6f336a43998782121382cbde3afc892ba",
+  "scope": "Cross-gate critical assessment and narrow predecessor comparison; no new gate, model, original test or protected-source correction.",
+  "recovered_hosted_base": {
+    "run_id": 37249858942,
+    "artifact_id": 11320971618,
+    "artifact_sha256": "defefaed4d403c83d550a9b1bc35d3ad235bbae23c51877b61856e5846b6603a",
+    "tracked_source_files": 65,
+    "local_git_tree_matches": true,
+    "source_archive_comment_matches_commit": true,
+    "byte_identical_to_references": false,
+    "raw_report_preserved": true
+  },
+  "fresh_frozen_baseline": {
+    "status": "PASS",
+    "suites": 5,
+    "groups": 28,
+    "finite_controls": 272,
+    "all_reference_bytes_identical": true,
+    "changed_scientific_fields": 0,
+    "report_sha256": "2f7464be7b587c0e59f044c381bba233de0c3121a6f8ce7e6ec18412a64b515b",
+    "supplementary_tests_passed": 60,
+    "all_runner_commands_returned_zero": true
+  },
+  "comparison_algebra": {
+    "status": "PASS",
+    "exact_assertions": 3,
+    "new_ci_suite": false,
+    "source_and_output": "Retained in conversation evidence, not added to original scientific controls."
+  },
+  "primary_access": {
+    "R1": {
+      "url": "https://arxiv.org/pdf/1506.04019",
+      "access": "Parsed full text retrieved; no new successful screenshots."
+    },
+    "R2": {
+      "url": "https://arxiv.org/pdf/1603.08718",
+      "access": "Parsed Eq. (5), Eqs. (18)-(20), and Eqs. (24)-(27). Screenshot requests returned cache misses. Direct container downloads failed DNS. No successful visual rereading claimed."
+    },
+    "R3": {
+      "url": "https://dlmf.nist.gov/10.4",
+      "access": "HTML connection-formula section."
+    },
+    "search_boundary": "Limited targeted queries also returned unrelated material; no exhaustive priority inference."
+  },
+  "decision": {
+    "fixed_law": "preserved in the checked author-side connections",
+    "separate_reader_report": "absent",
+    "midpoint_attribution": "Explicit 2016 Eq. (5) acknowledgment added to critical assessment; all Gate A-D proof files remain unchanged.",
+    "novelty_challenge": "Local spectral slope predicts the full leading positive-minimum prefactor; uniform physical matching is not supplied by that substitution.",
+    "routine_proof_expansion": "closed",
+    "manuscript_release_outreach": "remain on hold"
+  },
+  "failures": {
+    "scientific": "No baseline or one-off algebra failure. Candidate and hosted runs have their own evidence.",
+    "operational": "Initial interactive launch rejected before execution. Four web screenshots and versioned/mirror page attempts failed; direct source downloads failed DNS. No third-party PDF was obtained or redistributed."
+  },
+  "candidate_and_hosted_status": "Not inferred here; inspect actual frozen candidate, PR and post-merge reports and comments."
+}
