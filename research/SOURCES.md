@@ -19,9 +19,17 @@ claimed as a new full-text literature review in this repository-import pass.
 
 Later readings supersede earlier access states where explicitly recorded. In particular,
 the initial threshold scout's abstract-only Cornean record is followed by full-text
-hypothesis comparisons in subsequent source records. The Devdariani full-text gap
-remains open in the consolidated prior-art note. No new title, theorem or completed
-apparatus is inferred from a bibliographic lead.
+hypothesis comparisons in subsequent source records. The Devdariani gap reported in
+the older consolidated prior-art note is historical: the later
+[construction comparison](../literature/DEVDARIANI_COMPARISON.md) records the actual
+primary reading. No new title, theorem or completed apparatus is inferred from a
+bibliographic lead.
+
+The active [scientific context](../literature/SCIENTIFIC_CONTEXT.md) adds the precise
+static and adiabatic attributions, the updated Tolstikhin comparison and the still
+access-limited 2014 predecessor. [Physical precedents](../literature/PHYSICAL_PRECEDENTS.md)
+records the later full-text P15 reading and the motion/control additions. These dated
+updates supersede only their specified earlier access labels, not the preserved notes.
 
 The static lattice-Green-function result and the constant edge density are not original
 dynamical results of this project. Numerical percentages are source-code outputs, not

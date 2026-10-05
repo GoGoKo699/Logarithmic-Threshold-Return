@@ -1,6 +1,7 @@
 # Research status
 
-**5 October 2026. Fixed theory under critical assessment; manuscript and outreach on hold.**
+**5 October 2026. Targeted scientific preparation integrated; one primary-source comparison open.**
+Manuscript drafting and outreach remain on hold.
 
 The claim remains logarithmic bound-state return for one attractive square-lattice
 site under the specified quadratic cycle, with the stated uniform residual-depth
@@ -16,6 +17,7 @@ are unchanged. All 27 protected scientific/history inputs are byte-preserved.
 | Uniform positive-minimum return | [Gate C](research/UNIFORM_MINIMUM.md) | Fixed margin below b=1; full singular core and shifted negative tail |
 | Finite periodic squares | [Gate D](research/FINITE_VOLUME.md) | Own normalized endpoint states; seam and midpoint comparison; sufficient, not optimal size |
 | Fixed positive hopping anisotropy | [Scope check](research/SPECTRAL_SCOPE.md) | Not uniform at zero transverse hopping or a dimensional crossover |
+| Fixed finite size even with varying residual depth | [Limits and accuracy](research/LIMITS_AND_ACCURACY.md) | Uniform recovery at each fixed size; constants need not be uniform as size grows |
 
 [PROOF_STATUS](research/PROOF_STATUS.md) assembles A-D. The
 [critical assessment](research/CRITICAL_ASSESSMENT.md) found no required coefficient
@@ -30,6 +32,12 @@ The contribution to assess is the controlled logarithmic physical limit and its
 joint domain, not a new transform, midpoint identity or prefactor heuristic. The
 assessment directly attributes the midpoint identity to Sokolovski-Pons 2016 Eq. (5).
 All A-D proof files remain unchanged in this documentary pass.
+
+The [scientific preparation record](research/SCIENTIFIC_PREPARATION.md) integrates
+the work authorized before writing. It proves the fixed-size recovery implication
+uniformly in minimum depth, makes the power comparator's existing domain explicit,
+and shows why the present remainder cannot certify a subleading logarithmic term.
+These are bounded clarifications of the fixed account, not another central claim.
 
 The bounded significance follow-up in the assessment retains the strongest physical
 point: vanishing return along the specified finite, strictly positive-minimum family.
@@ -47,10 +55,18 @@ significance are not established by either this comparison or successful tests.
 The local resolvent is logarithmic; the lower-edge density of states is finite.
 The protected notes and [source map](research/SOURCES.md) retain the original routes.
 
+The new [scientific context](literature/SCIENTIFIC_CONTEXT.md) records exact static,
+weak-binding, adiabatic and localization attributions. Tolstikhin 2008 is now checked
+in public author-uploaded full text: its displayed turning-point/separation assumptions
+do not directly supply this essential-binding limit. Sokolovski-Pons-Muga 2014 remains
+at publisher-abstract depth; its construction-level comparison is the identified open
+source task. No exhaustive priority clearance is claimed.
+
 [ASSUMPTIONS](literature/ASSUMPTIONS.md) remains a support/mismatch map. The
-[primary register](literature/PHYSICAL_PRECEDENTS.md) has twelve passage-level
-records, one caption-limited, and two abstract-only comparators. Some source-count
-targets remain unmet. Exact preparation, unconditional orbital readout, calibrated
+[primary register](literature/PHYSICAL_PRECEDENTS.md) has fifteen passage-level
+records, one caption-limited, and one abstract-only comparator. P15 access is upgraded;
+WE23 and CH25 complete the targeted motion/control background. The listed conventional
+component collections now meet their five-to-ten range. Exact preparation, unconditional orbital readout, calibrated
 generator and joint coherent operating window are not established as a device.
 Broad generic collection remains paused.
 
@@ -89,7 +105,9 @@ past failure, cancelled run or non-byte-identical result.
 
 ## Stop boundary
 
-Follow [CURRENT](work_orders/CURRENT.md). Routine author-side proof expansion is
-closed. Further work must respond to an exact objection, a directly matching
-predecessor or a genuinely separate assessment, not manufacture another gate or
-model. No outside contact, manuscript or release is initiated.
+Follow [CURRENT](work_orders/CURRENT.md). Complete the specific 2014 primary-source
+comparison when readable text is available; do not mark all scientific due diligence
+complete while it remains unread. Routine proof expansion stays closed except for
+an exact objection. A separate report and a device remain unestablished; neither is
+an extra hypothesis of the conditional theorem. No outside contact, manuscript or
+release is initiated.

@@ -1,6 +1,6 @@
 # Physical precedents: what each source actually supports
 
-**4 October 2026. Primary-source audit for the fixed lattice model.** This register
+**5 October 2026. Primary-source audit for the fixed lattice model.** This register
 supports [ASSUMPTIONS.md](ASSUMPTIONS.md); it does not select a new platform, tutorial
 or detector. The older access labels in the preserved PRIOR_ART.md remain historical.
 A component precedent is not evidence that our complete protocol has been implemented.
@@ -197,14 +197,67 @@ component in an interacting lattice.** Equilibrium density uniformity is not a
 bound on our single-particle phase error, propagation time, or residual generator.
 No many-body result is imported into the threshold theorem.
 
-## Abstract-level comparators, excluded from detailed-access counts
+## P15 — coherent motion and preparation shaping, with conditioned data
 
-**P15:** P. M. Preiss et al., *Strongly Correlated Quantum Walks in Optical Lattices*,
+P. M. Preiss et al., *Strongly Correlated Quantum Walks in Optical Lattices*,
 Science **347**, 1229–1233 (2015), [DOI](https://doi.org/10.1126/science.1260364),
 [arXiv:1409.3100v2](https://arxiv.org/abs/1409.3100v2).
-Primary abstract and author-group record checked; PDF/HTML retrieval attempts failed.
-The abstract supports interacting quantum-walk experiments, not details of a claimed
-single-particle preparation or measurement protocol in this audit.
+**Access upgrade, 5 October:** [primary HTML](https://arxiv.org/html/1409.3100v2)
+and [PDF](https://arxiv.org/pdf/1409.3100) retrieved. Fig. 1, PDF p. 1; Eqs. (1)–(3),
+p. 2; Methods, p. 7; Table I, p. 8 checked in parsed text. Earlier access was limited
+to the abstract after failed PDF/HTML retrievals; those attempts are not reclassified.
+
+Single atoms tunnel in decoupled 1D tubes; ballistic spreading and Bloch revival
+test motional coherence. Repulsive DMD shaping selects rows, and Bloch oscillations
+calibrate tunneling. **Classification: motion and repulsive-shaping components.**
+This is not the attractive 2D cycle. Single-particle data retain only tubes with
+one detected atom; position/distribution agreement is not unconditional bound-orbital
+return. The Methods flag next-nearest hopping at shallow depth and residual gradients
+at greater depth. No full published-version supplement or experimental-data reanalysis
+is claimed.
+
+## WE23 — square-lattice motion and calibrated local repulsion
+
+D. Wei et al., *Observation of Brane Parity Order in Programmable Optical Lattices*,
+Physical Review X **13**, 021042 (2023),
+[DOI](https://doi.org/10.1103/PhysRevX.13.021042).
+**Access:** [publisher PDF](https://journals.aps.org/prx/pdf/10.1103/PhysRevX.13.021042),
+Sections II–III and Fig. 2, printed pp. 021042-2–3; Appendix B2, p. 7; Appendix C1,
+pp. 7–8, checked in parsed text. ArXiv retrieval failed; the published PDF supplied
+these passages.
+
+One selected atom spreads coherently in a square lattice; independent depth
+spectroscopy is compared with fitted hopping. DMD beams impose site-resolved repulsive
+block-out potentials. Appendix C1 calibrates light power against an atomic occupation
+threshold at the Hubbard interaction energy. **Classification: motion and calibrated
+local-control components.** Blocking changes the accessible geometry; it is not the
+attractive defect or its quadratic schedule. Hopping has measured anisotropy, and
+Appendix B2 conditions position data on one detected atom. Static occupation-threshold
+calibration does not certify all projected matrix elements during coherent evolution.
+No demonstrated operating window or unconditional orbital measurement is transferred
+to this model.
+
+## CH25 — ordinary single-particle motion within a superlattice study
+
+T. Chalopin et al., *Optical Superlattice for Engineering Hubbard Couplings in Quantum
+Simulation*, Physical Review Letters **134**, 053402 (2025),
+[DOI](https://doi.org/10.1103/PhysRevLett.134.053402).
+**Access:** [arXiv:2405.19322v1 HTML](https://arxiv.org/html/2405.19322v1) and
+[PDF](https://arxiv.org/pdf/2405.19322), main discussion of Fig. 3(a), Appendix B
+sequence, and Supplement S4 standard-lattice/imperfection passages checked. The
+inspected preprint is dated 29 May 2024; the publication record was checked separately.
+
+Fig. 3(a) measures an individual atom's continuous-time walk in an ordinary,
+unstaggered 1D lattice, separately from the superlattice results. Supplement S4 gives
+the nearest-neighbor single-particle Hamiltonian and discusses curvature and initial
+site displacement. **Classification: coherent-motion component.** Rows are postselected
+on one detected atom, the measurement is position, and finite beam envelopes affect
+dynamics. Alternating scalar offsets and double-well coherence are separate demonstrations,
+not a single attractive defect or our 2D propagation window. The staggered effective
+hopping is not evidence for our fixed Hamiltonian. No complete final-publication audit
+is claimed.
+
+## Abstract-level comparator, excluded from detailed-access counts
 
 **C15:** L. W. Cheuk et al., *A Quantum Gas Microscope for Fermionic Atoms*,
 Physical Review Letters **114**, 193001 (2015),
@@ -215,9 +268,10 @@ fermionic-site-imaging precedent, not detailed proof of our motional readout.
 
 ## Access and counting policy
 
-There are **twelve passage-level primary records and two abstract-only comparators**
-here. M17 is limited to primary extended-data captions; L13 and C18 are the two new
-main-text comparisons. The original nine access records are not upgraded wholesale.
+There are **fifteen passage-level primary records, including one caption-limited
+record, and one abstract-only comparator (C15)** here. M17 remains limited to primary
+extended-data captions. The 5 October additions are WE23 and CH25; P15 alone receives
+the specified access upgrade. All other reading-depth limits remain as recorded.
 One article appearing under several applicable premises is still one article.
 Reformatted HTML dates are not publication dates; the cited preprint versions and
 bibliographic records determine those dates. Failed retrievals, reviews, unrelated
@@ -225,10 +279,15 @@ search hits, and internal-spin-only addressing examples are not promoted to extr
 motional-control evidence. Third-party PDFs are neither committed nor redistributed.
 
 For the six preparation-component and seven measurement/diagnostic-component records
-used in the matrix, the five-to-ten *component* target is met. The target is **not** met
-for demonstrated exact preparation/readout of this model, nor for every other premise.
-Those shortfalls and the absence of a joint protocol remain explicit in ASSUMPTIONS.md.
-Further retrieval attempts did not make P15 a full-text record; its count is unchanged.
+used in the matrix, the five-to-ten *component* target remains met; those two
+collections are unchanged. Motion now has five passage-level papers: Y22, W11, P15,
+WE23 and CH25. The local-control collection has five: Y22, W11, Z16, M17 and WE23.
+These preserve their different signs, spatial profiles, states and calibrations;
+they are not five calibrated attractive single-site implementations. P15's shaping
+and CH25's alternating offsets are not needed to inflate that count. In particular,
+the presence of a publication in Physical Review Letters does not erase its model
+mismatch or prove the combined apparatus. Exact preparation/readout, generator
+calibration and the joint coherent window remain unresolved in ASSUMPTIONS.md.
 The [model-residual test](../research/MODEL_RESIDUAL.md) states what the remaining
 model-specific calibration must establish. No further generic source expansion is
 required merely to turn an unresolved implementation row into a larger citation count.

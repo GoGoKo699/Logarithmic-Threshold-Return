@@ -44,6 +44,11 @@ positive-minimum expansion and [Gate D](FINITE_VOLUME.md) the finite-volume chai
 The [consolidated proof status](PROOF_STATUS.md) records the dependencies and remaining
 obligations. All four are author-side arguments; no separate report is present.
 
+[Limits and accuracy](LIMITS_AND_ACCURACY.md) now makes fixed-size recovery uniform
+in minimum depth and states the resolution limit of the existing remainder. The
+[scientific preparation record](SCIENTIFIC_PREPARATION.md) connects these clarifications
+to the updated primary-source context and the still unread 2014 predecessor.
+
 ## What is inherited and what remains open
 
 The static resolvent, essential weak binding, threshold-loss problem, energy-domain
@@ -52,7 +57,7 @@ method, gapped recovery and locality tools are established ingredients. Read
 
 The [Devdariani construction comparison](../literature/DEVDARIANI_COMPARISON.md)
 now closes the specifically recorded primary-access gap while preserving the narrow
-core and strengthening attribution. Complete physical-premise evidence and a separate
+core and strengthening attribution. Exact physical implementation and a separate
 reader report remain open; the [reader packet](READER_PACKET.md) is preparation only.
 Full crossover, general trap universality, optimal volume, experimental superiority
 and a joint apparatus are not claimed. The known terminology

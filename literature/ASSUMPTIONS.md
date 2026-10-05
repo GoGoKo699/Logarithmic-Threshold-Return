@@ -1,8 +1,8 @@
 # Physical premises: evidence, mismatch and the remaining obligation
 
-**4 October 2026. Targeted control pass; exact implementation remains unestablished.**
-The [primary-source register](PHYSICAL_PRECEDENTS.md) records twelve passage-level primary
-comparisons (one caption-limited) and two abstract-only comparators. Source IDs below resolve there.
+**5 October 2026. Scientific-background update; exact implementation remains unestablished.**
+The [primary-source register](PHYSICAL_PRECEDENTS.md) records fifteen passage-level primary
+comparisons (one caption-limited) and one abstract-only comparator. Source IDs below resolve there.
 [The operational audit](../research/PREPARATION_READOUT.md) derives the distinction
 between site occupation and the bound-state projector, and a sufficient error budget.
 The [model-residual test](../research/MODEL_RESIDUAL.md) now makes the dynamical
@@ -33,8 +33,8 @@ reported separately. Filtering on survival after that start changes its denomina
 
 | Premise/resource | Checked basis and boundary | What remains |
 |---|---|---|
-| Coherent single-particle lattice dynamics | Y22 and W11 at passage level; P15 remains abstract-only | A documented finite coherent window for this protocol. Two checked motion records do not meet a five-to-ten experimental count. |
-| Calibrated single attractive site, fixed quadratic schedule | Y22 expanded control passages; W11, Z16 and M17 offer addressing/shaping components with different signs, states or spatial profiles | Four component records, not four scalar single-site implementations. Certify all projected matrix elements and their time dependence, not just the central light shift. |
+| Coherent single-particle lattice dynamics | Y22, W11, P15, WE23 and CH25: five passage-level motion records, including separately identified 1D and 2D walks | Conventional coherent lattice motion is supported; the finite coherent window for this protocol is unestablished. Position readout and survivor postselection are not unconditional orbital return. |
+| Calibrated single attractive site, fixed quadratic schedule | Y22, W11, Z16, M17 and WE23: five addressing/shaping/control components with different signs, states or spatial profiles | The component count is met, not five realizations of a scalar attractive site. Certify all projected matrix elements and their time dependence, not just a central light shift or static occupation threshold. |
 | Single-band and nearest-neighbor description | J98, W11, Y22, L13 and C18: five framework/diagnostic records, including a PRL reduction audit | A component-count target is met, not five validations of our reduction. Bound in-band errors, higher-band coupling and any moving-basis term. Small leakage alone does not certify phase accuracy. |
 | Other confinement and coherent area/time | J98, Y22, S10, Z16, L13 and M17: six records exposing or controlling background potentials | These include idealizations and finite-region compensation, not six demonstrated coherent windows. Control the residual potential over the evolving state; a uniform density does not certify this. |
 | Positive-minimum limit | Preserved ROUNDING proof with $`b\le1-\delta`$ | A joint limit is not immunity to a fixed residual depth. Full crossover remains unclaimed. |
@@ -63,15 +63,21 @@ sufficient in the fixed joint domain; the generic absolute-error condition
 $`o(L^{-2})`$ remains sufficient without that structure. Neither is a necessary
 hardware tolerance or evidence that an apparatus attains it.
 
-The bounded documentary pass is complete as a **support/mismatch map**, not as proof
-of every physical premise. The requested count remains unmet for some rows; explicit
-model-specific gaps remain in every implementation claim. More generic papers cannot
-replace the required matrix elements, orbital identification, phase/error bounds or
-coherent operating window. Pause broad source accumulation here. Reopen a row only
-for a directly relevant primary result or a concrete model-matched calibration.
+The targeted update reaches the requested five-to-ten **component** range for the
+listed preparation (six), readout/diagnostic (seven), motion (five), local-control
+(five), single-band framework (five) and confinement/context (six) collections.
+Those are different evidentiary roles, not six fulfilled implementation promises.
+The explicit model-specific gaps remain in every implementation claim. More generic
+papers cannot replace the required matrix elements, orbital identification,
+phase/error bounds or coherent operating window. The pure input, closed evolution
+and absence of incoming continuum define the conditional theory; they are not
+assertions that a cited apparatus realizes it. Reopen a row only for a directly
+relevant primary result or a concrete model-matched calibration.
 
 Exact endpoint preparation and unconditional readout are still unresolved in the
 checked apparatus literature. The residual inequality does not construct them.
-A genuinely separate proof report is absent. The next author-side scientific check
-should challenge a specific proof obligation in READER_PACKET, without relabeling
-it as independent review. Manuscript drafting and outreach remain on hold.
+A genuinely separate proof report is absent. Neither that report nor a demonstrated
+device is an already completed fact or an extra hypothesis of the conditional
+Hamiltonian theorem. The [scientific preparation record](../research/SCIENTIFIC_PREPARATION.md)
+states the remaining source-access gap and the disposition of work before writing.
+Manuscript drafting and outreach remain on hold.

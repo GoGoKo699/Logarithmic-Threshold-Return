@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-05",
+  "repository": "GoGoKo699/Logarithmic-Threshold-Return",
+  "assessed_base": "88b633f040bb075b6717c6306fe88d541c718924",
+  "assessed_tree": "a5d7328e17cd6a291b16475d80e8089823a93d1c",
+  "authorization": "Owner requested scientific research needed before writing and integration in the repository; existing modification/merge authorization retained.",
+  "scope": "Fixed conditional theoretical return claim; manuscript drafting, release and outside contact remain on hold.",
+  "additions": [
+    "Fixed finite n recovery uniform in residual depth, using compactness and the existing commutator estimate.",
+    "Accuracy boundary: current relative remainder does not certify subleading logarithmic coefficients.",
+    "Explicit existing 0 < sigma < 1 domain when restating the inherited comparator.",
+    "Updated theoretical source attribution and Tolstikhin construction-level comparison.",
+    "P15 full-text access upgrade plus WE23 and CH25 conventional physical-component support.",
+    "Claim-led scientific preparation ledger and exact remaining source task."
+  ],
+  "preservation": {
+    "original_mapped_inputs": 27,
+    "protected_inputs_changed": false,
+    "A_D_proof_files_changed": false,
+    "scientific_scripts_or_references_changed": false,
+    "dependency_or_workload_policy_changed": false,
+    "central_model_observable_coefficient_or_domain_changed": false
+  },
+  "physical_register": {
+    "passage_level_records": 15,
+    "caption_limited_included": 1,
+    "abstract_only_comparators": 1,
+    "component_collections": {
+      "preparation": 6,
+      "measurement_diagnostics": 7,
+      "motion": 5,
+      "local_control": 5,
+      "single_band_framework": 5,
+      "confinement_context": 6
+    },
+    "exact_joint_apparatus_demonstrated": false
+  },
+  "access_updates": {
+    "Tolstikhin_2008": "Parsed public author-uploaded full text; equations (1)-(12), (42)-(43), (67), (76)-(87). PDF download failed; no visual equation inspection claimed.",
+    "Preiss_2015": "Primary arXiv HTML/PDF targeted passages; earlier failed retrieval superseded.",
+    "Wei_2023": "Primary published PDF targeted motion/calibration passages.",
+    "Chalopin_2025": "Primary arXiv v1 targeted ordinary-walk and methods passages; publication identified separately."
+  },
+  "open_source_task": {
+    "paper": "Sokolovski, Pons and Muga, Physical Review A 89, 042125 (2014)",
+    "doi": "10.1103/PhysRevA.89.042125",
+    "access": "Primary publisher abstract and institutional metadata only. Publisher full text inaccessible; checked author pages supplied no open manuscript.",
+    "required_comparison": [
+      "Full schedule and endpoints",
+      "Normalized observable",
+      "Threshold binding law",
+      "Asymptotic hypotheses and potential subsumption"
+    ],
+    "status": "OPEN; no claim of all scientific due diligence completed"
+  },
+  "other_boundaries": {
+    "independent_report_received": false,
+    "exhaustive_priority_established": false,
+    "experimental_realization_claimed": false,
+    "new_model_or_numerical_campaign": false
+  },
+  "verification": {
+    "preserved_scientific_suites": 5,
+    "preserved_groups": 28,
+    "preserved_controls": 272,
+    "supplementary_tests": 60,
+    "new_scientific_tests": 0,
+    "results": "Fresh local, actual PR and post-merge outcomes are to be recorded separately in retained evidence and the integration PR; none inferred in this provenance record."
+  }
+}
