@@ -67,7 +67,7 @@ uses numerical norm conservation as proof of scattering boundary conditions.
 [AUDIT Section 7](AUDIT.md) already contains the standard-Bessel comparator
 
 ```math
-P_\sigma=4\cos^2\!\left(\frac{\pi}{2+\sigma}\right),\qquad
+P_\sigma=4\cos^2\!\left(\frac{\pi}{2+\sigma}\right),\quad 0<\sigma<1,\qquad
 P_\sigma=\frac{\pi^2\sigma^2}{4}+O(\sigma^3),\quad \sigma\downarrow0.
 ```
 
@@ -93,7 +93,8 @@ At this scale the logarithmic slope is exactly
 =\frac1{L(1-b)}.
 ```
 
-Freezing this slope in the power comparator formally predicts
+The comparator's domain is satisfied uniformly once $`L>\delta^{-1}`$, since
+$`\sigma_{\rm eff}\le1/(\delta L)`$. Freezing this slope formally predicts
 
 ```math
 \frac{\pi^2\sigma_{\rm eff}^2}{4}
@@ -259,6 +260,11 @@ Born-Fock equations and leading ejected-particle spectra for underbarrier and
 overbarrier evolution. Exact applicability to essential-threshold recapture was
 not established from this access. The bounded search found no direct match but
 does not exclude one or improve the priority assessment.
+
+**Later access update:** [SCIENTIFIC_CONTEXT](../literature/SCIENTIFIC_CONTEXT.md)
+records the subsequent parsed author-uploaded full text and its scoped turning-point
+comparison. The abstract-only R5 description above records this assessment's earlier
+access, not the current reading state. The 2014 predecessor remains access-limited.
 
 Targeted searches beyond these records did not identify a directly matching
 logarithmic-return theorem, but also produced irrelevant results. This is not

@@ -45,7 +45,7 @@ L+\tfrac12\ln L=\ln\frac{32T}{\sqrt{(4-u)\rho_0}},
 \qquad b=\rho_0uL.
 ```
 
-For $`0\le b(T)\le1-\delta`$ with fixed $`\delta>0`$, the current derivation gives
+For $`0\le b(T)\le1-\delta`$ with fixed $`0<\delta\le1`$, the current derivation gives
 
 ```math
 P_\infty(T,u(T))=
@@ -100,6 +100,12 @@ site occupation cannot simply replace the declared bound-state projector. The
 [model-residual test](research/MODEL_RESIDUAL.md) distinguishes generator errors,
 higher-band population and coherent return-amplitude errors. [Status](STATUS.md) and the [work order](work_orders/CURRENT.md) identify what
 remains open. No external tutorial has been selected for this project.
+
+[Scientific preparation](research/SCIENTIFIC_PREPARATION.md) maps the current
+claim support and the one remaining primary-source comparison before writing.
+[Limits and accuracy](research/LIMITS_AND_ACCURACY.md) spells out fixed-size
+recovery and what the leading asymptotic does not resolve; the
+[scientific context](literature/SCIENTIFIC_CONTEXT.md) supplies updated attributions.
 
 ## Reproduce without rewriting evidence
 

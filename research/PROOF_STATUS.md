@@ -67,6 +67,12 @@ The controlled physical limit, not those prefactors in isolation, is the contrib
 under assessment. The assessment adds direct attribution of the midpoint identity to the 2016
 predecessor. No independent reader rating is supplied by this pass.
 
+The later [scientific preparation](SCIENTIFIC_PREPARATION.md) adds bounded scope
+clarifications in [LIMITS_AND_ACCURACY](LIMITS_AND_ACCURACY.md): fixed-size recovery
+is uniform in residual depth, and the current remainder does not resolve subleading
+logarithmic coefficients. The inherited power comparator is explicitly restricted
+to its existing $`0<\sigma<1`$ domain. The A-D derivations remain unchanged.
+
 ## What remains genuinely unresolved
 
 **Separate critical reading.** All four reader gates remain unrated by an external
@@ -89,8 +95,8 @@ support and exact-model mismatches. The endpoint preparation, unconditional orbi
 projector, calibrated generator and joint coherent operating window are not
 established as a device. The error inequalities in [PREPARATION_READOUT](PREPARATION_READOUT.md)
 and [MODEL_RESIDUAL](MODEL_RESIDUAL.md) are sufficient conditional guarantees, not
-achieved specifications. Some precedent-count targets remain unmet. They are not
-fixed by adding unrelated platform or imaging citations.
+achieved specifications. The targeted conventional component collections now reach
+their five-to-ten range; they remain different from exact implementation evidence.
 
 The full residual-depth crossover, optimal lattice size, arbitrary trap universality,
 many-body extensions, dimensional crossover and application superiority are outside

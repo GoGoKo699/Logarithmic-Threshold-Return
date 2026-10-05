@@ -17,8 +17,9 @@ simulation at exponentially long durations.
 
 The physical assumptions must be grounded in direct community precedents, aiming for
 five to ten appropriate primary papers per load-bearing physical convention, including
-major experimental/theoretical precedents where applicable. Separate component papers
-are not a joint apparatus. The current audit is incomplete. No QRAM or large cloud
+major experimental/theoretical precedents where applicable. The listed conventional
+component collections now reach that range; separate papers are not a joint apparatus.
+Exact model implementation remains unestablished. No QRAM or large cloud
 simulation assumption is permitted. Small decisive calculations and analytical results
 are preferred.
 
@@ -28,8 +29,12 @@ a significance argument. The Devdariani construction comparison and separate-rea
 packet are now recorded; neither establishes exhaustive priority or a completed review.
 The bounded A-D author-side expansions are collected in research/PROOF_STATUS.md.
 Keep this fixed argument available for a genuinely separate critical reading. Broad
-physical-premise collection is paused; its implementation gaps remain explicit and
-should be reopened only for concrete model-matched evidence or an exact objection.
+physical-premise collection is paused after the authorized targeted preparation pass;
+its implementation gaps remain explicit and should be reopened only for concrete
+model-matched evidence or an exact objection. Read research/SCIENTIFIC_PREPARATION.md
+for the integrated source/quantifier work and the one identified open primary-source
+comparison: Sokolovski-Pons-Muga 2014. A readable full text is still needed before
+that scientific due-diligence item can be closed.
 
 Manuscript drafting and outside contact remain on hold. Candidate identification does
 not authorize invitations. Other repositories, protected projects and parked scouts are
