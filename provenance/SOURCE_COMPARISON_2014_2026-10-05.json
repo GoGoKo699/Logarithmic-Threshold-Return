@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-05",
+  "repository": "GoGoKo699/Logarithmic-Threshold-Return",
+  "assessed_base": "34ae43a4a8e8b596fe853995fd0d4c20de13b61c",
+  "assessed_tree": "a64d3f293b547d764557d678f8a71709582cb9b4",
+  "authorization": "Owner supplied the requested paper to continue the authorized prewriting research and repository integration; checked merges remain authorized.",
+  "source": {
+    "authors": [
+      "D. Sokolovski",
+      "M. Pons",
+      "J. G. Muga"
+    ],
+    "title": "Adiabaticity near a continuum threshold: An exactly solvable model",
+    "journal": "Physical Review A",
+    "volume": 89,
+    "article": "042125",
+    "year": 2014,
+    "doi": "10.1103/PhysRevA.89.042125",
+    "access": "Owner-supplied published PDF; full text read, decisive equations visually checked.",
+    "pages": 7,
+    "bytes": 601998,
+    "sha256": "4261546467e8fd1eef320e500ddebc43b8671d09c1b817be3248789a4b3e3015",
+    "stored_in_repository": false
+  },
+  "reading": {
+    "text": "All sections I–VIII, Appendix, and references",
+    "visual": "Printed pages 042125-2 through 042125-6; protocol, normalization, energy reduction, criteria and finite-box formulas",
+    "requested_checks_closed": [
+      "Complete schedule and endpoints",
+      "Normalized observable",
+      "Threshold binding law",
+      "Asymptotic hypotheses and possible direct subsumption"
+    ],
+    "source_sign_note": "With Omega_f<0 and v>0, E_dot/E_f^2=4v/abs(Omega_f)^3. The invariant ratio avoids the sign inconsistency in the last specialization printed in Eq. (31).",
+    "pole_note": "Eq. (40)'s omega_1 is a Sturmian pole, not E_1(t_f); Eq. (41) distinguishes them."
+  },
+  "disposition": {
+    "specific_source_task": "CLOSED",
+    "direct_subsumption": "Not supplied by the compared construction: stopped linear approach, algebraic binding, fixed negative final-energy limit and small-loss expansions differ from the quadratic two-leg logarithmic return and its joint uniform domain.",
+    "inherited_contributions": [
+      "Outgoing energy/Sturmian reduction",
+      "Remote-time stationary-phase normalization",
+      "Normalized bound-state population",
+      "Finite-box pole versus continuum-cut comparison and ordinary adiabatic recovery"
+    ],
+    "required_central_correction": false,
+    "independent_expert_report": false,
+    "exhaustive_priority_established": false,
+    "experimental_realization_established": false
+  },
+  "preservation": {
+    "original_mapped_inputs": 27,
+    "protected_inputs_changed": false,
+    "A_D_proof_files_changed": false,
+    "scientific_scripts_references_dependencies_or_policy_changed": false,
+    "model_observable_coefficient_domain_changed": false
+  },
+  "historical_access_record": "SCIENTIFIC_PREPARATION_2026-10-05.json retains the earlier open state. This follow-up supersedes that access/task status, not its history.",
+  "verification": "Fresh local, actual candidate and post-merge execution are recorded separately in retained evidence and the integration PR.",
+  "next": "Stop routine expansion absent a concrete objection or genuinely separate critical reading. Manuscript drafting, release and outside contact remain on hold."
+}

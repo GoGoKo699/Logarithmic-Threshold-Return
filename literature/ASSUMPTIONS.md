@@ -79,5 +79,6 @@ checked apparatus literature. The residual inequality does not construct them.
 A genuinely separate proof report is absent. Neither that report nor a demonstrated
 device is an already completed fact or an extra hypothesis of the conditional
 Hamiltonian theorem. The [scientific preparation record](../research/SCIENTIFIC_PREPARATION.md)
-states the remaining source-access gap and the disposition of work before writing.
+records the bounded closure of the
+[2014 source comparison](SOKOLOVSKI_PONS_MUGA_2014.md) and the stop boundary before writing.
 Manuscript drafting and outreach remain on hold.

@@ -47,13 +47,16 @@ obligations. All four are author-side arguments; no separate report is present.
 [Limits and accuracy](LIMITS_AND_ACCURACY.md) now makes fixed-size recovery uniform
 in minimum depth and states the resolution limit of the existing remainder. The
 [scientific preparation record](SCIENTIFIC_PREPARATION.md) connects these clarifications
-to the updated primary-source context and the still unread 2014 predecessor.
+to the updated primary-source context and the completed
+[2014 construction comparison](../literature/SOKOLOVSKI_PONS_MUGA_2014.md).
 
 ## What is inherited and what remains open
 
 The static resolvent, essential weak binding, threshold-loss problem, energy-domain
 method, gapped recovery and locality tools are established ingredients. Read
 [PRIOR_ART.md](../literature/PRIOR_ART.md) before framing originality.
+The 2014 comparison also makes explicit that a finite-box/continuum contrast is
+inherited; the controlled logarithmic law and stated joint domain remain the claim.
 
 The [Devdariani construction comparison](../literature/DEVDARIANI_COMPARISON.md)
 now closes the specifically recorded primary-access gap while preserving the narrow

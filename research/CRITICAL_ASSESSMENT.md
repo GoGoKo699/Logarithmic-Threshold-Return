@@ -264,7 +264,13 @@ does not exclude one or improve the priority assessment.
 **Later access update:** [SCIENTIFIC_CONTEXT](../literature/SCIENTIFIC_CONTEXT.md)
 records the subsequent parsed author-uploaded full text and its scoped turning-point
 comparison. The abstract-only R5 description above records this assessment's earlier
-access, not the current reading state. The 2014 predecessor remains access-limited.
+access, not the current reading state. The later
+[2014 construction comparison](../literature/SOKOLOVSKI_PONS_MUGA_2014.md) records
+the supplied full text and decisive visual checks, closing that targeted access gap.
+It strengthens attribution for the energy method, final-bound projection and
+finite-box/continuum contrast, without supplying the quadratic logarithmic law or
+its joint uniform estimate. No central coefficient, domain or proof correction
+follows; exhaustive priority and a genuinely separate review remain unestablished.
 
 Targeted searches beyond these records did not identify a directly matching
 logarithmic-return theorem, but also produced irrelevant results. This is not
