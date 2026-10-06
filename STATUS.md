@@ -1,12 +1,22 @@
 # Research status
 
-**5 October 2026. Targeted scientific preparation integrated; identified source comparison closed.**
+**6 October 2026. Single-source tutorial selected and learning route integrated.**
 Manuscript drafting and outreach remain on hold.
 
 The claim remains logarithmic bound-state return for one attractive square-lattice
 site under the specified quadratic cycle, with the stated uniform residual-depth
 and sufficient finite-volume limits. The Hamiltonian, observable and coefficient
 are unchanged. All 27 protected scientific/history inputs are byte-preserved.
+
+## Learning route
+
+The owner selected Demkov–Ostrovskii (1988) as the one external tutorial
+foundation. [TUTORIAL](TUTORIAL.md) records the reading sequence, checkpoints
+and exact access depth. [The project bridge](research/TUTORIAL_BRIDGE.md)
+explains the lattice threshold, causal energy reduction, return normalization,
+logarithmic matching and joint limits using the existing proof route.
+It is an exposition update, with no new scientific claim, source-priority
+clearance or independent review. Full chapter reading is not claimed from previews.
 
 ## Scientific position after consolidated assessment
 
@@ -109,7 +119,8 @@ past failure, cancelled run or non-byte-identical result.
 
 ## Stop boundary
 
-Follow [CURRENT](work_orders/CURRENT.md). The specific 2014 primary-source comparison
+Follow [CURRENT](work_orders/CURRENT.md). The selected learning route is available
+for self-directed study. The specific 2014 primary-source comparison
 is complete at its recorded scope. Stop routine research unless an exact objection
 or a genuinely separate reading supplies a concrete task. A separate report and a
 device remain unestablished; neither is an extra hypothesis of the conditional

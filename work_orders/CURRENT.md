@@ -1,9 +1,24 @@
-# Current work order: preserve the checked fixed claim
+# Current work order: learn from the selected tutorial and preserve the fixed claim
 
-**5 October 2026, after the supplied 2014 primary paper was read.**
+**6 October 2026, after the owner selected the single tutorial foundation.**
 Work only in `GoGoKo699/Logarithmic-Threshold-Return`. Research, repository
 modifications and checked merges are authorized. Manuscript drafting, release
 and outside contact remain on hold.
+
+## Selected teaching foundation
+
+The owner accepted Demkov–Ostrovskii (1988). The authorized repository
+furnishing supplies [TUTORIAL](../TUTORIAL.md) and the
+[project bridge](../research/TUTORIAL_BRIDGE.md), with README navigation,
+learning checkpoints and a passage-level access record. The base for this
+exposition is `3b944c727d3f6aafb9431ede8a28a4b97d6e25a5`.
+
+Use this one book as the background route. Primary research papers retain
+their attribution role; the choice does not require a second tutorial or
+reopen the proof program. Book contents and available previews establish the
+recorded coverage, not a completed reading of every selected section.
+Subsequent teaching edits should respond to a concrete reader question and
+point to the existing scientific argument.
 
 ## Read the fixed route and the preparation record
 
