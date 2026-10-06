@@ -4,6 +4,12 @@ The active project is `GoGoKo699/Logarithmic-Threshold-Return`. The owner author
 modifications and merges. Read this file, AGENTS.md, README.md, STATUS.md and
 work_orders/CURRENT.md before continuing. Work only in this repository.
 
+The owner selected Demkov–Ostrovskii (1988) as the single tutorial foundation
+on 6 October 2026. TUTORIAL.md and research/TUTORIAL_BRIDGE.md provide the
+learning route. Preserve its source-access distinctions and keep exposition
+separate from new research or manuscript drafting. Other textbooks are not
+additional prerequisites for this route.
+
 Develop one defensible theoretical result: logarithmic slow return for the specified
 local lattice trap, with its stated finite-size and residual-depth domain. Preserve
 the minimal single-particle question. Do not broaden to a new ramp, disorder,

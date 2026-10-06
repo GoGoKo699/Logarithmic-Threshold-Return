@@ -69,6 +69,16 @@ is finite and nonzero; the middle-band van Hove singularity is a different featu
 The [spectral scope note](research/SPECTRAL_SCOPE.md) records this terminology correction
 and the fixed-positive-anisotropy check. It does not claim a dimensional crossover.
 
+## Start from one tutorial
+
+The selected foundation is Demkov–Ostrovskii,
+[*Zero-Range Potentials and Their Applications in Atomic Physics* (1988)](https://doi.org/10.1007/978-1-4684-5451-2).
+The [single-book reading guide](TUTORIAL.md) gives a focused chapter route,
+learning checkpoints and the source-access record. The
+[bridge to this project](research/TUTORIAL_BRIDGE.md) connects rank-one binding,
+the causal energy equation and logarithmic reflection to the physical return law
+and its joint limits. These are learning guides to the existing result.
+
 ## Read in three passes
 
 | Pass | Document | Purpose |
@@ -99,7 +109,8 @@ apparatus, with a [primary-source register](literature/PHYSICAL_PRECEDENTS.md) a
 site occupation cannot simply replace the declared bound-state projector. The
 [model-residual test](research/MODEL_RESIDUAL.md) distinguishes generator errors,
 higher-band population and coherent return-amplitude errors. [Status](STATUS.md) and the [work order](work_orders/CURRENT.md) identify what
-remains open. No external tutorial has been selected for this project.
+remains open. The selected tutorial is a teaching foundation; the primary-paper
+comparisons remain the attribution and priority record.
 
 [Scientific preparation](research/SCIENTIFIC_PREPARATION.md) maps the current
 claim support and completed targeted source comparisons before writing. The
