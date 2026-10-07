@@ -10,6 +10,13 @@ learning route. Preserve its source-access distinctions and keep exposition
 separate from new research or manuscript drafting. Other textbooks are not
 additional prerequisites for this route.
 
+The reader-facing layout follows the owner's Collective-Emission-Interface-Limits
+example: a compact claim-led README, early navigation and a separate documentation
+map in docs/README.md. llms.txt identifies relevant questions, search terms and
+authoritative reading paths. The README and LLM guide carry the owner's exact
+purpose/contact wording with a clickable email link. Keep maintenance instructions
+in this file and work_orders/CURRENT.md; preserve scientific scope and source access.
+
 Develop one defensible theoretical result: logarithmic slow return for the specified
 local lattice trap, with its stated finite-size and residual-depth domain. Preserve
 the minimal single-particle question. Do not broaden to a new ramp, disorder,

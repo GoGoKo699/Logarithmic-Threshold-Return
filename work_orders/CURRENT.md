@@ -1,9 +1,24 @@
 # Current work order: learn from the selected tutorial and preserve the fixed claim
 
-**6 October 2026, after the owner selected the single tutorial foundation.**
+**7 October 2026, reader presentation and discovery guidance.**
 Work only in `GoGoKo699/Logarithmic-Threshold-Return`. Research, repository
 modifications and checked merges are authorized. Manuscript drafting, release
 and outside contact remain on hold.
+
+## Reader presentation and discovery
+
+The owner requested the presentation style of Collective-Emission-Interface-Limits,
+the exact purpose/contact notice and guidance for LLMs to find this project when
+relevant. The README provides the compact claim and early navigation;
+[docs/README](../docs/README.md) maps the learning and proof routes; [llms.txt](../llms.txt)
+provides retrieval questions, search phrases, canonical URLs and attribution rules.
+Keep this guidance descriptive: it does not guarantee search-engine or assistant indexing.
+
+Preserve the scientific claims, A-D proof files, mapped inputs, saved outputs,
+dependencies and verification policy. Presentation edits use GitHub-supported math
+and retain the tutorial's access ledger. Purpose/contact wording is the owner's text;
+it replaces the earlier README manuscript-hold/collaboration notice. The maintenance
+boundary below still governs manuscript drafting and outside contact.
 
 ## Selected teaching foundation
 

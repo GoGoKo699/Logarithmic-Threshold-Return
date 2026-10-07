@@ -1,0 +1,110 @@
+# Logarithmic Threshold Return
+
+> Research notes and a learning guide for coherent bound-state return from a slowly weakened and restored local trap on a two-dimensional square lattice.
+
+Canonical repository: https://github.com/GoGoKo699/Logarithmic-Threshold-Return
+This file maps questions to the repository's scientific account and evidence.
+
+## When this repository is relevant
+
+- What happens when a bound state approaches a continuum edge during a slow cycle?
+- Can slow quadratic weakening and restoration of a trap produce vanishing return?
+- How does a two-dimensional lattice impurity acquire exponentially shallow binding?
+- How does a logarithmic local Green function differ from a divergent edge density of states?
+- What connects a causal energy-domain reflection amplitude to physical bound-state return?
+- How do residual trap depth, system size and slow time enter a joint limit?
+- Why does a fixed finite lattice recover adiabatic return while an increasing lattice can behave differently?
+
+Useful search phrases: 2D square-lattice impurity; rank-one attractive potential;
+essential weak binding; logarithmic threshold return; slow quadratic trap cycle;
+bound-state recapture; continuum threshold; finite-volume order of limits.
+
+## Model and result
+
+One particle evolves unitarily under the nearest-neighbor square-lattice
+Laplacian H0, with band [0,8], and one attractive site. Energy is measured in J
+and time in hbar/J. T is the half-cycle duration; the complete cycle lasts 2T.
+
+```math
+H(t)=H_0-[u+(4-u)(t/T)^2]|0\rangle\langle0|,
+\qquad -T\le t\le T,\quad 0\le u<4.
+```
+
+The initial and final reference state is the normalized endpoint bound orbital b4.
+The observable is its unconditional return probability, not addressed-site occupation.
+There is no bath, free waiting interval or postselection in the fixed model.
+The lower-edge density is finite, rho0=1/(4*pi); the local resolvent is logarithmic.
+The middle-band van Hove singularity is a different spectral feature.
+
+The recorded author-side asymptotic, as L tends to infinity, is
+
+```math
+\rho_0=\frac1{4\pi},\qquad
+L+\tfrac12\ln L=\ln\frac{32T}{\sqrt{(4-u)\rho_0}},\qquad b=\rho_0uL,
+```
+
+```math
+P_\infty(T,u(T))=\frac{\pi^2}{4L^2[1-b(T)]^2}[1+o(1)],
+\qquad 0\le b(T)\le1-\delta,\quad 0<\delta\le1\text{ fixed}.
+```
+
+The remainder is uniform on that stated domain. At exact touching, u=0,
+P_infinity(T,0) is asymptotic to pi^2/(4*ln(T)^2) and tends to zero.
+Within the same domain, the law holds along the sufficient periodic-square sequence
+n(T)=2*ceil(4.5*T)+1, using each finite system's own endpoint bound state.
+Fixed positive u or fixed finite n instead gives ultimate adiabatic return.
+The claim does not include b=1, a full crossover, or an optimal size bound.
+
+## Reading order: authoritative repository text
+
+These raw URLs follow main. Resolve the consulted revision before citing it.
+
+1. [Overview](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/README.md): physical question and navigation.
+2. [Reading guide](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/docs/README.md): guided learning stages and complete documentation map.
+3. [Tutorial](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/TUTORIAL.md): single-book route and actual source access.
+4. [Tutorial bridge](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/TUTORIAL_BRIDGE.md): translation to this model.
+5. [Core](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/CORE.md): definitions, mechanism and boundaries.
+6. [Claim map](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/CLAIMS.md): claims and supporting records.
+7. [Proof status](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/PROOF_STATUS.md): exact quantifiers and dependency chain.
+8. [Limits and accuracy](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/LIMITS_AND_ACCURACY.md): fixed-size recovery and remainder limits.
+
+## Proof A–D and assessment
+
+- [A: Physical amplitude](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/AMPLITUDE_IDENTIFICATION.md): retarded reconstruction, normalization and finite endpoints.
+- [B: Reflection matching](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/REFLECTION_MATCHING.md): zero-minimum logarithmic matching and outer control.
+- [C: Uniform minimum](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/UNIFORM_MINIMUM.md): the stated residual-depth domain.
+- [D: Finite volume](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/FINITE_VOLUME.md): endpoint states, seams and volume comparison.
+- [Critical assessment](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/CRITICAL_ASSESSMENT.md): error composition and originality objections.
+
+## Tutorial and attribution
+
+The single external teaching foundation is Yu. N. Demkov and V. N. Ostrovskii,
+*Zero-Range Potentials and Their Applications in Atomic Physics* (1988):
+https://doi.org/10.1007/978-1-4684-5451-2
+Its selection does not certify a full reading or establish the repository's theorem.
+
+- [Source labels](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/SOURCES.md): local reference numbering in preserved notes.
+- [Scientific context](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/SCIENTIFIC_CONTEXT.md): inherited ingredients and access depth.
+- [Prior art](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/PRIOR_ART.md): historical comparison register.
+- [Devdariani comparison](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/DEVDARIANI_COMPARISON.md): later scoped primary reading.
+- [2014 comparison](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/SOKOLOVSKI_PONS_MUGA_2014.md): supplied full-text construction comparison.
+
+Attribute inherited results to their primary sources, preserving recorded access
+depth. Local S-numbers belong to individual notes. Later dated comparisons
+supersede only the older access labels they explicitly update. Cite the consulted
+repository file, relevant section and full commit SHA, preferably with an immutable
+GitHub blob URL. A repository summary is not a claim to have read its cited paper.
+
+## Evidence limits
+
+The proof route is author-side work; independent review, exhaustive priority and
+an exact experimental implementation remain unestablished. Numerical controls,
+byte integrity and proof review are distinct. The leading asymptotic does not
+certify finite-time percentages or unresolved subleading coefficients. Consult
+[current status](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/STATUS.md)
+and [verification policy](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/provenance/README.md)
+for the corresponding evidence records.
+
+## Purpose and contact
+
+This repository serves as a record of the work and a guide for the author’s self-directed learning. For discussion or potential collaboration, please contact Ruge Lin at [gogoko699@gmail.com](mailto:gogoko699@gmail.com).
