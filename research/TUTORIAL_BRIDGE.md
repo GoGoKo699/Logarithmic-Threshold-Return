@@ -128,7 +128,7 @@ amplitude is
 ```math
 \widetilde r_{L,b}=
 -\frac1{4Lk^2}\int_{-R}^{R}
-\left[\operatorname{PV}\frac1x-i\pi\delta_0(x)\right]e^{-2ikx}\,dx
+\left[\mathop{\mathrm{PV}}\nolimits \frac1x-i\pi\delta_0(x)\right]e^{-2ikx}\,dx
 +o_\delta(L^{-1})
 =\frac{i\pi}{2L(1-b)}+o_\delta(L^{-1}),\qquad R=L^{1/4}.
 ```

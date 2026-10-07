@@ -106,8 +106,8 @@ $`-e^{\mu(d_M(x)-d_M(y))}`$. Its Hermitian and anti-Hermitian parts have the
 corresponding $`-\cosh`$ and $`i\sinh`$ entries. Symmetric row/column-sum bounds give
 
 ```math
-\operatorname{Re}(W_MH_0W_M^{-1})\ge-a_\mu I,\qquad
-\|\operatorname{Im}(W_MH_0W_M^{-1})\|\le v_\mu.
+\mathop{\mathrm{Re}}\nolimits (W_MH_0W_M^{-1})\ge-a_\mu I,\qquad
+\|\mathop{\mathrm{Im}}\nolimits (W_MH_0W_M^{-1})\|\le v_\mu.
 ```
 
 For $`f_j=(H_{0,j}+\eta_j)^{-1}|0\rangle`$, take the real part of the weighted

@@ -74,13 +74,13 @@ binary effect between zero and identity.
 \epsilon_{\rm p}&=\tfrac12\|\rho_{\rm p}-P_b\|_1,\\
 \epsilon_{\rm d}&=\tfrac12\|\rho_{\rm a}-\mathcal U\rho_{\rm p}\mathcal U^\dagger\|_1,\\
 \epsilon_{\rm m}&=\|M-P_b\|,\\
-|\operatorname{Tr}(M\rho_{\rm a})-P_\infty(T,u)|
+|\mathop{\mathrm{Tr}}\nolimits (M\rho_{\rm a})-P_\infty(T,u)|
 &\le\epsilon_{\rm p}+\epsilon_{\rm d}+\epsilon_{\rm m}.
 \end{aligned}
 ```
 
-To prove the inequality, insert $`\operatorname{Tr}(P_b\rho_{\rm a})`$ and
-$`\operatorname{Tr}(P_b\mathcal U\rho_{\rm p}\mathcal U^\dagger)`$ between the
+To prove the inequality, insert $`\mathop{\mathrm{Tr}}\nolimits (P_b\rho_{\rm a})`$ and
+$`\mathop{\mathrm{Tr}}\nolimits (P_b\mathcal U\rho_{\rm p}\mathcal U^\dagger)`$ between the
 two probabilities. The detector term is bounded by its operator norm. For either
 state term, a traceless Hermitian difference has positive and negative parts with
 equal trace $`\|\Delta\|_1/2`$; an effect between zero and identity therefore has

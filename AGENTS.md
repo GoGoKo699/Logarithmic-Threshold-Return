@@ -18,6 +18,10 @@ Keep active documents claim-led. Use GitHub-supported inline math and fenced mat
 do not place an unescaped vertical bar in a Markdown table cell. Do not invent sources,
 experimental performance, email addresses, a chosen tutorial or completed priority checks.
 New source claims need exact primary attribution and an honest access-depth record.
+GitHub rejects `\operatorname` in the observed renderer. In current exposition, use
+`\mathop{\mathrm{PV}}\nolimits` (and the corresponding upright operator name) instead;
+follow `\nolimits` with whitespace before a bare letter argument. Preserve the
+byte-identical imported notes and dated evidence.
 
 Use archive/ for obsolete attempts, not as part of the active numerical import path.
 Do not include third-party PDFs, credentials, font files or unrelated scout archives.
