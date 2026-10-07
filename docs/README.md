@@ -31,8 +31,7 @@ fixed margin below $`b=1`$.
 | Contour methods and quadratic time dependence | The two-dimensional logarithmic scaling and matched reflection coefficient |
 | Threshold-dynamics language | The uniform shrinking-minimum family and sufficient growing periodic squares |
 
-This is a teaching map, not a novelty classification. Inherited methods keep the primary
-attributions in the research and literature records. The book coverage is located from
+Inherited methods keep the primary attributions in the research and literature records. The book coverage is located from
 publisher contents and checked at the preview depth recorded in
 [the access ledger](../TUTORIAL.md#access-ledger-and-stopping-point).
 
@@ -53,14 +52,13 @@ publisher contents and checked at the preview depth recorded in
 | Inherited ingredients and exact source labels | [Scientific context](../literature/SCIENTIFIC_CONTEXT.md), [source map](../research/SOURCES.md) |
 | Closest inspected threshold constructions | [Prior art](../literature/PRIOR_ART.md), [Devdariani](../literature/DEVDARIANI_COMPARISON.md), [2014 construction](../literature/SOKOLOVSKI_PONS_MUGA_2014.md) |
 | Physical premises, preparation, readout and generator errors | [Assumptions](../literature/ASSUMPTIONS.md), [primary precedents](../literature/PHYSICAL_PRECEDENTS.md), [preparation/readout](../research/PREPARATION_READOUT.md), [model residuals](../research/MODEL_RESIDUAL.md) |
-| Internal scrutiny and the preparation record | [Critical assessment](../research/CRITICAL_ASSESSMENT.md), [scientific preparation](../research/SCIENTIFIC_PREPARATION.md), [reader packet](../research/READER_PACKET.md) |
-| Verification evidence and preservation policy | [STATUS](../STATUS.md), [provenance](../provenance/README.md), [sanity-check record](../research/SANITY_CHECK_2026-10-05.md) |
-| Historical attempts and retained failures | [Archive](../archive/README.md) |
+| Detailed comparator and scope analysis | [Critical assessment](../research/CRITICAL_ASSESSMENT.md), [scientific preparation](../research/SCIENTIFIC_PREPARATION.md) |
+| Verification evidence and preservation policy | [STATUS](../STATUS.md), [provenance](../provenance/README.md) |
+| Historical attempts, dated assessments and retained failures | [Archive](../archive/README.md) |
 
-The proof notes govern the mathematical claims. The five preserved scientific suites,
-supplementary checks and dated audits serve different evidential roles; successful
-execution does not supply an independent proof report. [STATUS](../STATUS.md) retains
-the detailed scientific position and limits.
+The proof notes give the mathematical argument. [STATUS](../STATUS.md) maps the
+scientific suites and supplementary checks to their verification records and
+preservation policy.
 
 For the repository's role and discussion details, see
 [Purpose and contact](../README.md#purpose-and-contact).

@@ -32,11 +32,11 @@ H(t)=H_0-[u+(4-u)(t/T)^2]|0\rangle\langle0|,
 
 The initial and final reference state is the normalized endpoint bound orbital b4.
 The observable is its unconditional return probability, not addressed-site occupation.
-There is no bath, free waiting interval or postselection in the fixed model.
+The fixed model is a closed, coherent weakening-and-restoration cycle.
 The lower-edge density is finite, rho0=1/(4*pi); the local resolvent is logarithmic.
 The middle-band van Hove singularity is a different spectral feature.
 
-The recorded author-side asymptotic, as L tends to infinity, is
+The uniform leading asymptotic, as L tends to infinity, is
 
 ```math
 \rho_0=\frac1{4\pi},\qquad
@@ -53,7 +53,6 @@ P_infinity(T,0) is asymptotic to pi^2/(4*ln(T)^2) and tends to zero.
 Within the same domain, the law holds along the sufficient periodic-square sequence
 n(T)=2*ceil(4.5*T)+1, using each finite system's own endpoint bound state.
 Fixed positive u or fixed finite n instead gives ultimate adiabatic return.
-The claim does not include b=1, a full crossover, or an optimal size bound.
 
 ## Reading order: authoritative repository text
 
@@ -81,7 +80,7 @@ These raw URLs follow main. Resolve the consulted revision before citing it.
 The single external teaching foundation is Yu. N. Demkov and V. N. Ostrovskii,
 *Zero-Range Potentials and Their Applications in Atomic Physics* (1988):
 https://doi.org/10.1007/978-1-4684-5451-2
-Its selection does not certify a full reading or establish the repository's theorem.
+TUTORIAL.md lists the chapter assignments and inspected preview pages.
 
 - [Source labels](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/SOURCES.md): local reference numbering in preserved notes.
 - [Scientific context](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/SCIENTIFIC_CONTEXT.md): inherited ingredients and access depth.
@@ -95,15 +94,16 @@ supersede only the older access labels they explicitly update. Cite the consulte
 repository file, relevant section and full commit SHA, preferably with an immutable
 GitHub blob URL. A repository summary is not a claim to have read its cited paper.
 
-## Evidence limits
+## Interpreting evidence
 
-The proof route is author-side work; independent review, exhaustive priority and
-an exact experimental implementation remain unestablished. Numerical controls,
-byte integrity and proof review are distinct. The leading asymptotic does not
-certify finite-time percentages or unresolved subleading coefficients. Consult
-[current status](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/STATUS.md)
+The A–D notes give the mathematical argument. Numerical controls, reference
+comparison and byte integrity have separate records. The leading asymptotic and
+its remainder govern the formula's accuracy; use
+[limits and accuracy](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/LIMITS_AND_ACCURACY.md)
+for finite-duration interpretation and subleading resolution. Consult
+[scope and verification](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/STATUS.md)
 and [verification policy](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/provenance/README.md)
-for the corresponding evidence records.
+for execution and preservation evidence.
 
 ## Purpose and contact
 

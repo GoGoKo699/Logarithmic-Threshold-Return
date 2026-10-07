@@ -12,7 +12,7 @@ is how much returns to the original bound orbital after this coherent, closed cy
 | [Physical account](research/CORE.md) · [Proof and quantifiers](research/PROOF_STATUS.md) · [Claim map](research/CLAIMS.md) | Follow the return law and its proof dependencies |
 | [Limits and accuracy](research/LIMITS_AND_ACCURACY.md) · [Assumptions](literature/ASSUMPTIONS.md) · [Prior-work comparison](literature/SCIENTIFIC_CONTEXT.md) | Check the asymptotic domain, physical premises and attribution |
 | [Evidence and reproduction](#evidence-and-reproduction) · [Scope and evidence](STATUS.md) | Inspect the checks and their interpretation |
-| [LLM guide](llms.txt) · [Workspace](WORKSPACE.md) | Identify relevant questions and authoritative files |
+| [LLM guide](llms.txt) | Identify relevant questions and authoritative files |
 
 ## The fixed question
 
@@ -34,15 +34,16 @@ The probability is unconditional; population that escapes remains in continuum s
 
 ## The logarithmic return law
 
-At exact touching, the recorded author-side derivation gives
+The leading slow-cycle law at exact touching is
 
 ```math
 \boxed{P_\infty(T,0)\sim\frac{\pi^2}{4\ln^2T}\longrightarrow0.}
 ```
 
-This is a leading slow-cycle asymptotic. With units restored, the logarithm is
-$`\ln(T_{\rm physical}J/\hbar)`$. It is not a precision percentage formula at every
-finite duration. [The proof map](research/PROOF_STATUS.md) gives the exact quantifiers.
+With units restored, the logarithm is
+$`\ln(T_{\rm physical}J/\hbar)`$. [The proof map](research/PROOF_STATUS.md) gives the
+exact quantifiers, and [limits and accuracy](research/LIMITS_AND_ACCURACY.md) explains
+the remainder and finite-duration interpretation.
 
 A trap with a shrinking positive minimum also retains the effect. Define
 
@@ -101,10 +102,9 @@ The selected learning foundation is:
 > [Publisher record](https://link.springer.com/book/10.1007/978-1-4684-5451-2) · [DOI](https://doi.org/10.1007/978-1-4684-5451-2)
 
 The [single-book route](TUTORIAL.md) focuses on Chapters 1–2 and 8–10, with precise
-section locations, checkpoints and an access ledger. The [tutorial bridge](research/TUTORIAL_BRIDGE.md)
-supplies the lattice threshold, normalization, matching and joint-limit steps locally.
-The book's contents and available previews were inspected; complete chapter reading
-is not claimed. No second external tutorial is required for this route.
+section locations, checkpoints and an access ledger covering the publisher contents
+and inspected previews. The [tutorial bridge](research/TUTORIAL_BRIDGE.md) supplies
+the lattice threshold, normalization, matching and joint-limit steps locally.
 
 ## Boundaries and prior work
 
@@ -117,11 +117,11 @@ observable from an implemented device. Fixed positive anisotropy has a supportin
 
 Threshold-touching loss, static essential binding and the energy-domain method have
 predecessors. A local power-law tangent predicts the leading prefactor; the contribution
-under assessment is the controlled logarithmic physical limit and its joint domain.
+is the controlled logarithmic physical limit and its joint domain.
 [Scientific context](literature/SCIENTIFIC_CONTEXT.md), the
 [Devdariani comparison](literature/DEVDARIANI_COMPARISON.md) and the
 [2014 construction comparison](literature/SOKOLOVSKI_PONS_MUGA_2014.md) give the attributions.
-[Scope and evidence](STATUS.md) records the limits of those comparisons and internal review.
+[Scope and evidence](STATUS.md) connects the result to its supporting records.
 
 ## Evidence and reproduction
 
@@ -135,8 +135,8 @@ The five preserved scientific suites cover **28 groups and 272 finite controls**
 The **60 supplementary checks** are counted separately. The runner writes to a fresh
 directory, retains observed outputs and complete differences, and preserves saved references.
 [Verification policy](provenance/README.md) distinguishes assertions, numerical agreement
-and exact bytes. Executable checks support the research record; they are not independent
-proof review. Historical attempts and their evidence remain in the [archive](archive/README.md).
+and exact bytes. Historical attempts and dated assessments are indexed in the
+[archive](archive/README.md).
 
 ## Purpose and contact
 

@@ -108,10 +108,8 @@ The source access for this selection was checked on 6 October 2026:
 | [Chapter 10 preview](https://page-one.springer.com/pdf/preview/10.1007/978-1-4684-5451-2_10) | Main text pp. 235–236 only |
 | Other assigned main-text pages | Located from contents; not read in this selection pass |
 
-The publisher presents the full text as subscription content. No complete book
-or chapter reading is claimed, and no third-party PDF is stored in this repository.
-The available pages neither prove nor exclude the repository's specific theorem;
-this pedagogical selection is not an exhaustive priority comparison.
+The table distinguishes the inspected previews from the chapter assignments.
+The publisher presents the full text as subscription content.
 
 The learning goal is the ability to reconstruct and question the fixed proof
 route, including its residual-depth and finite-size restrictions. For the

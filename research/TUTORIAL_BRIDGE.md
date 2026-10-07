@@ -1,9 +1,7 @@
 # From the selected tutorial to logarithmic return
 
-**6 October 2026. A learning bridge to the existing author-side result.**
-Start with the single-book route in [TUTORIAL](../TUTORIAL.md). This note
-restates the fixed argument at base `3b944c727d3f6aafb9431ede8a28a4b97d6e25a5`;
-the linked proof notes remain authoritative. It adds no theorem or verification claim.
+Start with the single-book route in [TUTORIAL](../TUTORIAL.md). This note connects
+the book's background to the lattice argument in the linked proof notes.
 
 The physical question is simple: a particle starts bound to a local trap, the
 trap weakens and returns, and we ask how much returns to the initial bound
@@ -173,6 +171,5 @@ leading coefficient and why fixed and joint limits differ. The reading checkpoin
 in [TUTORIAL](../TUTORIAL.md) guide that process.
 
 The tutorial supplies background machinery. The project's derivations, precise
-predecessor attributions and scientific limitations remain in the linked research
-and literature records. A tutorial choice establishes neither priority nor
-independent review, and introduces no new manuscript or outreach step.
+predecessor attributions and asymptotic domains are in the linked research
+and literature records.

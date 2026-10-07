@@ -1,10 +1,10 @@
 # From microscopic control to the fixed Hamiltonian: a residual test
 
-**4 October 2026. Author-side calibration argument, not a new threshold law.**
-The Hamiltonian, endpoint orbital and observable in [CORE](CORE.md) are unchanged.
-This note supplies an explicit way to bound the dynamical error left abstract in
-[PREPARATION_READOUT](PREPARATION_READOUT.md). It neither specifies hardware nor
-claims that any cited experiment meets the bound. All norms below use $`\hbar=J=1`$.
+This note bounds the dynamical error in [PREPARATION_READOUT](PREPARATION_READOUT.md)
+by comparing a physical generator with the fixed Hamiltonian in [CORE](CORE.md).
+Applying the bound requires a common-space orbital identification, in-band residual
+matrix elements, out-of-subspace coupling or an error-controlled effective generator,
+and the background potential over the occupied region. All norms below use $`\hbar=J=1`$.
 
 ## 1. Compare generators, not just populations or light profiles
 
@@ -101,8 +101,8 @@ image or a nearly uniform equilibrium density is not this dynamical certificate.
 
 ## 3. Small higher-band population does not certify the ideal return
 
-The following elementary three-level example tests a purported calibration
-criterion; it is not a new physical model for this project. Let $`N\ge2`$ be an integer,
+The following elementary three-level counterexample tests a calibration
+criterion. Let $`N\ge2`$ be an integer,
 $`\Omega=N/(N-1)`$, $`g=\tfrac12\sqrt{\Omega^2-1}`$, and use
 
 ```math
@@ -161,17 +161,12 @@ Mixed preparation, unknown detector effects, dissipative evolution and additive
 false positives still require the general error contract. For example, a fraction
 $`r`$ of perfectly accepted incoherent contamination changes a signal $`P`$ to
 $`(1-r)P+r`$. Small coherent-amplitude errors and small additive probabilities are
-different guarantees. No detector, ramp, platform or postselection is introduced.
+different guarantees.
 
-## Evidence and stop boundary
+## Numerical diagnostics
 
 `python tools/test_model_residual.py --output NEW_PATH.json` checks seven small
 identities/inequalities, including a short 5-by-5 fixed-cycle Duhamel check and the
-analytic three-level counterexample. It does not perform an asymptotic campaign,
-validate a microscopic apparatus or add members to the preserved 272 controls.
-
-The missing experimental evidence is now specific: a common-space orbital
-identification, in-band residual matrix elements, out-of-subspace coupling or an
-error-controlled effective generator, and the background potential on the occupied
-region. No checked source supplies those together for this exact protocol. The
-conditional logarithmic claim and the separate-reader obligations are unchanged.
+analytic three-level counterexample. These finite diagnostics are separate from
+the preserved 272 controls; they do not perform an asymptotic campaign or validate
+a microscopic apparatus.

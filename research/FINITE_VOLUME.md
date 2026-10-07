@@ -1,11 +1,10 @@
 # Gate D: finite volume without replacing the initial state
 
-**5 October 2026. Author-side lemma chain; not a separate-reader report.**
-This expands [ROUNDING Section 6](ROUNDING.md) for the same periodic squares and
-quadratic cycle. The protected proof, observable, leading coefficient and sufficient
-size family are unchanged. No smaller necessary size, new boundary condition, or
-experimental implementation is claimed. [The proof map](PROOF_STATUS.md) collects
-the four author-side gates after this pass.
+This note derives finite-volume error bounds for the periodic squares and quadratic
+cycle of [ROUNDING Section 6](ROUNDING.md). It compares the normalized finite and
+infinite endpoint states, controls propagation across the periodic seam, and gives
+a sufficient size family that preserves the logarithmic return law.
+[The proof map](PROOF_STATUS.md) connects Gates A–D.
 
 ## 1. Statement, embeddings and constants
 
@@ -209,7 +208,7 @@ The second inequality retains the small amplitude: a state error $`o(1/L)`$ is
 sufficient for a relative probability error $`o(1)`$ when $`P_\infty\asymp_\delta L^{-2}`$.
 Using only the norm conservation $`\psi^\dagger\psi=1`$ would not measure return.
 
-## 6. The already claimed family is sufficient, uniformly
+## 6. A sufficient family, uniformly in the minimum depth
 
 At $`\mu=1/2`$, $`a_\mu<13/25<4/5<g_*`$. These are analytic inequalities:
 $`\cosh(1/2)\le1+1/8+(1/384)/(1-1/120)<1.13`$ and
@@ -217,7 +216,7 @@ $`\sqrt2>7/5`$. Similarly,
 $`\sinh(1/2)\le1/2+1/48+(1/3840)/(1-1/168)<209/400`$.
 Thus no rounded numerical root is needed for either margin.
 
-Choose exactly the preserved family
+Choose the family
 
 ```math
 R(T)=\lceil4.5T\rceil,\quad n(T)=2R(T)+1,\qquad
@@ -257,7 +256,7 @@ The relative error added by finite volume is
 $`O_\delta(L\mathcal B+L^2\mathcal B^2)`$ and is negligible beside Gate C's
 conservative remainder. This does not exchange fixed-volume and slow-time limits.
 
-## 7. Tests, attribution and decision
+## 7. Numerical diagnostics and attribution
 
 `python tools/test_finite_volume.py --output NEW.json` supplies eight small
 algebra/matrix/short-cycle diagnostics. Large finite grids used to check a static
@@ -266,18 +265,11 @@ finite geometries test the seam/Duhamel identity, not an infinite-lattice simula
 These diagnostics are separate from the original 272 controls and cannot prove the
 uniform all-size statement by sampling.
 
-Exponential localization is established methodology, not a discovery of this pass.
+Exponential localization is established methodology.
 For attribution only, the primary publisher abstract and metadata of J. M. Combes
 and L. Thomas, *Asymptotic behaviour of eigenfunctions for multiparticle Schrodinger
 operators*, Commun. Math. Phys. **34**, 251-270 (1973),
 [DOI 10.1007/BF01646473](https://doi.org/10.1007/BF01646473), were checked on
 5 October 2026. Its full construction was not read or imported. All lattice weight,
 seam and normalization estimates needed here are derived above; no continuum
-hypothesis is silently transferred. This is not an additional experimental-precedent
-record or a reopening of broad source collection.
-
-**Decision:** Gate D has an explicit author-side route preserving the finite family
-and original law. All four specified gates now have author-side expansions. A separate
-critical report, exhaustive priority, and model-specific implementation remain absent.
-The next step is consolidated critical assessment, not another model or an automatic
-Gate E. Protected notes, saved references and the original archive remain unchanged.
+hypothesis is silently transferred.

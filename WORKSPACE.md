@@ -16,6 +16,9 @@ map in docs/README.md. llms.txt identifies relevant questions, search terms and
 authoritative reading paths. The README and LLM guide carry the owner's exact
 purpose/contact wording with a clickable email link. Keep maintenance instructions
 in this file and work_orders/CURRENT.md; preserve scientific scope and source access.
+The owner requests a complete reader-facing account: use stable claims and reading
+routes, with dated decisions and review templates indexed as historical records.
+Avoid progress banners, obsolete next steps and repeated absence notices in exposition.
 
 Develop one defensible theoretical result: logarithmic slow return for the specified
 local lattice trap, with its stated finite-size and residual-depth domain. Preserve
