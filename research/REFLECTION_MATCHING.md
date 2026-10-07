@@ -62,12 +62,12 @@ endpoint-basis effects are smaller than $`\mathcal Q_L`$.
 
 ## 2. Physical passivity controls the positive side without an absorber
 
-For the **exact** physical coefficient, $`\operatorname{Im}F_{\rm ex}\le0`$ in
+For the **exact** physical coefficient, $`\mathop{\mathrm{Im}}\nolimits F_{\rm ex}\le0`$ in
 the spectral band. The current
 
 ```math
-j=\operatorname{Im}(\overline y\,y'),\qquad
-j'=-\operatorname{Im}F_{\rm ex}|y|^2
+j=\mathop{\mathrm{Im}}\nolimits (\overline y\,y'),\qquad
+j'=-\mathop{\mathrm{Im}}\nolimits F_{\rm ex}|y|^2
 ```
 
 is nondecreasing there, and is zero in the real evanescent region beyond the upper
@@ -86,19 +86,19 @@ r'=2iqr+\frac{i\Omega}{2q}(1+r)^2.
 ```
 
 The differential identity follows by substitution of $`y''=-q^2y`$.
-Where $`y\ne0`$, passivity says $`\operatorname{Im}(y'/y)\le0`$. Hence
+Where $`y\ne0`$, passivity says $`\mathop{\mathrm{Im}}\nolimits (y'/y)\le0`$. Hence
 
 ```math
-|iq-y'/y-h/2|\ge\operatorname{Re}q-|h|/2.
+|iq-y'/y-h/2|\ge\mathop{\mathrm{Re}}\nolimits q-|h|/2.
 ```
 
-For large $`L`$, $`|h|\le\operatorname{Re}q`$ and
-$`|q|/\operatorname{Re}q\le\sqrt2`$ throughout this interval. Therefore
+For large $`L`$, $`|h|\le\mathop{\mathrm{Re}}\nolimits q`$ and
+$`|q|/\mathop{\mathrm{Re}}\nolimits q\le\sqrt2`$ throughout this interval. Therefore
 $`|r|\le1+4\sqrt2<7`$. At a zero of $`y`$, uniqueness gives $`y'\ne0`$ and
 $`r=-1`$; the denominator is still nonzero. This also includes a Dirichlet terminal
 load. The bound uses no favorable sign of the small lattice correction to $`h`$.
 
-Define $`\mathcal A=\int_R^B-\operatorname{Im}q\,dx`$ and
+Define $`\mathcal A=\int_R^B-\mathop{\mathrm{Im}}\nolimits q\,dx`$ and
 $`\mathcal I_+=\int_R^B|\Omega/q|\,dx`$. Backwards variation of constants gives
 
 ```math
@@ -117,7 +117,7 @@ The last two terms follow from the derivative bounds of Section 1 and are
 exponentially small. Uniformly on this interval,
 
 ```math
--\operatorname{Im}q_0=\frac{\pi}{2L}
+-\mathop{\mathrm{Im}}\nolimits q_0=\frac{\pi}{2L}
 \left[1+O\!\left(\frac{\ln L}{L}\right)\right].
 ```
 
@@ -128,7 +128,7 @@ $`r(R)=O((LR)^{-1})+O(e^{-cL})`$.
 
 For $`F_0`$ itself, the earlier stronger bound
 $`4e^{-2\mathcal A}+(25/2)\mathcal I_+`$ in AUDIT remains valid. The constants
-7 and 32 above simply avoid relying on preservation of $`\operatorname{Im}h_0<0`$
+7 and 32 above simply avoid relying on preservation of $`\mathop{\mathrm{Im}}\nolimits h_0<0`$
 when transferring the estimate to the exact lattice. No old finite bound is changed.
 
 ## 3. The negative tail can be bounded directly from the exact spectral measure
@@ -258,14 +258,14 @@ silently discarded. The transfer integral alone contains artificial boundary ter
 
 ## 5. Both causal contributions survive, with equal leading signs
 
-In distributions, $`V'=\operatorname{PV}(1/x)-i\pi\delta(x)`$. Integration by
+In distributions, $`V'=\mathop{\mathrm{PV}}\nolimits (1/x)-i\pi\delta(x)`$. Integration by
 parts in the preceding expression cancels its explicit boundary term and gives
 
 ```math
 r_c=-\frac1{4L}\int_{-R}^{R}
-\left[\operatorname{PV}\frac1x-i\pi\delta(x)\right]e^{-2ix}dx
+\left[\mathop{\mathrm{PV}}\nolimits \frac1x-i\pi\delta(x)\right]e^{-2ix}dx
 +O(\mathcal Q_L)
-=\frac{i}{4L}[2\operatorname{Si}(2R)+\pi]+O(\mathcal Q_L).
+=\frac{i}{4L}[2\mathop{\mathrm{Si}}\nolimits (2R)+\pi]+O(\mathcal Q_L).
 ```
 
 This identity can also be obtained by separately integrating the ordinary

@@ -56,7 +56,7 @@ F_b^0=k^2+\frac VL+\frac{V^2}{L(L-V)}.
 
 The subscript $`0`$ on $`F_0`$ here means the exact zero-minimum coefficient.
 For $`|x|<1`$, put $`t=-\ln|x|`$. The measure becomes $`e^{-t}dt`$ and
-$`|L-V|\ge L`$. On $`1\le|x|\le R`$, $`\operatorname{Re}(L-V)\ge L/2`$
+$`|L-V|\ge L`$. On $`1\le|x|\le R`$, $`\mathop{\mathrm{Re}}\nolimits (L-V)\ge L/2`$
 eventually. Thus, without removing any neighborhood of zero,
 
 ```math
@@ -89,30 +89,30 @@ source of uniform transfer control, not a collection of fixed-$`b`$ limits.
 ## 3. Positive outer matching does not assume a sign for the logarithmic derivative
 
 For the physical recessive solution the current satisfies
-$`j'=-\operatorname{Im}F_b|y|^2\ge0`$ in the band, with zero current beyond its
+$`j'=-\mathop{\mathrm{Im}}\nolimits F_b|y|^2\ge0`$ in the band, with zero current beyond its
 upper edge. Subtracting real $`b`$ changes neither sign nor the absence of point
 sources at spectral singularities. Hence $`j\le0`$ as in Gate B.
 
 On $`[R,B]`$, $`F_b=k^2+O(\ln L/L)+O(e_*B)`$, uniformly. For the exact square
 root $`q=\sqrt{F_b}`$ choose positive real part and nonpositive imaginary part;
 set $`h=q'/q`$, $`\Omega=h^2/4-h'/2`$. For $`L\ge L_\delta`$,
-$`\operatorname{Re}q\ge\sqrt\delta/2`$, $`|q|/\operatorname{Re}q\le\sqrt2`$,
-and $`|h|\le\operatorname{Re}q`$. Where $`y\ne0`$, $`m=y'/y`$ obeys
+$`\mathop{\mathrm{Re}}\nolimits q\ge\sqrt\delta/2`$, $`|q|/\mathop{\mathrm{Re}}\nolimits q\le\sqrt2`$,
+and $`|h|\le\mathop{\mathrm{Re}}\nolimits q`$. Where $`y\ne0`$, $`m=y'/y`$ obeys
 
 ```math
-|iq-m-h/2|\ge\operatorname{Re}q-|h|/2\ge\tfrac12\operatorname{Re}q.
+|iq-m-h/2|\ge\mathop{\mathrm{Re}}\nolimits q-|h|/2\ge\tfrac12\mathop{\mathrm{Re}}\nolimits q.
 ```
 
 The nonsingular chart
 $`r=[y'+(h/2+iq)y]/[(iq-h/2)y-y']`$ consequently has $`|r|<7`$; at a zero
 of $`y`$ it equals $`-1`$. Neither the denominator nor this conclusion uses
-$`\operatorname{Im}h\le0`$. Indeed that sign can reverse after subtracting $`b`$.
+$`\mathop{\mathrm{Im}}\nolimits h\le0`$. Indeed that sign can reverse after subtracting $`b`$.
 The exact Riccati identity is still
 
 ```math
 r'=2iqr+\frac{i\Omega}{2q}(1+r)^2,\qquad
 |r(R)|\le7e^{-2\mathcal A}+32\mathcal I_+,
-\quad \mathcal A=\int_R^B-\operatorname{Im}q\,dx,\quad
+\quad \mathcal A=\int_R^B-\mathop{\mathrm{Im}}\nolimits q\,dx,\quad
 \mathcal I_+=\int_R^B|\Omega/q|\,dx.
 ```
 
@@ -128,7 +128,7 @@ h^0=\frac{L}{2xD(L-bD)},\qquad
 All inverse powers of $`F_b`$ are controlled by the fixed margin. Gate B's
 $`C^2`$ replacement bounds give
 $`\mathcal I_+=O_\delta((LR)^{-1}+e_*\ln B+e_*^2B)`$.
-Also $`-\operatorname{Im}\sqrt{F_b^0}=\pi/(2Lk)[1+O_\delta(\ln L/L)]`$.
+Also $`-\mathop{\mathrm{Im}}\nolimits \sqrt{F_b^0}=\pi/(2Lk)[1+O_\delta(\ln L/L)]`$.
 The integrated exact-root correction is $`O_\delta(e_*B^2)`$, so
 $`\mathcal A=\pi L/(2k)[1+o_\delta(1)]\ge\pi L/4`$ eventually. Thus the
 physical right-end data have reflection $`O_\delta((LR)^{-1})+O(e^{-cL})`$,
@@ -195,13 +195,13 @@ then expanding the incident denominator, gives
 ```math
 r_c=-\frac{i}{2kL}\int_{-R}^RV e^{-2ikx}dx
 -\frac{V(R)e^{-2ikR}-V(-R)e^{2ikR}}{4Lk^2}+O_\delta(\mathcal Q_L)
-=\frac{i[2\operatorname{Si}(2kR)+\pi]}{4Lk^2}+O_\delta(\mathcal Q_L),
+=\frac{i[2\mathop{\mathrm{Si}}\nolimits (2kR)+\pi]}{4Lk^2}+O_\delta(\mathcal Q_L),
 ```
 
 where $`\mathcal Q_L=(LR)^{-1}+R^2(1+\ln R)^2/L^2+e^{-cL}`$.
 The identity uses both terms of
-$`V'=\operatorname{PV}(1/x)-i\pi\delta(x)`$. The bound
-$`|\operatorname{Si}(2kR)-\pi/2|\le1/(kR)`$ is uniform for
+$`V'=\mathop{\mathrm{PV}}\nolimits (1/x)-i\pi\delta(x)`$. The bound
+$`|\mathop{\mathrm{Si}}\nolimits (2kR)-\pi/2|\le1/(kR)`$ is uniform for
 $`k\ge\sqrt\delta`$. Sections 3–4 give the claimed auxiliary amplitude in
 Section 1, with remainder $`O_\delta(L^{-5/4})`$.
 

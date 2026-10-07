@@ -106,7 +106,7 @@ criterion. Let $`N\ge2`$ be an integer,
 $`\Omega=N/(N-1)`$, $`g=\tfrac12\sqrt{\Omega^2-1}`$, and use
 
 ```math
-H_{\rm ref}=0\quad\text{on }\operatorname{span}\{|0\rangle,|1\rangle\},\qquad
+H_{\rm ref}=0\quad\text{on }\mathop{\mathrm{span}}\nolimits \{|0\rangle,|1\rangle\},\qquad
 h=\begin{pmatrix}0&0&0\\0&0&g\\0&g&1\end{pmatrix},\qquad
 |s\rangle=(|0\rangle+|1\rangle)/\sqrt2.
 ```

@@ -22,7 +22,7 @@ H_\alpha(t)=H_0-(u+\alpha t^2)Q,\qquad
 
 Use $`f(t)=(2\pi)^{-1}\int e^{-iEt}\widehat f(E)\,dE`$. Write
 $`g(E)=\langle0|(E-H_0+i0)^{-1}|0\rangle`$ and
-$`\rho(E)=-\operatorname{Im}g(E)/\pi`$ inside the band. Select the nonzero
+$`\rho(E)=-\mathop{\mathrm{Im}}\nolimits g(E)/\pi`$ inside the band. Select the nonzero
 recessive solution at positive infinity of
 
 ```math
@@ -198,7 +198,7 @@ The incident coefficient cannot vanish for a nonzero recessive solution. The
 following current identity also proves this and checks the normalization:
 
 ```math
-j=\operatorname{Im}(\overline c\,c'),\qquad
+j=\mathop{\mathrm{Im}}\nolimits (\overline c\,c'),\qquad
 j'=\frac{\pi}{\alpha}\rho(E)|q(E)|^2,\qquad
 |a_-|^2-|a_+|^2=\frac{\pi}{\alpha}
 \int_0^8\rho(E)|q(E)|^2\,dE.
