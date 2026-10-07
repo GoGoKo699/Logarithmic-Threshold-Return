@@ -1,29 +1,21 @@
 # Sokolovski–Pons–Muga 2014: construction-level comparison
 
-**5 October 2026. Internal primary-source comparison, not an independent report.**
-Assessed repository base: `34ae43a4a8e8b596fe853995fd0d4c20de13b61c`, tree
-`a64d3f293b547d764557d678f8a71709582cb9b4`.
-
 Source: D. Sokolovski, M. Pons and J. G. Muga, *Adiabaticity near a continuum
 threshold: An exactly solvable model*, Phys. Rev. A **89**, 042125 (2014),
-[DOI](https://doi.org/10.1103/PhysRevA.89.042125). The owner supplied the seven-page
-published PDF. Its text, Sections I–VIII and Appendix, was read; the decisive
+[DOI](https://doi.org/10.1103/PhysRevA.89.042125). The supplied seven-page
+published PDF was read in full (Sections I–VIII and Appendix); the decisive
 equations on printed pp. 042125-2 through 042125-6 were visually checked.
 The file identity and reading scope are recorded in
 [provenance](../provenance/SOURCE_COMPARISON_2014_2026-10-05.json).
-The PDF, page images and extracted full text are not redistributed in the repository.
 
-## Disposition
+## Method and physical comparison
 
-**The specific previously open source-comparison task is closed.** The paper is
-a direct predecessor for the outgoing energy/Sturmian method, normalized bound-state
+The paper is a direct predecessor for the outgoing energy/Sturmian method, normalized bound-state
 population, and the contrast between finite confinement and a continuum threshold.
 It does not directly establish the present two-leg logarithmic return law or its
-shrinking-minimum/growing-volume uniformity. No model, coefficient, domain or
-proof correction follows from this reading. This is a construction comparison,
-not exhaustive priority clearance or a significance upgrade.
+shrinking-minimum/growing-volume uniformity.
 
-## What the source actually solves
+## Source model and asymptotic assumptions
 
 | Item | Primary passage | Exact scope |
 |---|---|---|
@@ -88,19 +80,8 @@ supply uniformity for the present $`u(T)\to0`$ and increasing torus.
 
 The finite-box analysis is nevertheless a substantive predecessor. Ordinary
 finite-size recovery, squared-speed leakage near adiabaticity, outgoing
-energy-domain reduction and stationary-phase normalization should remain inherited
+energy-domain reduction and stationary-phase normalization are inherited
 ingredients. [LIMITS_AND_ACCURACY](../research/LIMITS_AND_ACCURACY.md) applies
 standard gapped reasoning to our fixed torus; it is not a new recovery mechanism.
-The central contribution under assessment remains the controlled logarithmic
-physical return and its stated joint domain, with the existing local-power
-prediction fully acknowledged.
-
-## Closure and stop boundary
-
-The four requested checks—complete schedule, normalized observable, binding law,
-and asymptotic hypotheses—are now recorded from the primary construction.
-No additional scientific repair or new numerical campaign was identified.
-Independent critical reading, exhaustive priority and exact experimental
-implementation remain unestablished; closing this access gap does not establish
-them. Manuscript drafting and outside contact remain on hold.
-
+The comparison concerns the controlled logarithmic physical return and its stated
+joint domain, with the existing local-power prediction included.

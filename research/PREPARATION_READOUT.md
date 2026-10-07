@@ -1,10 +1,9 @@
-# Preparation and readout: an operational boundary for the fixed claim
+# Preparation and readout of bound-state return
 
-**4 October 2026. Author-side audit, not a new dynamical result or detector design.**
-The [core](CORE.md), its bound-state projector and all preserved proofs are unchanged.
-[Physical precedents](../literature/PHYSICAL_PRECEDENTS.md) supply components, not a
-calibrated implementation of the entire threshold cycle. This note states what such
-an implementation would have to certify.
+This note derives calibration requirements for the bound-state projector in
+[CORE](CORE.md). The [physical precedents](../literature/PHYSICAL_PRECEDENTS.md)
+support individual components; applying them to the complete threshold cycle
+requires the preparation, dynamics and readout bounds below.
 
 ## 1. An occupied site is not the endpoint bound orbital
 
@@ -27,7 +26,7 @@ I_2=-\frac{dI_1}{d\eta}=\frac{2E(16/z^2)}{\pi(z^2-16)}.
 ```
 
 Here $`K`$ and $`E`$ use the parameter, not the elliptic modulus, convention.
-The new static diagnostic gives
+The static calculation gives
 
 ```math
 \eta_4\simeq1.045878167,\qquad w\simeq0.724043782,\qquad
@@ -104,7 +103,7 @@ A fixed absolute error budget alone cannot certify an indefinitely shrinking sig
 a finite experiment instead needs a stated signal-to-uncertainty window. No physical
 coherence time, attainable error budget or laboratory size follows from this inequality.
 
-## 3. What is to be certified, without changing the observable
+## 3. Orbital calibration and the ensemble denominator
 
 Preparation must certify the extended $`b_4`$ of the actual endpoint Hamiltonian,
 including relative phases, contamination and its own yield. Cooling before the
@@ -123,7 +122,6 @@ Thus a certified calibration on $`b_4`$ can bound this readout error under those
 structural assumptions. Without them, a high response on one input does not determine
 a general effect: $`M=I`$ accepts $`b_4`$ perfectly but also accepts every orthogonal
 state. Reversing a parameter schedule alone does not establish the required mapping.
-No new readout protocol or loading ramp is proposed here.
 
 The ensemble denominator must be fixed at the declared start. Initial heralding can
 define that ensemble, with loading cost reported separately. Later survival filtering
@@ -132,7 +130,7 @@ $`p_{\rm raw}=(1-q)p_{\rm conditional}`$. Escape into the lattice continuum is n
 loss to an unobserved environment. Site pinning, fluorescence and motional spectroscopy
 must each be assigned to preparation, evolution or detection rather than conflated.
 
-## Verification and decision
+## Numerical diagnostics
 
 `python tools/test_operational_contract.py --output NEW_PATH.json` performs six small
 checks: elliptic/integral agreement, finite static endpoint states, projector distance,
@@ -140,8 +138,3 @@ the equal-histogram counterexample, the trace-distance inequality, and ensemble/
 conventions. It checks 17-, 33- and 65-site-side periodic **static** states; it does not
 propagate a threshold cycle or extend the original 28-group / 272-control suite.
 The values above are numerical diagnostics, not interval-certified constants.
-
-**Decision:** preserve the conditional logarithmic theorem and its declared observable.
-The component literature does not yet close endpoint preparation and readout for this
-protocol. That is a specific implementation obligation, not a counterexample to the
-Hamiltonian claim, and not permission to substitute site occupation or survival return.

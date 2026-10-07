@@ -1,16 +1,16 @@
 # Gate B: the leading reflection and its physical outer matching
 
-**4 October 2026. Author-side lemma chain, not a separate-reader report.**
-This expands ASYMPTOTIC Sections 4–7 and AUDIT Sections 3–5 without changing their
-protected bytes. The fixed cycle, bound-state observable and leading coefficient
-are unchanged. This pass treats exact touching, $`u=0`$; the uniform positive-minimum
-and finite-volume arguments remain separate Gates C and D.
+This note derives the leading reflection coefficient at exact touching, $`u=0`$,
+with physical outer matching and explicit remainder estimates. It develops
+[ASYMPTOTIC Sections 4–7](ASYMPTOTIC.md) and [AUDIT Sections 3–5](AUDIT.md).
+The positive-minimum and finite-volume extensions are in
+[Gate C](UNIFORM_MINIMUM.md) and [Gate D](FINITE_VOLUME.md).
 
 The energy-to-time identification and finite-endpoint comparison are supplied by
 [Gate A](AMPLITUDE_IDENTIFICATION.md). The argument below starts from its nonzero
 physical recessive energy solution. WKB residual estimates and elliptic logarithms
-are inherited tools, not new methods [B1–B2]. The specific endpoint cancellation
-and exact-lattice error bookkeeping below are the author-side calculations to check.
+are inherited tools [B1–B2]. The endpoint cancellation and exact-lattice error
+estimates are derived below.
 
 ## 1. Exact coefficient, local replacement and the target error
 
@@ -290,27 +290,24 @@ $`O(T^{-1})`$ as in Gate A. Since $`T^{-1}=o(L^{-5/4})`$, that comparison does n
 change the probability statement. No phase observable or sharp finite-time error
 bar is asserted.
 
-## 6. Decision and evidence boundary
+## 6. Numerical diagnostics and the positive-minimum extension
 
-**Gate B has an explicit author-side route; no coefficient correction was found.**
-The substantive additions are the endpoint matrices, the exact-lattice version of
-the passive bound, and an exact spectral-measure estimate for the entire negative
-tail. They replace compressed steps, not the fixed claim. A separate reader should
-check these passages together with Gate A; no independent report exists.
+The endpoint matrices, exact-lattice passive bound and spectral-measure estimate
+for the entire negative tail connect the central reflection calculation to the
+physical channels of Gate A.
 
 `python tools/test_reflection_matching.py --output NEW_PATH.json` runs six small
 checks: the basis/Riccati algebra, distributional cancellation, finite central
 transfers, passive terminal examples including a zero of $`y`$, exact negative-tail
-integrals, and high-precision local coefficient derivatives. They are not a proof
-by sampling, new time-domain threshold simulations, or additional members of the
-original 272 controls. The initial structural symbolic-zero assertion failure and
-its canonicalization repair are retained in [the failure record](../archive/GATE_B_DIAGNOSTIC_FAILURE.md).
-No numerical tolerance, equation or protected source was changed.
+integrals, and high-precision local coefficient derivatives. These finite checks
+are separate from the original 272 controls; they do not prove the asymptotic
+bounds by sampling or simulate time-domain threshold dynamics. The initial
+structural symbolic-zero assertion failure and its canonicalization repair are
+retained in [the failure record](../archive/GATE_B_DIAGNOSTIC_FAILURE.md).
 
-Next: challenge the already stated positive-minimum uniformity (Gate C). A result
-for every fixed minimum parameter below the boundary is not automatically a uniform
-result along varying parameter sequences. Gate D remains separate. Broad literature
-collection, new models, manuscript drafting and outside contact remain on hold.
+[Gate C](UNIFORM_MINIMUM.md) establishes uniformity for the positive-minimum
+family. A result for every fixed minimum parameter below the boundary alone
+would not establish a uniform result along varying parameter sequences.
 
 ### Method sources and actual access
 
@@ -322,5 +319,4 @@ explicitly for this problem. The underlying book was not newly read.
 
 [B2] NIST Digital Library of Mathematical Functions, [Section 19.12](https://dlmf.nist.gov/19.12),
 Eqs. 19.12.1–3: HTML convergent elliptic series and modulus conventions checked.
-This supports the local derivative expansion, not a dynamical priority claim or
-a newly selected tutorial. No third-party PDF is redistributed.
+These series support the local derivative expansion.

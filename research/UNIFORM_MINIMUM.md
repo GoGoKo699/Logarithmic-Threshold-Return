@@ -1,11 +1,9 @@
 # Gate C: uniform return while the trap stays attractive
 
-**4 October 2026. Author-side lemma chain, not a separate-reader report.**
-This expands the uniformity argument in ROUNDING Sections 2–4, using the actual
-[Gate B](REFLECTION_MATCHING.md) exact-lattice estimates and the
-[Gate A](AMPLITUDE_IDENTIFICATION.md) physical-channel identification. The fixed
-Hamiltonian, endpoint orbital, observable, coefficient and domain are unchanged.
-All protected source files remain byte-preserved. No crossover or apparatus is claimed.
+This note proves uniform logarithmic return for the positive-minimum family in
+[ROUNDING Sections 2–4](ROUNDING.md), using the exact-lattice estimates of
+[Gate B](REFLECTION_MATCHING.md) and the physical-channel identification of
+[Gate A](AMPLITUDE_IDENTIFICATION.md).
 
 ## 1. Quantifiers and the physical parameters
 
@@ -222,21 +220,17 @@ This is the already claimed joint law, with its quantifiers exposed. It is not
 uniform as $`\delta\downarrow0`$, is not a statement at $`b=1`$, and does not
 supply a fixed-positive-$`u`$ crossover or a finite-volume proof.
 
-## Decision, diagnostics and source boundary
+## Numerical diagnostics and source
 
-**Gate C has an explicit author-side uniform route; no coefficient or domain
-correction was found.** The useful additions are the offset-independent central
-perturbation, a sign-independent passive denominator, and domination of the exact
-shifted negative-tail defect. These are the passages for a separate reader to test.
+Uniformity follows from the offset-independent central perturbation, the passive
+denominator bound and domination of the exact shifted negative-tail defect.
 
 `python tools/test_uniform_minimum.py --output NEW_PATH.json` supplies small
 symbolic, integral and finite-ODE diagnostics. Their sampled parameter values do
-not prove the supremum above. They do not simulate exponentially long physical
-cycles, add to the original 272 controls, or constitute independent review.
-Gate D, model-matched implementation and a genuinely separate report remain open.
-Manuscript drafting, broad source collection and outreach remain on hold.
+not prove the supremum above. These checks are separate from the original 272
+controls and do not simulate exponentially long physical cycles.
 
 [C1] NIST DLMF [Section 19.12](https://dlmf.nist.gov/19.12), Eqs. 19.12.1–3:
-HTML convergent series and complementary-modulus convention checked again in this
-pass. This supports the inherited local expansion only. No new primary physics
-comparison, third-party PDF, textbook reading or tutorial selection is asserted.
+The HTML convergent series and complementary-modulus convention were checked.
+They support the inherited local expansion. No textbook was read for this source
+check.

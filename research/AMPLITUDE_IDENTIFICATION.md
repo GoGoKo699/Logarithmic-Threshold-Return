@@ -1,15 +1,14 @@
 # Gate A: reconstructing the particle from the energy equation
 
-**4 October 2026. Author-side lemma chain; not a separate-reader report.**
-This fills in the physical-amplitude identification in ASYMPTOTIC Sections 2–3,
-AUDIT Sections 2 and 5, and ROUNDING Section 2. Those protected files are unchanged.
-The Hamiltonian, observable, logarithmic coefficient and joint domain are unchanged.
-No new experiment, drive or detector is introduced.
+This note identifies energy-domain reflection with physical bound-state return
+and bounds the cost of removing the auxiliary temporal tails. It gives the detailed
+construction behind [ASYMPTOTIC Sections 2–3](ASYMPTOTIC.md),
+[AUDIT Sections 2 and 5](AUDIT.md), and [ROUNDING Section 2](ROUNDING.md).
 
 The energy representation and reflection interpretation are inherited from
 Sokolovski–Pons [A1]. The tail comparison uses the established adiabatic commutator
-method [A2]. What needs checking here is their use for the exact lattice problem,
-including its logarithmic spectral singularities and the order of limits.
+method [A2]. The construction below applies these methods to the exact lattice
+problem, including its logarithmic spectral singularities and the order of limits.
 
 ## 1. Statement and conventions
 
@@ -272,22 +271,19 @@ made. Since $`T^{-1}=o(L^{-1})`$, the comparison is small enough for the recorde
 leading return amplitude. The compact-frequency argument need not itself have
 constants uniform in $`\alpha`$; the remote limit precedes this uniform tail bound.
 
-## 6. Decision, tests and limits of this pass
+## 6. Numerical diagnostics and attribution
 
-**Gate A has an explicit author-side route, with no change to the claimed law.**
-The former normalization paragraph alone was not a norm-scattering construction;
-Sections 2–4 now supply the extra source regularity, retarded reconstruction and
-channel accounting. Section 5 supplies the tail estimate with its uniform domain.
-These are the precise new passages for a separate reader to challenge.
+Sections 2–4 establish source regularity, retarded reconstruction and channel
+accounting. Section 5 gives the uniform tail estimate that connects the auxiliary
+reflection coefficient to the finite-cycle return probability.
 
 `python tools/test_amplitude_identification.py --output NEW_PATH.json` checks seven
 small algebra/finite examples: normalization, an exact Airy benchmark, causal
 source reconstruction, lattice current accounting, reciprocal-log annuli, the tail
-commutator/derivatives, and a finite tail propagator inequality. They do not prove
-the all-time Fourier argument, the all-$`L`$ theorem or independent validation.
+commutator/derivatives, and a finite tail propagator inequality. These finite
+diagnostics do not prove the all-time Fourier argument or the all-$`L`$ theorem.
 The [initial diagnostic failure](../archive/GATE_A_DIAGNOSTIC_FAILURE.md) and its
-exact repair are retained. No saved result or protected proof is rewritten. Gates B–D, exhaustive priority,
-model-specific implementation and a separate report are not closed by this pass.
+exact repair are retained.
 
 ### Primary attribution and reading boundary
 
@@ -303,4 +299,3 @@ Commun. Math. Phys. **203**, 445–463 (1999),
 [author full text](https://arxiv.org/html/math-ph/9805022v4). Section 4, Lemma 1 and
 Eqs. (3)–(11), was re-read at passage level. Only the commutator comparison method
 is used on the gapped tails; no gapless theorem is applied at the touching instant.
-No third-party PDF is redistributed.

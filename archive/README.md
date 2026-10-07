@@ -29,3 +29,21 @@ unchanged and their hashes are recorded.
 
 The five main research notes and five active scientific suites are ordinary browsable
 repository files. History is not an additional prerequisite for following the result.
+
+## Dated assessments and earlier presentation
+
+These records retain their assessed revisions and original conclusions:
+
+- [Critical assessment](../research/CRITICAL_ASSESSMENT.md): cross-component checks,
+  the local-power comparator and its bounded significance analysis.
+- [5 October sanity check](../research/SANITY_CHECK_2026-10-05.md): mathematical
+  spot checks, execution evidence and documentary corrections at the recorded base.
+- [Prepared reader brief](../research/READER_PACKET.md): the dated review route and
+  report template.
+- [Provenance](../provenance/README.md): A–D records, source-access updates,
+  import preservation and hosted comparison policy.
+
+The earlier progress-oriented [status page](https://github.com/GoGoKo699/Logarithmic-Threshold-Return/blob/b09f51a36f176b4b663ca6282185e5db7a537c7d/STATUS.md)
+and [proof summary](https://github.com/GoGoKo699/Logarithmic-Threshold-Return/blob/b09f51a36f176b4b663ca6282185e5db7a537c7d/research/PROOF_STATUS.md)
+are preserved at that immutable revision. The current versions organize the same
+result by scope, derivation and evidence.

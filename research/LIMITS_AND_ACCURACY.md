@@ -1,9 +1,7 @@
 # Limits and accuracy of the fixed return law
 
-**5 October 2026. Author-side clarification, not a new central result.**
-This note makes two implications of the existing argument precise before prose is
-built around them. It leaves the Hamiltonian, observable and main asymptotic domain
-in [PROOF_STATUS](PROOF_STATUS.md) unchanged.
+This note derives fixed-size recovery, interprets the leading remainder and states
+the power comparator's domain. The uniform return law is in [PROOF_STATUS](PROOF_STATUS.md).
 
 ## 1. Fixed finite size restores return uniformly in the minimum depth
 

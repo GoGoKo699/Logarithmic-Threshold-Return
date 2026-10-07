@@ -1,9 +1,8 @@
-# Devdariani comparison: the threshold, not the word logarithmic
+# Devdariani: quadratic Robin trap and square-root threshold
 
-**4 October 2026. Construction-level author-side comparison.** This closes the
-specified primary-access gap in the preserved [prior-art register](PRIOR_ART.md).
-It does not certify exhaustive priority or independently validate our proof.
-The scientific notes and saved numerical references remain unchanged.
+Devdariani's quadratic boundary problem is a direct threshold-recapture
+predecessor. Its square-root spectral dependence distinguishes it from the
+logarithmic lattice threshold in the [prior-art comparison](PRIOR_ART.md).
 
 ## Primary source and access boundary
 
@@ -17,8 +16,7 @@ Russian TMF **11**(2), 213–225, and its legitimate full-text download.
 The Russian original was checked visually at pp. 213–221 and 224–225, including
 Eqs. (1), (2), (8)–(11), (18), (20), (22), (32)–(34), and Appendix (P.5).
 Pages 222–223 did not render reliably and their interpolation is not used here.
-No English full-text access, complete reproduction of the paper, or permission
-to redistribute its PDF is claimed. The [access record](../provenance/CONTINUATION_2026-10-04.json)
+The English full text was not accessed. The [access record](../provenance/CONTINUATION_2026-10-04.json)
 separates successful reading from failed retrievals.
 
 The source uses a free radial half-line equation with a time-dependent Robin
@@ -100,21 +98,19 @@ must be carried into the physical scattering problem. The inverse-square term
 in the explicit bridge above illustrates precisely that obligation.
 
 Our binding law is essential rather than polynomial. Our rescaling retains
-$`L`$ and $`b=\rho_0uL`$, so a uniform proof for $`b\le1-\delta`$ is still
-needed. The formal small-power tangent discussed in [AUDIT Section 7](../research/AUDIT.md)
-is not such a proof. The method and the existence of threshold loss are inherited;
-the spectral matching estimate is the point to test.
+$`L`$ and $`b=\rho_0uL`$. [Gate C](../research/UNIFORM_MINIMUM.md) supplies
+uniform spectral matching for $`b\le1-\delta`$ at a fixed positive margin. The formal small-power tangent
+discussed in [AUDIT Section 7](../research/AUDIT.md) predicts the leading
+coefficient but does not supply this uniform estimate. The method and the
+existence of threshold loss are inherited.
 
-## Decision and remaining work
+## Comparison and algebraic checks
 
-**Core preserved; attribution narrowed.** This specific construction does not
+This specific construction does not
 supply the logarithmic coefficient, the finite-endpoint estimate, or our
-finite-periodic-volume joint law. That is a scoped comparison, not an assertion
-that no predecessor could contain them. Do not advertise touching, detuning,
-a scaled crossover parameter, or reflection-as-recapture as discoveries here.
+finite-periodic-volume joint law. Touching, detuning, a scaled crossover parameter
+and reflection-as-recapture are already present in the predecessor.
 
-The next evidence is the [separate-reader packet](../research/READER_PACKET.md)
-and the unfinished [physical-premise audit](ASSUMPTIONS.md), not a new model.
 The five algebra tests in `python tools/test_predecessor.py` check this bridge,
-scaling, binding, probability labels and threshold ratios. They are not an
-independent review or additional members of the preserved 272-control suite.
+scaling, binding, probability labels and threshold ratios. They are separate
+from the preserved 272-control suite.

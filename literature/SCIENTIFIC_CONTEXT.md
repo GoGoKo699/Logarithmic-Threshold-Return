@@ -1,15 +1,13 @@
 # Scientific context and inherited ingredients
 
-**5 October 2026. Internal research record, not a manuscript or independent review.**
-This bounded source pass accompanies the fixed author-side result assessed at
-`88b633f040bb075b6717c6306fe88d541c718924`. It updates access and attribution;
-it does not change the model, coefficient, asymptotic domain or numerical policy.
-The earlier comparisons remain in [PRIOR_ART](PRIOR_ART.md), with the later
-[Devdariani construction reading](DEVDARIANI_COMPARISON.md) and
-[critical assessment](../research/CRITICAL_ASSESSMENT.md) taking precedence where
-they explicitly update historical access states.
+The logarithmic return argument combines exact lattice identities with inherited
+weak-binding, adiabatic and scattering methods. The table records the relevant
+primary passages and the depth at which they were inspected.
+[PRIOR_ART](PRIOR_ART.md), the [Devdariani comparison](DEVDARIANI_COMPARISON.md)
+and the [critical assessment](../research/CRITICAL_ASSESSMENT.md) provide the
+associated construction comparisons.
 
-## 1. What is inherited, and what is actually established here
+## 1. Inherited ingredients and their scope
 
 | Ingredient | Primary attribution and actual access | Use and boundary |
 |---|---|---|
@@ -58,7 +56,7 @@ $`(\pi,0)`$ and $`(0,\pi)`$ instead lie at energy 4 and produce the middle-band
 density divergence. They are distinct singularities. The full retarded expansion
 and fixed-anisotropy checks remain in [SPECTRAL_SCOPE](../research/SPECTRAL_SCOPE.md).
 
-## 3. Tolstikhin 2008: the scoped full-text comparison
+## 3. Tolstikhin 2008: separated-zero approximations
 
 O. I. Tolstikhin, *Siegert-state expansion for nonstationary systems. III.
 Generalized Born-Fock equations and adiabatic approximation for transitions to
@@ -68,7 +66,7 @@ the continuum*, Phys. Rev. A **77**, 032711 (2008):
 
 The host identifies an author upload on 30 July 2015. Parsed full text was read:
 Section II A, Eqs. (1)–(12); Section IV, Eqs. (42)–(43), (67); Section V,
-Eqs. (76)–(87). PDF retrieval failed; no visual equation check is claimed.
+Eqs. (76)–(87). Equation images were unavailable for a visual check.
 The half-line model has a free exterior and common remote endpoint potential.
 Its underbarrier analysis uses simple complex momentum zeros and separation;
 its overbarrier analysis uses separated real zeros and an antibound interval.
@@ -78,19 +76,19 @@ Equation (86) includes initial-state survival, making this a recapture predecess
 $`\sqrt{\eta(s)}\sim\sqrt{32}\exp[-\pi/(2s^2)]`$, $`s=t/T`$, is flat to every
 finite power and cannot meet a simple-zero expansion. Those formulas therefore
 do not supply this lattice result by substitution, or its shrinking-minimum
-uniformity. This does not exclude an extension of the method. The access gap is
-closed for this scoped comparison, not for an independent audit of that paper.
+uniformity. This comparison concerns the displayed approximations and does not
+exclude an extension of the method.
 
-## 4. The 2014 construction comparison: targeted gap closed
+## 4. Sokolovski–Pons–Muga 2014: linear approach and finite confinement
 
 Sokolovski–Pons–Muga, *Adiabaticity near a continuum threshold: An exactly solvable
 model*, Phys. Rev. A **89**, 042125 (2014):
 [publisher](https://link.aps.org/doi/10.1103/PhysRevA.89.042125),
 [author-institution record](https://ekoizpen-zientifikoa.ehu.eus/documentos/5ed32bdf2999526aa7417480).
-The user supplied the seven-page primary paper. Full text was read and decisive
-pp. 2–6 were visually checked. The
-[passage-level comparison](SOKOLOVSKI_PONS_MUGA_2014.md) supersedes the earlier
-abstract-only status; failed retrievals remain historical evidence.
+The supplied seven-page primary paper was read in full, with decisive pp. 2–6
+visually checked. The
+[passage-level comparison](SOKOLOVSKI_PONS_MUGA_2014.md) provides the detailed
+schedule, observable and asymptotic comparison.
 
 The protocol approaches a one-dimensional threshold monotonically with a linear
 delta attraction, starting at remote past and stopping below threshold. Equation (26)
@@ -102,23 +100,16 @@ for high return probability; Eqs. (6), (32) are small-loss formulas. Section VII
 box analysis, Eqs. (36), (38)–(40), already supplies a finite-box/continuum contrast;
 its Sturmian pole $`\omega_1`$ is not the final perturbed energy $`E_1(t_f)`$.
 
-**Comparison inference:** these results do not supply the two-leg quadratic
-logarithmic return law or its required joint uniform estimate. The specific
-source-access/comparison task is closed, with stronger inherited attribution and
-no central coefficient, model, domain or proof correction. This is not exhaustive
-novelty clearance or a separate expert review. No outside contact was made.
+**Comparison inference:** these results establish method, observable and
+finite-confinement precedents; they do not supply the two-leg quadratic logarithmic
+return law or its required joint uniform estimate.
 
-## 5. What this preparation does and does not settle
+## 5. Power-tangent comparison and controlled limits
 
 The strongest local-power objection remains in [CRITICAL_ASSESSMENT](../research/CRITICAL_ASSESSMENT.md):
 the frozen tangent predicts the full leading coefficient, including its residual-depth
-factor. Controlled physical matching and the joint domain remain the contribution
-to assess. [LIMITS_AND_ACCURACY](../research/LIMITS_AND_ACCURACY.md) records the
-fixed-size recovery, remainder limits and comparator domain without adding a model.
-
-Targeted searches through 5 October 2026 did not retrieve a directly matching
-logarithmic-return theorem; irrelevant hits and failed searches have no exclusion
-value. This record is not exhaustive priority clearance or a separate reader report.
-It does not close the preparation, readout or apparatus gaps in
-[ASSUMPTIONS](ASSUMPTIONS.md), and does not count mathematical citations as device
-evidence. No third-party PDF, figure or full text is redistributed here.
+factor. Controlled physical matching and the joint domain are the contribution
+under comparison. [LIMITS_AND_ACCURACY](../research/LIMITS_AND_ACCURACY.md) gives
+the fixed-size recovery result, the precision allowed by the matched remainder
+and the power comparator's $`0<\sigma<1`$ domain. These distinguish the inherited
+prediction from the uniform physical-return statement.

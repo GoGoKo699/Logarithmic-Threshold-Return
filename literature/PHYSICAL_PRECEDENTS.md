@@ -1,13 +1,11 @@
 # Physical precedents: what each source actually supports
 
-**5 October 2026. Primary-source audit for the fixed lattice model.** This register
-supports [ASSUMPTIONS.md](ASSUMPTIONS.md); it does not select a new platform, tutorial
-or detector. The older access labels in the preserved PRIOR_ART.md remain historical.
-A component precedent is not evidence that our complete protocol has been implemented.
-Only the passages specified below were checked; no paper's experimental data or full
-supplement has been independently reproduced.
+This register supports [ASSUMPTIONS.md](ASSUMPTIONS.md) by identifying the component
+demonstrations, model differences and calibration requirements relevant to the fixed
+lattice problem. Access is limited to the passages specified in each entry;
+experimental data and full supplements were not independently reproduced.
 
-## Y22 — closest joint subset, not the threshold experiment
+## Y22 — coherent 2D motion and local attractive control
 
 A. W. Young et al., *Tweezer-programmable 2D quantum walks in a Hubbard-regime lattice*
 (2022), [arXiv:2202.01204v1](https://arxiv.org/abs/2202.01204v1),
@@ -24,7 +22,7 @@ walks and report curvature/inhomogeneity limitations. **Classification: jointly
 demonstrated subset.** It neither measures our bound-state projector nor establishes
 our quadratic cycle, residual-depth family, or coherent volume/time requirement.
 
-**Control-pass access extension:** Methods I.2, I.3 and I.5, and Section II were
+**Additional inspected passages:** Methods I.2, I.3 and I.5, and Section II were
 also checked. Alignment can change the effective oracle depth and address neighbors;
 the supplement describes intensity-control dynamic range, higher-band filtering,
 curvature, and a dynamical oracle-depth calibration. None supplies a uniform residual
@@ -75,7 +73,7 @@ components.** Neither the tweezer eigenstate nor a temperature estimate establis
 the extended lattice state $`b_4`$. Pre-cycle cooling is not evidence for dissipation
 being harmless during the threshold cycle.
 
-## T12 — radial cooling is not a three-dimensional fidelity certificate
+## T12 — radial cooling and axial occupation
 
 J. D. Thompson et al., *Coherence and Raman sideband cooling of a single atom in an
 optical tweezer*, [arXiv:1209.3028v1](https://arxiv.org/abs/1209.3028v1) (2012);
@@ -89,8 +87,7 @@ uses bias-field control with Raman sideband cooling. Its radial occupation is ne
 zero while its axial occupation is about eight; these are not near-unit joint 3D
 ground-state occupation. **Classification: preparation and spectroscopy components.**
 Internal-state coherence is not a measured coherence time for a freely spreading
-lattice orbital. Keep the preprint's actual axial limitation rather than paraphrasing
-its abstract as a stronger cooling result.
+lattice orbital.
 
 ## N18 — strontium cooling and detection in one apparatus
 
@@ -119,8 +116,9 @@ Holographic aberration control and atom-based calibration enable structured latt
 potentials and preparation of selected rows. The optical-bench intensity benchmark
 and the in-apparatus calibration are different measurements. The demonstrated
 microscope potentials are repulsive. **Classification: local-control and preparation
-components.** Do not turn optical beam-profile precision into a measured residual
-attractive on-site energy, or row preparation into preparation of $`b_4`$.
+components.** The optical beam-profile benchmark measures a different quantity
+from the residual attractive on-site energy; row preparation is distinct from
+preparation of $`b_4`$.
 
 ## S10 — site fluorescence and background confinement
 
@@ -136,7 +134,7 @@ particle sector parity reduces to occupation, but occupation is still not an orb
 projector. Imaging after pinning is not evidence for coherent, flat-lattice propagation
 throughout the same field of view.
 
-## B22 — a phase-sensitive motional diagnostic, not our detector
+## B22 — phase-sensitive motional diagnostics
 
 M. O. Brown et al., *Time-of-Flight Quantum Tomography of Single Atom Motion* (2022),
 [arXiv:2203.03053v2](https://arxiv.org/abs/2203.03053v2).
@@ -148,7 +146,7 @@ reconstruction of single-atom motion. The demonstrated sequence includes prepara
 filtering and depends on a calibrated motional model. **Classification: phase-sensitive
 diagnostic component.** This shows why multiple controlled measurements contain more
 information than one position histogram; it is not a calibrated two-dimensional
-lattice bound-state projector or an adopted replacement detector.
+lattice bound-state projector.
 
 ## L13 — a moving basis changes the generator
 
@@ -166,7 +164,7 @@ parity-symmetric single-band correction vanishes; higher-band couplings need not
 our local beam preserves a fixed band, nor supply an experimental error budget.
 The date printed inside a reformatted copy is not substituted for the 2013 record.
 
-## C18 — lattice-depth spectroscopy is not local-defect calibration
+## C18 — periodic-lattice depth calibration
 
 C. Cabrera-Gutiérrez et al., *Robust calibration of an optical-lattice depth based on
 a phase shift*, Physical Review A **97**, 043617 (2018),
@@ -179,10 +177,9 @@ A phase shift populates Bloch bands; their energy differences determine dominant
 oscillation frequencies used to infer lattice depth. The analysis goes beyond a
 single-well Gaussian approximation. **Classification: band-spectrum calibration
 component.** Calibrating the periodic lattice does not calibrate the added attractive
-site or certify negligible higher-band effects during another protocol. No benchmark
-from this method is assigned to our device, and its quench is not adopted here.
+site or certify negligible higher-band effects during another protocol.
 
-## M17 — finite-region potential compensation, not an infinite flat lattice
+## M17 — potential compensation over a finite interacting region
 
 A. Mazurenko et al., *A cold-atom Fermi–Hubbard antiferromagnet*, Nature **545**,
 462–466 (2017), [DOI](https://doi.org/10.1038/nature22362).
@@ -195,14 +192,13 @@ The captions specify a shaped field compensating gradients and central curvature
 with walls surrounding a finite subsystem. **Classification: confinement-control
 component in an interacting lattice.** Equilibrium density uniformity is not a
 bound on our single-particle phase error, propagation time, or residual generator.
-No many-body result is imported into the threshold theorem.
 
 ## P15 — coherent motion and preparation shaping, with conditioned data
 
 P. M. Preiss et al., *Strongly Correlated Quantum Walks in Optical Lattices*,
 Science **347**, 1229–1233 (2015), [DOI](https://doi.org/10.1126/science.1260364),
 [arXiv:1409.3100v2](https://arxiv.org/abs/1409.3100v2).
-**Access upgrade, 5 October:** [primary HTML](https://arxiv.org/html/1409.3100v2)
+**Access, 5 October 2026:** [primary HTML](https://arxiv.org/html/1409.3100v2)
 and [PDF](https://arxiv.org/pdf/1409.3100) retrieved. Fig. 1, PDF p. 1; Eqs. (1)–(3),
 p. 2; Methods, p. 7; Table I, p. 8 checked in parsed text. Earlier access was limited
 to the abstract after failed PDF/HTML retrievals; those attempts are not reclassified.
@@ -234,8 +230,6 @@ local-control components.** Blocking changes the accessible geometry; it is not 
 attractive defect or its quadratic schedule. Hopping has measured anisotropy, and
 Appendix B2 conditions position data on one detected atom. Static occupation-threshold
 calibration does not certify all projected matrix elements during coherent evolution.
-No demonstrated operating window or unconditional orbital measurement is transferred
-to this model.
 
 ## CH25 — ordinary single-particle motion within a superlattice study
 
@@ -266,28 +260,22 @@ Physical Review Letters **114**, 193001 (2015),
 Primary abstract checked; attempted full-text retrieval failed. It supplies a
 fermionic-site-imaging precedent, not detailed proof of our motional readout.
 
-## Access and counting policy
+## Source counts and evidentiary roles
 
 There are **fifteen passage-level primary records, including one caption-limited
-record, and one abstract-only comparator (C15)** here. M17 remains limited to primary
-extended-data captions. The 5 October additions are WE23 and CH25; P15 alone receives
-the specified access upgrade. All other reading-depth limits remain as recorded.
+record, and one abstract-only comparator (C15)** here. M17 is limited to primary
+extended-data captions. Each entry records its specific reading depth.
 One article appearing under several applicable premises is still one article.
 Reformatted HTML dates are not publication dates; the cited preprint versions and
 bibliographic records determine those dates. Failed retrievals, reviews, unrelated
 search hits, and internal-spin-only addressing examples are not promoted to extra
-motional-control evidence. Third-party PDFs are neither committed nor redistributed.
+motional-control evidence.
 
-For the six preparation-component and seven measurement/diagnostic-component records
-used in the matrix, the five-to-ten *component* target remains met; those two
-collections are unchanged. Motion now has five passage-level papers: Y22, W11, P15,
-WE23 and CH25. The local-control collection has five: Y22, W11, Z16, M17 and WE23.
+The [assumptions matrix](ASSUMPTIONS.md) uses six preparation-component and seven
+measurement/diagnostic-component records. Motion has five passage-level papers:
+Y22, W11, P15, WE23 and CH25. The local-control collection has five:
+Y22, W11, Z16, M17 and WE23.
 These preserve their different signs, spatial profiles, states and calibrations;
-they are not five calibrated attractive single-site implementations. P15's shaping
-and CH25's alternating offsets are not needed to inflate that count. In particular,
-the presence of a publication in Physical Review Letters does not erase its model
-mismatch or prove the combined apparatus. Exact preparation/readout, generator
-calibration and the joint coherent window remain unresolved in ASSUMPTIONS.md.
-The [model-residual test](../research/MODEL_RESIDUAL.md) states what the remaining
-model-specific calibration must establish. No further generic source expansion is
-required merely to turn an unresolved implementation row into a larger citation count.
+they are component precedents rather than five calibrated attractive single-site
+implementations. The [model-residual bound](../research/MODEL_RESIDUAL.md) connects
+model-specific orbital and generator calibration to the return-probability error.

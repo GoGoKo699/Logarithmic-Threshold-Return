@@ -1,72 +1,51 @@
 # Claim-to-proof map
 
-**5 October 2026.** This is a navigation layer over the preserved source notes. It does
-not strengthen a claim, remove a hypothesis, or replace the full derivations.
+For the specified quadratic local-trap cycle, the logarithmic lower-edge resolvent
+produces vanishing slow-cycle return to the endpoint bound orbital. Its uniform
+shrinking-minimum and sufficient growing-volume domains form one central result.
+[The proof map](PROOF_STATUS.md) states its exact quantifiers and error composition.
 
-## The single central statement
+## Claims and derivations
 
-For the stated quadratic local-trap cycle, a logarithmic lower-edge resolvent gives
-vanishing slow-cycle recapture with a calculated inverse-square-logarithmic law. Its
-positive-minimum and finite-volume domain are supporting parts of that statement.
-
-| Claim | Exact route | Numerical controls | What is not inferred |
+| Claim | Derivation | Numerical controls | Scope |
 |---|---|---|---|
-| Local unitary source and bound-state return | CORE, model; ASYMPTOTIC Sections 2–4 | Suite 05 coordinate/spectral comparison, suite 06 time/energy comparison | Site occupation is not the return projector |
-| Leading logarithmic law and coefficient | ASYMPTOTIC Sections 5–7, read together with AUDIT | Suites 06–07 scalar formulations, physical-band and boundary checks | Numerical convergence is not the matching proof |
-| Positive-minimum law for b below one | ROUNDING Sections 2–4; UNIFORM_MINIMUM | Suite 08 joint-coefficient and finite-time checks | No formula through b=1 or every fixed residual depth |
-| A finite-system family with the same limit | ROUNDING Section 6; FINITE_VOLUME | Suite 08 finite torus/coordinate and locality controls | Sufficient size is not necessary or optimized size |
-| Fixed positive unequal hoppings | SPECTRAL_SCOPE Sections 2–4 | Suite 09 resolvent, causality and scalar checks | Not uniform as transverse hopping vanishes |
+| Local unitary source and bound-orbital return | [CORE](CORE.md); [A: physical amplitude](AMPLITUDE_IDENTIFICATION.md) | Suite 05 coordinate/spectral and suite 06 time/energy comparisons | Unconditional endpoint orbital projection |
+| Leading logarithmic law and coefficient | [B: reflection matching](REFLECTION_MATCHING.md); [ASYMPTOTIC](ASYMPTOTIC.md), Sections 5–7; [AUDIT](AUDIT.md) | Suites 06–07 scalar formulations, physical band and causal boundaries | Exact touching; controlled leading matching |
+| Uniform shrinking-minimum law | [C: uniform minimum](UNIFORM_MINIMUM.md); [ROUNDING](ROUNDING.md), Sections 2–4 | Suite 08 joint-coefficient and finite-time checks | Fixed $`0<\delta\le1`$, $`0\le b\le1-\delta`$ |
+| Growing finite squares with the same law | [D: finite volume](FINITE_VOLUME.md); [ROUNDING](ROUNDING.md), Section 6 | Suite 08 torus/coordinate and locality controls | Sufficient $`n(T)=2\lceil4.5T\rceil+1`$; each square's own endpoint state |
+| Fixed positive unequal hoppings | [SPECTRAL_SCOPE](SPECTRAL_SCOPE.md), Sections 2–4 | Suite 09 resolvent, causality and scalar checks | Supporting result; nonuniform at zero transverse hopping |
 
-Read [CORE.md](CORE.md) first, then [ASYMPTOTIC.md](ASYMPTOTIC.md),
-[AUDIT.md](AUDIT.md), [ROUNDING.md](ROUNDING.md), and
-[SPECTRAL_SCOPE.md](SPECTRAL_SCOPE.md). The local source labels differ between the
-preserved notes; [SOURCES.md](SOURCES.md) resolves them.
+The original derivations are [CORE](CORE.md), [ASYMPTOTIC](ASYMPTOTIC.md),
+[AUDIT](AUDIT.md) and [ROUNDING](ROUNDING.md). Their local source labels are
+resolved in [SOURCES](SOURCES.md).
 
-## Four proof obligations for a separate reader
+## Four proof components
 
-1. Does the retarded Fourier equation and its stationary-phase normalization identify
-   auxiliary reflection with the physical bound-to-bound amplitude, with the finite
-   gapped tails controlled at the stated order?
-2. Do the integrated central expansion, branch discontinuity and outer current bound
-   control all matching errors, including the van Hove region without an artificial sink?
-3. Is the positive-minimum estimate uniform on the stated b domain, without extrapolating
-   its apparent pole into the unresolved crossover?
-4. Does the finite-volume estimate include the initial-state difference and periodic
-   seam, making the stated order of limits sufficient without asserting an optimal size?
+1. [A](AMPLITUDE_IDENTIFICATION.md) reconstructs the retarded solution, identifies
+   equal bound-channel normalization and controls the finite temporal endpoints.
+   The endpoint estimate compares **amplitude moduli** at order $`O(T^{-1})`$.
+2. [B](REFLECTION_MATCHING.md) controls the integrated central expansion, causal
+   jump and exact-lattice outer matching, including the full physical band.
+3. [C](UNIFORM_MINIMUM.md) makes those estimates uniform on the fixed-margin
+   residual-depth domain.
+4. [D](FINITE_VOLUME.md) bounds the finite/infinite initial-state difference,
+   periodic seam and propagated error for the sufficient growing family.
 
-These are questions for the exact argument, not a claim that the software has proved it.
-The earlier audit answers are author-side answers. A separate report is not yet present.
+[Limits and accuracy](LIMITS_AND_ACCURACY.md) treats fixed-size recovery,
+the leading remainder and the power comparator's domain. [Preparation/readout](PREPARATION_READOUT.md)
+and [model residuals](MODEL_RESIDUAL.md) state sufficient operational error conditions.
 
-[Gate A](AMPLITUDE_IDENTIFICATION.md) now expands the physical-channel identification.
-[Gate B](REFLECTION_MATCHING.md) expands the endpoint cancellation and exact-lattice
-outer estimates for zero minimum. [Gate C](UNIFORM_MINIMUM.md) supplies the uniform
-positive-minimum expansion and [Gate D](FINITE_VOLUME.md) the finite-volume chain.
-The [consolidated proof status](PROOF_STATUS.md) records the dependencies and remaining
-obligations. All four are author-side arguments; no separate report is present.
+## Inherited ingredients and contribution
 
-[Limits and accuracy](LIMITS_AND_ACCURACY.md) now makes fixed-size recovery uniform
-in minimum depth and states the resolution limit of the existing remainder. The
-[scientific preparation record](SCIENTIFIC_PREPARATION.md) connects these clarifications
-to the updated primary-source context and the completed
-[2014 construction comparison](../literature/SOKOLOVSKI_PONS_MUGA_2014.md).
+The static resolvent, essential weak binding, threshold-loss phenomenon,
+energy-domain method, gapped recovery and localization tools have established
+precedents. The local power-law tangent also predicts the leading prefactor.
+The proof route controls the logarithmic physical limit and its stated joint domain.
 
-## What is inherited and what remains open
-
-The static resolvent, essential weak binding, threshold-loss problem, energy-domain
-method, gapped recovery and locality tools are established ingredients. Read
-[PRIOR_ART.md](../literature/PRIOR_ART.md) before framing originality.
-The 2014 comparison also makes explicit that a finite-box/continuum contrast is
-inherited; the controlled logarithmic law and stated joint domain remain the claim.
-
-The [Devdariani construction comparison](../literature/DEVDARIANI_COMPARISON.md)
-now closes the specifically recorded primary-access gap while preserving the narrow
-core and strengthening attribution. Exact physical implementation and a separate
-reader report remain open; the [reader packet](READER_PACKET.md) is preparation only.
-Full crossover, general trap universality, optimal volume, experimental superiority
-and a joint apparatus are not claimed. The known terminology
-correction is in SPECTRAL_SCOPE: the lower-edge density is finite; the Green function
-is logarithmic. The original older wording is preserved, not silently rewritten.
-
-[Gate C](UNIFORM_MINIMUM.md) makes the positive-minimum quantifiers and shifted
-negative-tail domination explicit. Its seven finite diagnostics are separate from
-the preserved scientific suites and do not constitute an independent report.
+[Scientific context](../literature/SCIENTIFIC_CONTEXT.md), the
+[Devdariani construction comparison](../literature/DEVDARIANI_COMPARISON.md) and
+[2014 comparison](../literature/SOKOLOVSKI_PONS_MUGA_2014.md) supply precise
+attributions and inspected-source boundaries. The detailed comparator algebra is
+in [the critical assessment](CRITICAL_ASSESSMENT.md). The lower-edge density is
+finite; the logarithm belongs to the local Green function, as explained in
+[spectral scope](SPECTRAL_SCOPE.md).
