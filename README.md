@@ -1,127 +1,129 @@
 # Logarithmic Threshold Return
 
-**A slowly weakened two-dimensional trap can recapture less, not more, in the slow-cycle limit.**
+**A trap driven toward its binding threshold can lose almost all bound-state return as its cycle becomes arbitrarily slow.**
 
-One particle starts bound to a single attractive lattice site. The attraction is weakened
-and restored along the same quadratic schedule. We study return to the original bound
-state, not merely the population of the addressed site. The dynamics are coherent and
-closed: probability not recaptured remains in continuum states.
+One particle starts bound to a single attractive site on a two-dimensional square lattice.
+The attraction is weakened and restored along the same quadratic schedule. The question
+is how much returns to the original bound orbital after this coherent, closed cycle.
 
-Threshold-touching loss is established physics. The result developed here is the
-**inverse-square-logarithmic return law** at a logarithmic local-resolvent threshold,
-together with a controlled finite-volume and positive-minimum domain.
+| Read next | Purpose |
+|---|---|
+| [Reading guide](docs/README.md) · [Single-book route](TUTORIAL.md) · [Tutorial bridge](research/TUTORIAL_BRIDGE.md) | Learn the model and mechanism from one external book |
+| [Physical account](research/CORE.md) · [Proof and quantifiers](research/PROOF_STATUS.md) · [Claim map](research/CLAIMS.md) | Follow the return law and its proof dependencies |
+| [Limits and accuracy](research/LIMITS_AND_ACCURACY.md) · [Assumptions](literature/ASSUMPTIONS.md) · [Prior-work comparison](literature/SCIENTIFIC_CONTEXT.md) | Check the asymptotic domain, physical premises and attribution |
+| [Evidence and reproduction](#evidence-and-reproduction) · [Scope and evidence](STATUS.md) | Inspect the checks and their interpretation |
+| [LLM guide](llms.txt) · [Workspace](WORKSPACE.md) | Identify relevant questions and authoritative files |
 
 ## The fixed question
 
-Use energies in $`J`$ and time in $`\hbar/J`$. On the square lattice,
+Measure energy in $`J`$ and time in $`\hbar/J`$. The Hamiltonian and return probability are
 
 ```math
 \begin{aligned}
-H(t)&=H_0-\left[u+(4-u)(t/T)^2\right]|0\rangle\langle0|,\qquad -T\le t\le T,\\
-P_\infty(T,u)&=|\langle b_4|\mathcal U(T,-T)|b_4\rangle|^2.
+H(t)&=H_0-\left[u+(4-u)(t/T)^2\right]\lvert0\rangle\langle0\rvert,
+\qquad -T\le t\le T,\\
+P_\infty(T,u)&=\left|\langle b_4\rvert\mathcal U(T,-T)\lvert b_4\rangle\right|^2.
 \end{aligned}
 ```
 
-Here $`H_0`$ is the nearest-neighbor lattice Laplacian with band $`[0,8]`$, $`|b_4\rangle`$
-is the endpoint bound state, and $`T`$ is the **half-cycle duration**. There is no bath,
-finite interval of free waiting, or postselection. The endpoints have attraction 4
-for every $`0\le u<4`$.
+Here $`H_0`$ is the nearest-neighbor square-lattice Laplacian with band $`[0,8]`$,
+$`\lvert b_4\rangle`$ is the normalized endpoint bound orbital, and $`T`$ is the
+**half-cycle duration**. The endpoint attraction is 4 for every $`0\le u<4`$.
+The measurement projects onto that orbital. Site occupation is a different observable.
+The probability is unconditional; population that escapes remains in continuum states.
 
-At exact touching, the recorded author-side asymptotic is
+## The logarithmic return law
 
-```math
-\boxed{P_\infty(T,0)\sim\frac{\pi^2}{4\ln^2 T}\longrightarrow0.}
-```
-
-The dimensional logarithm means $`\ln(T_{\rm physical}J/\hbar)`$. It is a limiting law,
-not a precision percentage formula at every finite duration.
-
-## A trap that stays attractive can retain the effect
-
-Define $`\rho_0=1/(4\pi)`$ and the scale $`L`$ by
+At exact touching, the recorded author-side derivation gives
 
 ```math
-L+\tfrac12\ln L=\ln\frac{32T}{\sqrt{(4-u)\rho_0}},
-\qquad b=\rho_0uL.
+\boxed{P_\infty(T,0)\sim\frac{\pi^2}{4\ln^2T}\longrightarrow0.}
 ```
 
-For $`0\le b(T)\le1-\delta`$ with fixed $`0<\delta\le1`$, the current derivation gives
+This is a leading slow-cycle asymptotic. With units restored, the logarithm is
+$`\ln(T_{\rm physical}J/\hbar)`$. It is not a precision percentage formula at every
+finite duration. [The proof map](research/PROOF_STATUS.md) gives the exact quantifiers.
+
+A trap with a shrinking positive minimum also retains the effect. Define
+
+```math
+\rho_0=\frac1{4\pi},\qquad
+L+\tfrac12\ln L=\ln\frac{32T}{\sqrt{(4-u)\rho_0}},\qquad b=\rho_0uL.
+```
+
+For $`0\le b(T)\le1-\delta`$ with fixed $`0<\delta\le1`$, the uniform law is
 
 ```math
 P_\infty(T,u(T))=
 \frac{\pi^2}{4L^2[1-b(T)]^2}[1+o(1)].
 ```
 
-A strictly positive minimum $`u=o(1/\ln T)`$ keeps the original leading coefficient.
-A sufficient sequence of finite periodic squares also retains the law. This is a
-**joint limit**: fixed positive minimum or fixed finite size eventually restores
-ordinary adiabatic return. The expansion does not apply at $`b=1`$.
+A strictly positive minimum $`u=o(1/\ln T)`$ keeps the zero-minimum coefficient.
+Along the sufficient periodic-square family $`n(T)=2\lceil4.5T\rceil+1`$, in the same
+residual-depth domain, the law also holds using each lattice's own endpoint bound state.
+The size is sufficient, not optimal, and the expansion does not apply at $`b=1`$.
 
-| Limit | Recorded outcome | Boundary |
-|---|---|---|
-| Exact touching, infinite lattice before slow limit | Return vanishes logarithmically | Not a fitted finite-time plateau |
-| Minimum depth shrinks within the stated joint domain | Same form with a changed coefficient | Not robustness to every fixed residual depth |
-| Explicit increasing finite squares | Same law along a sufficient family | Size bound is conservative, not optimal |
-| Fixed positive minimum or fixed finite square | Ultimate near-complete return | Different order of limits |
+| Limit | Return behavior |
+|---|---|
+| Infinite lattice, exact touching, then slow cycle | Vanishes as an inverse square logarithm |
+| Shrinking minimum within the fixed-margin domain | Vanishes with the displayed minimum-dependent coefficient |
+| Sufficient growing periodic squares in that same domain | Retains the logarithmic law |
+| Fixed positive minimum or fixed finite square | Ultimately approaches adiabatic return |
 
-The logarithm belongs to the **local Green function**. The lower-edge density of states
-is finite and nonzero; the middle-band van Hove singularity is a different feature.
-The [spectral scope note](research/SPECTRAL_SCOPE.md) records this terminology correction
-and the fixed-positive-anisotropy check. It does not claim a dimensional crossover.
+These are different orders of limits. [Limits and accuracy](research/LIMITS_AND_ACCURACY.md)
+explains why the joint family and fixed-gap recovery are compatible.
 
-## Start from one tutorial
+## Why a logarithm changes return
 
-The selected foundation is Demkov–Ostrovskii,
-[*Zero-Range Potentials and Their Applications in Atomic Physics* (1988)](https://doi.org/10.1007/978-1-4684-5451-2).
-The [single-book reading guide](TUTORIAL.md) gives a focused chapter route,
-learning checkpoints and the source-access record. The
-[bridge to this project](research/TUTORIAL_BRIDGE.md) connects rank-one binding,
-the causal energy equation and logarithmic reflection to the physical return law
-and its joint limits. These are learning guides to the existing result.
+The lower-edge local Green function and weak binding obey
 
-## Read in three passes
+```math
+G(\eta)=\rho_0\ln(32/\eta)+O\!\left(\eta\ln(1/\eta)\right),\qquad
+\eta(U)\sim32e^{-4\pi/U}.
+```
 
-| Pass | Document | Purpose |
-|---|---|---|
-| Physical account | [Consolidated core](research/CORE.md) | Model, observable, mechanism and boundaries |
-| Claim-to-proof route | [Claim map](research/CLAIMS.md) | Which derivation and numerical controls support each claim |
-| Full technical audit | [Asymptotic](research/ASYMPTOTIC.md), [boundary audit](research/AUDIT.md), [rounding](research/ROUNDING.md) | Check the matching, normalization and finite physical window |
+The gap becomes exponentially small at weak attraction. The lower-edge density of states
+is finite and nonzero; the logarithm belongs to the local Green function. The middle-band
+van Hove singularity is a separate feature. See [spectral scope](research/SPECTRAL_SCOPE.md).
 
-[Prior art](literature/PRIOR_ART.md) identifies the close threshold predecessors;
-the [Devdariani comparison](literature/DEVDARIANI_COMPARISON.md) updates its historical
-primary-access gap without rewriting the preserved register. A
-[separate-reader packet](research/READER_PACKET.md) exposes the four proof obligations;
-it is not a completed review.
-The [physical-amplitude lemma chain](research/AMPLITUDE_IDENTIFICATION.md) now supplies
-an author-side retarded reconstruction, channel normalization and uniform tail comparison.
-The [reflection-matching note](research/REFLECTION_MATCHING.md) expands Gate B: explicit
-endpoint cancellation and exact-lattice positive/negative outer control at zero minimum.
-The [uniform-minimum note](research/UNIFORM_MINIMUM.md) expands Gate C: the full
-positive-minimum domain, including its narrow turning region and shifted negative tail.
-The [finite-volume note](research/FINITE_VOLUME.md) expands Gate D: distinct endpoint
-states, periodic seams and the midpoint return identity. The
-[consolidated proof status](research/PROOF_STATUS.md) gathers A-D and the remaining
-review, priority and implementation obligations; no independent report is implied.
-[Source labels](research/SOURCES.md) map the preserved notes' local reference numbers.
-[Assumptions](literature/ASSUMPTIONS.md) distinguishes ideal model premises from a joint
-apparatus, with a [primary-source register](literature/PHYSICAL_PRECEDENTS.md) and
-[preparation/readout audit](research/PREPARATION_READOUT.md). The latter quantifies why
-site occupation cannot simply replace the declared bound-state projector. The
-[model-residual test](research/MODEL_RESIDUAL.md) distinguishes generator errors,
-higher-band population and coherent return-amplitude errors. [Status](STATUS.md) and the [work order](work_orders/CURRENT.md) identify what
-remains open. The selected tutorial is a teaching foundation; the primary-paper
-comparisons remain the attribution and priority record.
+Fourier transformation turns the quadratic rank-one drive into a scalar energy equation.
+Its bound-channel reflection becomes weak in the logarithmic threshold limit. Retarded
+reconstruction, equal channel normalization and controlled outer matching connect that
+reflection to the physical return probability. The [local bridge](research/TUTORIAL_BRIDGE.md)
+explains the steps; the [documentation map](docs/README.md#repository-map) locates their proofs.
 
-[Scientific preparation](research/SCIENTIFIC_PREPARATION.md) maps the current
-claim support and completed targeted source comparisons before writing. The
-[2014 construction comparison](literature/SOKOLOVSKI_PONS_MUGA_2014.md) closes the
-identified access gap using the supplied full paper; it strengthens inherited
-method and finite-size attribution without changing the central result.
-[Limits and accuracy](research/LIMITS_AND_ACCURACY.md) spells out fixed-size
-recovery and what the leading asymptotic does not resolve; the
-[scientific context](literature/SCIENTIFIC_CONTEXT.md) supplies updated attributions.
+## One tutorial, then this result
 
-## Reproduce without rewriting evidence
+The selected learning foundation is:
+
+> Yu. N. Demkov and V. N. Ostrovskii, **Zero-Range Potentials and Their Applications in Atomic Physics**, Plenum Press (1988).
+>
+> [Publisher record](https://link.springer.com/book/10.1007/978-1-4684-5451-2) · [DOI](https://doi.org/10.1007/978-1-4684-5451-2)
+
+The [single-book route](TUTORIAL.md) focuses on Chapters 1–2 and 8–10, with precise
+section locations, checkpoints and an access ledger. The [tutorial bridge](research/TUTORIAL_BRIDGE.md)
+supplies the lattice threshold, normalization, matching and joint-limit steps locally.
+The book's contents and available previews were inspected; complete chapter reading
+is not claimed. No second external tutorial is required for this route.
+
+## Boundaries and prior work
+
+The claim concerns one particle, one local square-lattice trap, the specified quadratic
+cycle and unconditional orbital return. A bath, free waiting interval or postselection
+changes the task. The [assumption map](literature/ASSUMPTIONS.md) and
+[readout audit](research/PREPARATION_READOUT.md) distinguish the ideal Hamiltonian and
+observable from an implemented device. Fixed positive anisotropy has a supporting
+[scope check](research/SPECTRAL_SCOPE.md); its zero-hopping limit is not uniform.
+
+Threshold-touching loss, static essential binding and the energy-domain method have
+predecessors. A local power-law tangent predicts the leading prefactor; the contribution
+under assessment is the controlled logarithmic physical limit and its joint domain.
+[Scientific context](literature/SCIENTIFIC_CONTEXT.md), the
+[Devdariani comparison](literature/DEVDARIANI_COMPARISON.md) and the
+[2014 construction comparison](literature/SOKOLOVSKI_PONS_MUGA_2014.md) give the attributions.
+[Scope and evidence](STATUS.md) records the limits of those comparisons and internal review.
+
+## Evidence and reproduction
 
 ```sh
 python -m pip install -r requirements.txt
@@ -129,16 +131,17 @@ python verify.py --integrity-only
 python verify.py --output-dir verification-artifacts
 ```
 
-There are five preserved scientific suites, with **28 groups and 272 finite controls**.
-The runner writes to a new directory, retains observed outputs and complete comparisons,
-and never replaces a saved reference. [Verification policy](provenance/README.md)
-separates source integrity, assertion success, exact bytes and numerical agreement.
-Neither code execution nor an author-side audit is independent proof review.
+The five preserved scientific suites cover **28 groups and 272 finite controls**.
+The **60 supplementary checks** are counted separately. The runner writes to a fresh
+directory, retains observed outputs and complete differences, and preserves saved references.
+[Verification policy](provenance/README.md) distinguishes assertions, numerical agreement
+and exact bytes. Executable checks support the research record; they are not independent
+proof review. Historical attempts and their evidence remain in the [archive](archive/README.md).
 
-The [discrete archive](archive/README.md) preserves failed quadrature work and original
-source/provenance records without putting obsolete code in the active test route.
-The five core research notes and all original scientific scripts/results are imported
-unchanged; this workspace integration adds navigation and verification, not a new theorem.
+## Purpose and contact
 
-**Manuscript writing is on hold.** Collaboration inquiries are welcome; contact Ruge Lin.
-The repository retains its [MIT license](LICENSE).
+This repository serves as a record of the work and a guide for the author’s self-directed learning. For discussion or potential collaboration, please contact Ruge Lin at [gogoko699@gmail.com](mailto:gogoko699@gmail.com).
+
+The [LLM guide](llms.txt) gives relevant questions, search terms and an authoritative
+reading order. The [workspace](WORKSPACE.md) and [current work order](work_orders/CURRENT.md)
+cover maintenance. Code is available under the [MIT license](LICENSE).

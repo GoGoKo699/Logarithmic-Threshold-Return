@@ -1,8 +1,8 @@
 # Tutorial route: Demkov–Ostrovskii to logarithmic return
 
-**6 October 2026. Selected by the owner as the single external pedagogical source.**
-This reading route connects a book to the existing result. It adds no theorem,
-changes no scientific input, and does not certify an independent review.
+[Project overview](README.md) · [Reading guide](docs/README.md) · [Local bridge](research/TUTORIAL_BRIDGE.md)
+
+This is the selected single-book route to the lattice model and its return law.
 
 Yu. N. Demkov and V. N. Ostrovskii, *Zero-Range Potentials and Their Applications
 in Atomic Physics*, translated by A. M. Ermolaev, Plenum Press (1988),
@@ -114,6 +114,5 @@ The available pages neither prove nor exclude the repository's specific theorem;
 this pedagogical selection is not an exhaustive priority comparison.
 
 The learning goal is the ability to reconstruct and question the fixed proof
-route, including its residual-depth and finite-size restrictions. Completion
-does not create an independent reader report or authorize manuscript drafting.
-The [current work order](work_orders/CURRENT.md) remains the operational boundary.
+route, including its residual-depth and finite-size restrictions. For the
+repository's role and discussion details, see [Purpose and contact](README.md#purpose-and-contact).
