@@ -1,8 +1,8 @@
 # Repository editing rules
 
-Read WORKSPACE.md and work_orders/CURRENT.md first. Pin and inspect the actual base
-revision. The owner permits modifications and merging after checks; do not force-push
-over concurrent work or change unrelated repositories.
+Work only in `GoGoKo699/Logarithmic-Threshold-Return`. Read README.md, STATUS.md
+and TUTORIAL.md, then pin and inspect the actual base revision. The owner permits
+modifications and merging after checks; do not force-push over concurrent work.
 
 The imported research notes and tests are identified in provenance/IMPORT_MAP.json.
 Keep their original bytes during organizational edits. The numerical runner must preserve
@@ -18,12 +18,17 @@ Keep active documents claim-led. Use GitHub-supported inline math and fenced mat
 do not place an unescaped vertical bar in a Markdown table cell. Do not invent sources,
 experimental performance, email addresses, a chosen tutorial or completed priority checks.
 New source claims need exact primary attribution and an honest access-depth record.
+Keep development diaries, work orders and handoff instructions out of the current
+reading paths. Durable maintenance rules belong here; retired workflow documents
+remain in Git history. Repair historical links with immutable revision URLs.
+The single-book foundation is Demkov–Ostrovskii (1988); preserve the source-access
+distinctions in TUTORIAL.md and the exact Purpose and contact notice in README.md
+and llms.txt. Preserve the fixed model, observable and quantified joint domain.
 GitHub rejects `\operatorname` in the observed renderer. In current exposition, use
 `\mathop{\mathrm{PV}}\nolimits` (and the corresponding upright operator name) instead;
-follow `\nolimits` with whitespace before a bare letter argument. Preserve the
-byte-identical imported notes and dated evidence.
+follow `\nolimits` with whitespace before a bare letter argument. Preserve imported
+bytes and the scientific content and conclusions of dated evidence.
 
 Use archive/ for obsolete attempts, not as part of the active numerical import path.
 Do not include third-party PDFs, credentials, font files or unrelated scout archives.
 Public narrative must not advertise a target journal or imply submission readiness.
-Manuscript drafting and outside contact remain on hold.

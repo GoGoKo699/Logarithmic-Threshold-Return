@@ -1,6 +1,6 @@
 # Return law and proof map
 
-Read [CORE](CORE.md) for the physical question and [CLAIMS](CLAIMS.md) for the
+Read [the tutorial bridge](TUTORIAL_BRIDGE.md) for the physical question and [CLAIMS](CLAIMS.md) for the
 claim-to-derivation routes. The four components below establish the uniform
 return law and its sufficient finite-volume realization.
 

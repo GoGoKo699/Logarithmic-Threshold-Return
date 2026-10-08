@@ -19,7 +19,7 @@ Read [SPECTRAL_SCOPE](SPECTRAL_SCOPE.md) only for the terminology correction and
 fixed-positive-anisotropy corollary. Then read the A-D notes named below,
 [PROOF_STATUS](PROOF_STATUS.md) and [CRITICAL_ASSESSMENT](CRITICAL_ASSESSMENT.md).
 Date-specific next-step statements in the earlier notes record their original
-stage; [CURRENT](../work_orders/CURRENT.md) controls the present work order.
+stage; [CURRENT](https://github.com/GoGoKo699/Logarithmic-Threshold-Return/blob/66a7d7197c220474db212b698bc5a759cbd0e964/work_orders/CURRENT.md) controls the present work order.
 This packet changes none of the scientific source files. Its route update is
 not a received review, and every external-reader rating remains unfilled.
 

@@ -56,7 +56,7 @@ arbitrary-trap universality.
 
 The dated Gate B/C/D endings describe their original next steps. They are
 preserved as historical statements; the packet now explicitly directs current
-workflow questions to [CURRENT](../work_orders/CURRENT.md). No old failure or
+workflow questions to [CURRENT](https://github.com/GoGoKo699/Logarithmic-Threshold-Return/blob/66a7d7197c220474db212b698bc5a759cbd0e964/work_orders/CURRENT.md). No old failure or
 earlier status is silently rewritten as a success.
 
 ## Execution and provenance

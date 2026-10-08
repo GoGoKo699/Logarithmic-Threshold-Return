@@ -119,7 +119,3 @@ For the local tangent in [CRITICAL_ASSESSMENT](CRITICAL_ASSESSMENT.md),
 This restores the explicit scope when the inherited comparator is restated. It
 changes neither its small-power expansion nor the leading logarithmic prediction.
 The energy-coordinate exponent remains distinct from a time-ramp exponent.
-
-These clarifications use finite-matrix spectral facts, the existing commutator
-estimate and elementary asymptotic algebra. No additional numerical suite, optimized
-volume, crossover result or independent review is claimed.

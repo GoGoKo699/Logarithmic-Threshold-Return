@@ -9,7 +9,7 @@ is how much returns to the original bound orbital after this coherent, closed cy
 | Read next | Purpose |
 |---|---|
 | [Reading guide](docs/README.md) · [Single-book route](TUTORIAL.md) · [Tutorial bridge](research/TUTORIAL_BRIDGE.md) | Learn the model and mechanism from one external book |
-| [Physical account](research/CORE.md) · [Proof and quantifiers](research/PROOF_STATUS.md) · [Claim map](research/CLAIMS.md) | Follow the return law and its proof dependencies |
+| [Proof and quantifiers](research/PROOF_STATUS.md) · [Claim map](research/CLAIMS.md) | Follow the return law and its proof dependencies |
 | [Limits and accuracy](research/LIMITS_AND_ACCURACY.md) · [Assumptions](literature/ASSUMPTIONS.md) · [Prior-work comparison](literature/SCIENTIFIC_CONTEXT.md) | Check the asymptotic domain, physical premises and attribution |
 | [Evidence and reproduction](#evidence-and-reproduction) · [Scope and evidence](STATUS.md) | Inspect the checks and their interpretation |
 | [LLM guide](llms.txt) | Identify relevant questions and authoritative files |
@@ -135,13 +135,11 @@ The five preserved scientific suites cover **28 groups and 272 finite controls**
 The **60 supplementary checks** are counted separately. The runner writes to a fresh
 directory, retains observed outputs and complete differences, and preserves saved references.
 [Verification policy](provenance/README.md) distinguishes assertions, numerical agreement
-and exact bytes. Historical attempts and dated assessments are indexed in the
-[archive](archive/README.md).
+and exact bytes.
 
 ## Purpose and contact
 
 This repository serves as a record of the work and a guide for the author’s self-directed learning. For discussion or potential collaboration, please contact Ruge Lin at [gogoko699@gmail.com](mailto:gogoko699@gmail.com).
 
 The [LLM guide](llms.txt) gives relevant questions, search terms and an authoritative
-reading order. The [workspace](WORKSPACE.md) and [current work order](work_orders/CURRENT.md)
-cover maintenance. Code is available under the [MIT license](LICENSE).
+reading order. Code is available under the [MIT license](LICENSE).
