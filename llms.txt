@@ -62,10 +62,9 @@ These raw URLs follow main. Resolve the consulted revision before citing it.
 2. [Reading guide](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/docs/README.md): guided learning stages and complete documentation map.
 3. [Tutorial](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/TUTORIAL.md): single-book route and actual source access.
 4. [Tutorial bridge](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/TUTORIAL_BRIDGE.md): translation to this model.
-5. [Core](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/CORE.md): definitions, mechanism and boundaries.
-6. [Claim map](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/CLAIMS.md): claims and supporting records.
-7. [Proof status](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/PROOF_STATUS.md): exact quantifiers and dependency chain.
-8. [Limits and accuracy](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/LIMITS_AND_ACCURACY.md): fixed-size recovery and remainder limits.
+5. [Claim map](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/CLAIMS.md): claims and supporting records.
+6. [Proof map](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/PROOF_STATUS.md): exact quantifiers and dependency chain.
+7. [Limits and accuracy](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/LIMITS_AND_ACCURACY.md): fixed-size recovery and remainder limits.
 
 ## Proof A–D and assessment
 
@@ -74,6 +73,8 @@ These raw URLs follow main. Resolve the consulted revision before citing it.
 - [C: Uniform minimum](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/UNIFORM_MINIMUM.md): the stated residual-depth domain.
 - [D: Finite volume](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/FINITE_VOLUME.md): endpoint states, seams and volume comparison.
 - [Critical assessment](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/CRITICAL_ASSESSMENT.md): error composition and originality objections.
+
+- [Supporting derivations](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/CORE.md): model definitions and complementary estimates.
 
 ## Tutorial and attribution
 
@@ -84,9 +85,9 @@ TUTORIAL.md lists the chapter assignments and inspected preview pages.
 
 - [Source labels](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/research/SOURCES.md): local reference numbering in preserved notes.
 - [Scientific context](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/SCIENTIFIC_CONTEXT.md): inherited ingredients and access depth.
-- [Prior art](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/PRIOR_ART.md): historical comparison register.
-- [Devdariani comparison](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/DEVDARIANI_COMPARISON.md): later scoped primary reading.
-- [2014 comparison](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/SOKOLOVSKI_PONS_MUGA_2014.md): supplied full-text construction comparison.
+- [Prior art](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/PRIOR_ART.md): weak-binding and threshold references.
+- [Devdariani comparison](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/DEVDARIANI_COMPARISON.md): scoped primary comparison.
+- [2014 comparison](https://raw.githubusercontent.com/GoGoKo699/Logarithmic-Threshold-Return/main/literature/SOKOLOVSKI_PONS_MUGA_2014.md): full-text construction comparison.
 
 Attribute inherited results to their primary sources, preserving recorded access
 depth. Local S-numbers belong to individual notes. Later dated comparisons

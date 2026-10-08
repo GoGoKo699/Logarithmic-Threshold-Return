@@ -50,10 +50,8 @@ The runner retains observed outputs and all differences in a fresh directory.
 reference agreement under the recorded policy and exact byte identity. The
 [hosted workload review](provenance/HOSTED_IMPORT_REVIEW.json) preserves the
 source-derived interpretation of suite 07's ODE work counters.
-Actual candidate and merged-revision runs are recorded in their pull requests
-and workflow evidence.
+Workflow runs retain the checked source snapshots, observed outputs and comparisons.
 
 All **27 mapped scientific/history inputs** are preserved according to
-[IMPORT_MAP](provenance/IMPORT_MAP.json). The dated A–D provenance, assessment
-records and failed attempts are indexed in [the history guide](archive/README.md).
+[IMPORT_MAP](provenance/IMPORT_MAP.json).
 For fresh execution, use the [reproduction commands](README.md#evidence-and-reproduction).

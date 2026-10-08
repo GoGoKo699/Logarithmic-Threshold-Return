@@ -25,7 +25,7 @@ stationary phase and asymptotic error estimates. These are expectations for this
 route, not a claim about the book's own stated prerequisites.
 
 Start by reading the [fixed question](README.md#the-fixed-question) and
-[CORE](research/CORE.md). Write down the Hamiltonian, the endpoint bound vector,
+[bridge, Section 1](research/TUTORIAL_BRIDGE.md#1-translate-the-potential-and-the-resolvent). Write down the Hamiltonian, the endpoint bound vector,
 and the return projector before beginning the external reading.
 
 ## Focused reading route
@@ -52,17 +52,16 @@ they do not establish the contents or conclusions of uninspected sections.
 ## Checkpoints in this repository
 
 Complete each checkpoint by explaining the argument and locating its assumptions.
-The links identify the existing account to check, rather than additional
-experiments or a new numerical campaign.
+The links identify the arguments to check.
 
 1. **Fix the observable.** Explain why a population measurement on the addressed
    site is not the declared bound-state return. Identify the two finite endpoints
-   and the meaning of the half-cycle time in [CORE](research/CORE.md) and
+   and the meaning of the half-cycle time in [the bridge](research/TUTORIAL_BRIDGE.md) and
    [preparation/readout](research/PREPARATION_READOUT.md).
 
 2. **Translate the local interaction.** Starting from the rank-one lattice
    perturbation, reconstruct its pole equation and bound-state normalization
-   using [the bridge](research/TUTORIAL_BRIDGE.md) and [CORE](research/CORE.md).
+   using [the bridge](research/TUTORIAL_BRIDGE.md) and [Gate D, Section 2](research/FINITE_VOLUME.md#2-endpoint-gaps-and-the-energy-dependent-normalized-vectors).
    Keep the continuum point-interaction construction and the lattice operator
    distinct; their parameters and Green functions require an explicit map.
 
@@ -96,7 +95,7 @@ experiments or a new numerical campaign.
    a prefactor heuristic, and the controlled physical limit using
    [the critical assessment](research/CRITICAL_ASSESSMENT.md).
 
-## Access ledger and stopping point
+## Source access
 
 The source access for this selection was checked on 6 October 2026:
 
@@ -106,7 +105,7 @@ The source access for this selection was checked on 6 October 2026:
 | [Chapter 8 preview](https://page-one.springer.com/pdf/preview/10.1007/978-1-4684-5451-2_8) | Main text pp. 181–182 only |
 | [Chapter 9 preview](https://page-one.springer.com/pdf/preview/10.1007/978-1-4684-5451-2_9) | Main text pp. 209–210 only |
 | [Chapter 10 preview](https://page-one.springer.com/pdf/preview/10.1007/978-1-4684-5451-2_10) | Main text pp. 235–236 only |
-| Other assigned main-text pages | Located from contents; not read in this selection pass |
+| Other assigned main-text pages | Located from contents; main text not inspected |
 
 The table distinguishes the inspected previews from the chapter assignments.
 The publisher presents the full text as subscription content.

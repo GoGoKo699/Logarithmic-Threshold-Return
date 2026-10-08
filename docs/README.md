@@ -11,7 +11,7 @@ The route below connects that reading to the existing lattice result.
 
 | Stage | Read | Takeaway |
 |---|---|---|
-| 1. State the cycle and measurement | [README: the fixed question](../README.md#the-fixed-question), [CORE](../research/CORE.md), then the book's Chapters 1–2 | One local attractive site supports a bound orbital; return is its unconditional endpoint projection |
+| 1. State the cycle and measurement | [README: the fixed question](../README.md#the-fixed-question), [bridge, Section 1](../research/TUTORIAL_BRIDGE.md#1-translate-the-potential-and-the-resolvent), then the book's Chapters 1–2 | One local attractive site supports a bound orbital; return is its unconditional endpoint projection |
 | 2. Understand the shallow bound state | [Bridge, Sections 1–2](../research/TUTORIAL_BRIDGE.md), then [spectral scope](../research/SPECTRAL_SCOPE.md) | The local Green-function logarithm gives exponentially shallow binding at a finite-density band edge |
 | 3. Translate time into energy | Book Chapters 8–10 as assigned in [the tutorial route](../TUTORIAL.md); [bridge, Section 3](../research/TUTORIAL_BRIDGE.md) | Quadratic time dependence gives a second-order energy equation whose causal boundary and normalization must be retained |
 | 4. Reach the return law | [Bridge, Section 4](../research/TUTORIAL_BRIDGE.md), then [Gates A–C](../research/PROOF_STATUS.md) | Integrated central control and exact outer matching yield the physical logarithmic return and its uniform minimum-depth domain |
@@ -33,28 +33,27 @@ fixed margin below $`b=1`$.
 
 Inherited methods keep the primary attributions in the research and literature records. The book coverage is located from
 publisher contents and checked at the preview depth recorded in
-[the access ledger](../TUTORIAL.md#access-ledger-and-stopping-point).
+[the access ledger](../TUTORIAL.md#source-access).
 
 ## Repository map
 
 | Need | Read |
 |---|---|
 | Relevance, search terms and authoritative files for automated readers | [LLM guide](../llms.txt) |
-| Model, observable and physical mechanism | [CORE](../research/CORE.md) |
+| Model, observable and physical mechanism | [Tutorial bridge](../research/TUTORIAL_BRIDGE.md) |
 | Exact claim, quantifiers and proof dependencies | [PROOF_STATUS](../research/PROOF_STATUS.md), [CLAIMS](../research/CLAIMS.md) |
 | Causal reconstruction, normalization and finite temporal endpoints | [Gate A](../research/AMPLITUDE_IDENTIFICATION.md) |
 | Endpoint cancellation and exact-lattice outer matching | [Gate B](../research/REFLECTION_MATCHING.md) |
 | Uniform residual-depth estimates and turning region | [Gate C](../research/UNIFORM_MINIMUM.md) |
 | Endpoint localization, periodic seam and finite-volume comparison | [Gate D](../research/FINITE_VOLUME.md) |
-| Original derivation and audits | [ASYMPTOTIC](../research/ASYMPTOTIC.md), [AUDIT](../research/AUDIT.md), [ROUNDING](../research/ROUNDING.md) |
+| Supporting derivations and spectral estimates | [CORE](../research/CORE.md), [ASYMPTOTIC](../research/ASYMPTOTIC.md), [AUDIT](../research/AUDIT.md), [ROUNDING](../research/ROUNDING.md) |
 | Fixed-size recovery and accuracy of the leading law | [LIMITS_AND_ACCURACY](../research/LIMITS_AND_ACCURACY.md) |
 | Density-of-states terminology and fixed-positive-anisotropy scope | [SPECTRAL_SCOPE](../research/SPECTRAL_SCOPE.md) |
 | Inherited ingredients and exact source labels | [Scientific context](../literature/SCIENTIFIC_CONTEXT.md), [source map](../research/SOURCES.md) |
 | Closest inspected threshold constructions | [Prior art](../literature/PRIOR_ART.md), [Devdariani](../literature/DEVDARIANI_COMPARISON.md), [2014 construction](../literature/SOKOLOVSKI_PONS_MUGA_2014.md) |
 | Physical premises, preparation, readout and generator errors | [Assumptions](../literature/ASSUMPTIONS.md), [primary precedents](../literature/PHYSICAL_PRECEDENTS.md), [preparation/readout](../research/PREPARATION_READOUT.md), [model residuals](../research/MODEL_RESIDUAL.md) |
-| Detailed comparator and scope analysis | [Critical assessment](../research/CRITICAL_ASSESSMENT.md), [scientific preparation](../research/SCIENTIFIC_PREPARATION.md) |
+| Detailed comparator and scope analysis | [Critical assessment](../research/CRITICAL_ASSESSMENT.md), [scientific support](../research/SCIENTIFIC_PREPARATION.md) |
 | Verification evidence and preservation policy | [STATUS](../STATUS.md), [provenance](../provenance/README.md) |
-| Historical attempts, dated assessments and retained failures | [Archive](../archive/README.md) |
 
 The proof notes give the mathematical argument. [STATUS](../STATUS.md) maps the
 scientific suites and supplementary checks to their verification records and
